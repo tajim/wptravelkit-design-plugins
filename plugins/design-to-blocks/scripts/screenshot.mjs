@@ -126,7 +126,8 @@ async function captureSite(browser, width) {
     const docY = (r) => r.top + window.scrollY;
     const label = (el, i) => (el.querySelector('h1,h2,h3')?.textContent || el.querySelector('p')?.textContent || `section ${i + 1}`).replace(/\s+/g, ' ').trim().slice(0, 50);
     const box = (el) => { const r = el.getBoundingClientRect(); return { x: r.left + window.scrollX, y: docY(r), w: r.width, h: r.height }; };
-    const root = document.querySelector('.travelscape-block-canvas, .entry-content');
+    // .travelscape-block-canvas is also a BODY class on Block Canvas pages: always go through .entry-content
+    const root = document.querySelector('.entry-content');
     const header = document.querySelector('.travelscape-block-header, header#masthead');
     const footer = document.querySelector('.travelscape-block-footer, footer#colophon');
     const sections = root ? [...root.children].filter((k) => k.getBoundingClientRect().height > 4).map((k, i) => ({ name: label(k, i), ...box(k), index: i })) : [];
@@ -139,7 +140,7 @@ async function captureSite(browser, width) {
       const wide = [...document.querySelectorAll('body *')].filter((e) => { const r = e.getBoundingClientRect(); return r.width > 0 && r.right > vw + 1 && e.parentElement.getBoundingClientRect().right <= vw + 1; }).slice(0, 5);
       findings.push({ type: 'overflow', detail: `page is ${document.documentElement.scrollWidth}px wide at a ${vw}px viewport`, elements: wide.map((e) => `${e.tagName.toLowerCase()}.${cls(e)} (section ${sectionOf(e) + 1})`) });
     }
-    for (const el of document.querySelectorAll('.travelscape-block-canvas *, .entry-content *')) {
+    for (const el of document.querySelectorAll('.entry-content *')) {
       const cs = getComputedStyle(el);
       const isGrid = cs.display.includes('grid');
       const isWrapFlex = cs.display.includes('flex') && cs.flexWrap === 'wrap' && cs.flexDirection.startsWith('row');
