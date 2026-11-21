@@ -1722,3 +1722,17 @@ body.travelscape-block-system .tr-card-link .tr-card-link__target a::after {
 body.travel-royale-overlay-header .tr-header .wp-block-site-logo img {
 	filter: url(#tr-logo-light);
 }
+
+/* Media cards: keep the image flush with the card edge in the editor too. The editor pads every
+   group that has a background color, and shows a "Write title…" placeholder inside empty covers. */
+.tr-media-card {
+	padding: 0;
+}
+
+.tr-media-card > .wp-block-cover {
+	padding: 0;
+}
+
+.tr-media-card > .wp-block-cover > .wp-block-cover__inner-container {
+	display: none;
+}

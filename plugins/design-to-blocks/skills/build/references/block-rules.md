@@ -27,7 +27,8 @@ Each rule below fixed a real bug in Travel Royale. `<p>` is the theme's class pr
 10. **Images that fill a box** (half a row, card top): an Image block inside a group with `<p>-media-stat`, which positions it absolutely. The editor adds an inline `height:auto` to images; the component CSS overrides it with `!important`. Keep that rule.
 11. **No text on top of content images.** Users must be able to replace every photo with the Image block's Replace button. Badges and stats that sit on a photo in the design go in a sibling block that CSS positions over the image (`<p>-stat-badge`). Covers with text are for hero and call-to-action backgrounds only.
 12. **Covers without inner blocks** get an empty placeholder paragraph from the editor on first edit. Harmless; do not fight it.
-13. **Content images**: Image blocks with the bundled placeholders (`kit.placeholder('landscape'|'portrait'|'avatar')`) unless the interview said Pexels. Avatars and team photos are Image blocks, not initials in a circle.
+13. **The editor is not the front end.** It pads every group that has a background color (core's `.wp-block-group.has-background { padding: 1.25em 2.375em }`), gives covers 1em padding, and puts a "Write title…" placeholder paragraph inside empty covers. A card whose image should touch the card edge therefore looks inset in the editor. Give such cards an explicit `style.spacing.padding` of 0 (or rely on the `<p>-media-card` CSS, which zeroes the card and cover padding and hides the empty cover's inner container). Check new card designs in the editor, not only on the site.
+14. **Content images**: Image blocks with the bundled placeholders (`kit.placeholder('landscape'|'portrait'|'avatar')`) unless the interview said Pexels. Avatars and team photos are Image blocks, not initials in a circle.
 
 ## Tablet and phone (do this while building, not after review)
 
@@ -42,13 +43,13 @@ Core Columns stack below 782px by themselves. Two-column rows where the image is
 
 ## Components and scripts
 
-14. **FAQ**: `core/details` blocks inside a group with `<p>-faq` (or `<p>-faq <p>-faq--circle`). First item `showContent: true`. The FAQ page with live search uses the `<p>-faq-page` layout and the theme's faq.js (see components.md).
-15. **Forms**: a `core/shortcode` block with a placeholder Contact Form 7 shortcode inside a group with `<p>-cf7`. The form itself is CF7 form-tab markup the user pastes (child-theme.md shows the structure).
-16. **Search box**: `core/search` with `buttonPosition: 'no-button'`, `showLabel: false`, styled by `<p>-faq-search`.
-17. **Whole-card links**: card group `<p>-card-link`, the main link's paragraph `<p>-card-link__target`. The overlay only applies on the site, so cards stay editable in the editor.
-18. **Anchors** for in-page links: the `anchor` attribute (`svc-flights`). Scripts hook onto classes, not anchors.
-19. **Dark sections**: `kit.darkSection()` (`is-style-ts-section-dark`, secondary background, base text). Eyebrows on dark use `K.darkEyebrow`, body text `K.darkText`.
-20. **WP Travel Engine blocks** are server-rendered and self-closing. Always send the full `layoutFilters` object they expect (copy from the legacy home example), or the block renders with missing parts.
+15. **FAQ**: `core/details` blocks inside a group with `<p>-faq` (or `<p>-faq <p>-faq--circle`). First item `showContent: true`. The FAQ page with live search uses the `<p>-faq-page` layout and the theme's faq.js (see components.md).
+16. **Forms**: a `core/shortcode` block with a placeholder Contact Form 7 shortcode inside a group with `<p>-cf7`. The form itself is CF7 form-tab markup the user pastes (child-theme.md shows the structure).
+17. **Search box**: `core/search` with `buttonPosition: 'no-button'`, `showLabel: false`, styled by `<p>-faq-search`.
+18. **Whole-card links**: card group `<p>-card-link`, the main link's paragraph `<p>-card-link__target`. The overlay only applies on the site, so cards stay editable in the editor.
+19. **Anchors** for in-page links: the `anchor` attribute (`svc-flights`). Scripts hook onto classes, not anchors.
+20. **Dark sections**: `kit.darkSection()` (`is-style-ts-section-dark`, secondary background, base text). Eyebrows on dark use `K.darkEyebrow`, body text `K.darkText`.
+21. **WP Travel Engine blocks** are server-rendered and self-closing. Always send the full `layoutFilters` object they expect (copy from the legacy home example), or the block renders with missing parts.
 
 ## Before calling a page done
 

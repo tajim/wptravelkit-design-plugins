@@ -28,6 +28,15 @@ if (!file || !slug) {
   process.exit(2);
 }
 const content = fs.readFileSync(file, 'utf8');
+const expectedTheme = readProject()?.theme?.slug;
+
+// The page's component classes only have CSS in the project's own theme. If another theme is
+// active, the page loads but looks broken (no rounded cards, no icons, no stars...).
+function warnTheme(activeTheme) {
+  if (!expectedTheme || !activeTheme || activeTheme === expectedTheme) return;
+  console.error(`WARNING: the active theme is "${activeTheme}", not "${expectedTheme}". The page's ${expectedTheme} component CSS is not loaded, so it will not look like the design. Activate ${expectedTheme} (Appearance > Themes, or: wp theme activate ${expectedTheme}) before reviewing.`);
+  process.exitCode = 3;
+}
 const site = readProject()?.site || {};
 const method = argValue('--method') || site.method || (site.path ? 'wpcli' : 'rest');
 
@@ -44,7 +53,9 @@ if (method === 'wpcli') {
   }
   wp('post', 'meta', 'update', id, '_wp_page_template', template);
   const link = wp('post', 'url', id).split('\n').pop();
-  console.log(JSON.stringify({ id: Number(id), link, method }));
+  const activeTheme = wp('option', 'get', 'stylesheet');
+  console.log(JSON.stringify({ id: Number(id), link, method, activeTheme }));
+  warnTheme(activeTheme);
 } else {
   const base = (argValue('--url') || site.url || '').replace(/\/$/, '');
   const user = process.env.D2B_WP_USER;
@@ -64,5 +75,8 @@ if (method === 'wpcli') {
   const page = found.length
     ? await api(`/pages/${found[0].id}`, { method: 'POST', body: JSON.stringify(data) })
     : await api('/pages', { method: 'POST', body: JSON.stringify(data) });
-  console.log(JSON.stringify({ id: page.id, link: page.link, method }));
+  const active = await api('/themes?status=active&_fields=stylesheet').catch(() => []);
+  const activeTheme = active[0]?.stylesheet;
+  console.log(JSON.stringify({ id: page.id, link: page.link, method, activeTheme }));
+  warnTheme(activeTheme);
 }

@@ -60,7 +60,8 @@ Follow `references/child-theme.md`:
 1. `node "${CLAUDE_PLUGIN_ROOT}/scripts/scaffold-child.mjs" --out "<themes folder>"` (reads `theme` from project.json). It refuses to overwrite an existing theme folder.
 2. Write `.d2b/tokens.mjs` for the kit (copy `${CLAUDE_PLUGIN_ROOT}/examples/travel-royale/tokens.mjs`, change values and `prefix`/`themeSlug`; font-size and spacing tokens can be overridden the same way, see `DEFAULT_TOKENS` in `scripts/lib/kit.mjs`).
 3. Icons the pages need and the parent/child do not have: `node "${CLAUDE_PLUGIN_ROOT}/scripts/icons.mjs" --names a,b,c --skip "<parent>/assets/css/blocks.css" --skip "<theme>/style.css"`, append the output to the child `style.css`.
-4. Rebuild `parts/header.html` and `parts/footer.html` from the design's header and footer with the kit (see `examples/travel-royale/legacy-home-header-footer.mjs`), validate them, keep the class names the header CSS expects (`<prefix>-header`, `<prefix>-header-nav`, `<prefix>-header-phone`, `<prefix>-header-cta`, `<prefix>-footer`).
+4. **Activate the new theme** on the site before any page is reviewed: `wp theme activate <slug>` (WP-CLI) or ask the user to do it in Appearance > Themes. Every page's component classes (`<prefix>-*`) only have CSS in this theme; under another theme the pages load but look broken. load-page.mjs warns (exit code 3) when the active theme is not the project's theme: stop and fix that before asking for a review.
+5. Rebuild `parts/header.html` and `parts/footer.html` from the design's header and footer with the kit (see `examples/travel-royale/legacy-home-header-footer.mjs`), validate them, keep the class names the header CSS expects (`<prefix>-header`, `<prefix>-header-nav`, `<prefix>-header-phone`, `<prefix>-header-cta`, `<prefix>-footer`).
 
 ## Stage 4: pages, one at a time
 
@@ -73,7 +74,7 @@ For each page, in the order the user gave (home first unless told otherwise):
 5. Load it onto the site (`references/site-loading.md`):
    `node "${CLAUDE_PLUGIN_ROOT}/scripts/load-page.mjs" --file .d2b/out/<slug>.txt --slug <slug> --title "<Title>"`
    If the site is not reachable, give the user the .txt to paste into the Code editor of a page that uses the "Block Canvas" template.
-6. Review gate: ask the user to check the page at desktop, iPad (768 and 1024) and phone widths, and to say what differs from the design. Fix, re-validate, reload. Mark the page `"approved"` in project.json only when they say so. Then the next page.
+6. Review gate (only with the project's theme active): ask the user to check the page at desktop, iPad (768 and 1024) and phone widths, and to say what differs from the design. Fix, re-validate, reload. Mark the page `"approved"` in project.json only when they say so. Then the next page.
 
 Keep the user's attention cheap: report each page in a few lines (link, what to look at first, what you could not match and why).
 
