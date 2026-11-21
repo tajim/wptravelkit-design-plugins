@@ -1,12 +1,12 @@
 ---
 name: build
-description: Turn a Claude Design project export (zip or folder of .dc.html pages) into WordPress block-editor pages, page patterns and a Travelscape child theme for WP Travel Kit. Use when the user wants to convert a Claude Design design into a WordPress theme, block markup or patterns, or resume such a project (a folder with .d2b/project.json).
+description: Turn a Claude Design project export (zip or folder of .dc.html pages) into WordPress block-editor pages, page patterns and either a Travelscape child theme or a Travelscape starter template (Demo Importer Plus package) for WP Travel Kit. Use when the user wants to convert a Claude Design design into a WordPress theme, starter template, block markup or patterns, or resume such a project (a folder with .d2b/project.json).
 argument-hint: "[path to the Claude Design zip or folder]"
 ---
 
 # Design to Blocks
 
-You turn a Claude Design export into a working Travelscape child theme with tested pages and patterns. The user designs; you build and check; the user approves each page. Work in the current folder (the "project folder"). All state lives in `.d2b/` inside it, so a stopped session can be resumed.
+You turn a Claude Design export into a working Travelscape child theme, or a starter template for the Travelscape parent, with tested pages and patterns. The user designs; you build and check; the user approves each page. Work in the current folder (the "project folder"). All state lives in `.d2b/` inside it, so a stopped session can be resumed.
 
 Plugin files: `${CLAUDE_PLUGIN_ROOT}` (scripts, templates, references). Installed packages: `${CLAUDE_PLUGIN_DATA}`.
 These two paths are only filled in inside this file: copy them literally into the commands you run. Where a reference file writes `${CLAUDE_PLUGIN_ROOT}`, it means this same path: `${CLAUDE_PLUGIN_ROOT}`.
@@ -20,7 +20,7 @@ Read these before the stage that needs them (they are short and they matter):
 - `${CLAUDE_PLUGIN_ROOT}/skills/build/references/site-loading.md` when loading pages onto the site
 - `${CLAUDE_PLUGIN_ROOT}/skills/build/references/visual-check.md` before the first screenshot check
 - `${CLAUDE_PLUGIN_ROOT}/skills/build/references/patterns.md` before stage 5
-- `${CLAUDE_PLUGIN_ROOT}/skills/build/references/starter-template.md` if the user picks "starter template"
+- `${CLAUDE_PLUGIN_ROOT}/skills/build/references/starter-template.md` if the user picks "starter template": read it before stage 2; it changes stages 3 to 6
 - Worked example of four finished pages: `${CLAUDE_PLUGIN_ROOT}/examples/travel-royale/` (about, services, faq, contact + tokens). Read one before writing your first page script.
 
 ## Resume first
@@ -38,7 +38,7 @@ It installs two sets of WordPress block packages (the WordPress 7.0 ones and the
 
 Follow `references/interview.md`: ask with the AskUserQuestion tool, in at most three rounds, only what the design and the folder cannot tell you. Save every answer in `.d2b/project.json` as you go. Then show a short summary of the plan (theme name, slug, pages, site, mode) and wait for an OK.
 
-If the mode is **starter template**, read `references/starter-template.md`: that mode is not automated yet. Say so plainly and offer to build the pages as block markup with the parent theme only (stages 2 and 4, no child theme, no patterns).
+If the mode is **starter template**, read `references/starter-template.md` now and check its requirements (Travelscape 1.0.24+, Travelscape Pro, WP-CLI, Travelscape active on the test site). Say plainly what is missing before you build anything.
 
 ## Stage 2: extract and plan
 
@@ -57,6 +57,8 @@ Show the user the plan summary (not the whole file) and continue unless they obj
 
 ## Stage 3: theme (child mode)
 
+Starter template: there is no theme to scaffold. Do stage 3 of `references/starter-template.md` instead (tokens with `mode: 'starter'`, icons into `.d2b/starter/custom.css`) and go to stage 4.
+
 Follow `references/child-theme.md`:
 1. `node "${CLAUDE_PLUGIN_ROOT}/scripts/scaffold-child.mjs" --out "<themes folder>"` (reads `theme` from project.json). It refuses to overwrite an existing theme folder.
 2. Write `.d2b/tokens.mjs` for the kit (copy `${CLAUDE_PLUGIN_ROOT}/examples/travel-royale/tokens.mjs`, change values and `prefix`/`themeSlug`; font-size and spacing tokens can be overridden the same way, see `DEFAULT_TOKENS` in `scripts/lib/kit.mjs`).
@@ -66,7 +68,7 @@ Follow `references/child-theme.md`:
 
 ## Stage 4: pages, one at a time
 
-For each page, in the order the user gave (home first unless told otherwise):
+For each page, in the order the user gave (home first unless told otherwise). In starter mode, read the stage 4 differences in `references/starter-template.md` first: images, `kit.wpte()`, CSS into `.d2b/starter/custom.css` + `starter-css.mjs`, and load-starter.mjs instead of load-page.mjs.
 1. Write `.d2b/pages/<slug>.mjs`: a module that exports `default function build(kit) { ...; return { slug: '<slug>', blocks: [...] }; }`, shaped exactly like the examples. The kit (`scripts/lib/kit.mjs`) gives you `c`, `P`, `H`, `stack`, `grid`, `section`, `darkSection`, `wide`, `heroCover`, `ctaBand`, `pillButton`, tokens `K`, `F`, `SP` and more: read its exports once. Section by section, follow the desktop artboard and check the mobile artboard for stacking order.
 2. Build it (from the project folder; tokens come from `.d2b/tokens.mjs`):
    `node "${CLAUDE_PLUGIN_ROOT}/scripts/build-page.mjs" .d2b/pages/<slug>.mjs` -> `.d2b/out/<slug>.txt`
@@ -84,11 +86,15 @@ Keep the user's attention cheap: report each page in a few lines (link, what to 
 
 ## Stage 5: patterns
 
+Starter template: the patterns are "My patterns" that load-starter.mjs already created; check they appear in the inserter and go to stage 6.
+
 When every page is approved, follow `references/patterns.md`: one `make-pattern.py` run per page into `<theme>/patterns/page-<slug>.php`, the pattern category registered in `functions.php`, then confirm WordPress lists the patterns (bump or toggle the theme version if they do not appear: WordPress caches pattern files per theme version).
 
 ## Stage 6: finish
 
-Run the release checklist in `references/child-theme.md` and report what is left for the user (images and their licences, screenshot.png, Demo Importer Plus ID, CF7 form IDs). Copy the final page markup files next to the theme or into the user's project folder if they asked.
+Starter template: build the Demo Importer Plus package (`starter-package.mjs`), give the user the folder and its `record.md`, and offer to restore the test site (stage 6 of `references/starter-template.md`).
+
+Child theme: run the release checklist in `references/child-theme.md` and report what is left for the user (images and their licences, screenshot.png, Demo Importer Plus ID, CF7 form IDs). Copy the final page markup files next to the theme or into the user's project folder if they asked.
 
 ## Rules that hold everywhere
 

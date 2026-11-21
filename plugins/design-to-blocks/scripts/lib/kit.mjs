@@ -15,6 +15,12 @@ import { registerWpteBlocks } from './wpte.mjs';
 export const DEFAULT_TOKENS = {
   prefix: 'tr', // class prefix for child-theme components, e.g. tr-icon-tile
   themeSlug: 'travel-royale', // used for theme image paths
+  // 'child' (a child theme holds images and CSS) or 'starter' (the Travelscape parent alone).
+  // In starter mode images are media-library attachments, not theme files: page markup points
+  // at assetBase, and load-starter.mjs / starter-package.mjs swap it for the real upload URL
+  // (on Local) or the demo host URL (in the Demo Importer Plus package).
+  mode: 'child',
+  assetBase: '/d2b-assets/',
   colors: {
     muted: '#625d55', // secondary text
     cream: '#faf8f4', // light card background
@@ -72,8 +78,16 @@ export function createKit(B, tokens = {}) {
 
   // Images
   const pexels = (id, w = 900) => `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=${w}`;
-  const themeImage = (file) => `/wp-content/themes/${T.themeSlug}/assets/images/${file}`;
-  const placeholder = (kind = 'landscape') => themeImage(`placeholder-${kind}.svg`);
+  const starter = T.mode === 'starter';
+  const themeImage = (file) => (starter ? `${T.assetBase}${file}` : `/wp-content/themes/${T.themeSlug}/assets/images/${file}`);
+  const placeholder = (kind = 'landscape') => themeImage(`placeholder-${kind}.${starter ? 'jpg' : 'svg'}`);
+  // WP Travel Engine blocks. In a child theme the parent adds is-style-<key> to them and the
+  // child's trips.css / trip-search.css / terms.css style them. On the parent alone nothing adds
+  // that class, so starter pages wrap the block in a Group whose class the starter CSS targets.
+  // kind: 'trips' | 'search' | 'terms'. Use it for every WPTE block, in both modes.
+  const wpte = (kind, block, attrs = {}) => (starter
+    ? c('core/group', { className: `${prefix}-wpte-${kind}`, layout: { type: 'default' }, ...attrs }, [block])
+    : block);
 
   // Style fragments
   const pad = (top, bottom, extra = {}) => ({ spacing: { padding: { top, bottom }, margin: { top: '0', bottom: '0' }, ...extra } });
@@ -188,7 +202,7 @@ export function createKit(B, tokens = {}) {
 
   return {
     B, T, K, F, SP, prefix,
-    c, pexels, themeImage, placeholder, pad, linkEl,
+    c, pexels, themeImage, placeholder, wpte, starter, pad, linkEl,
     P, muted, H, eyebrow, h2,
     group, stack, row, grid, section, darkSection, wide,
     arrowLink, pillButton, iconTile, sectionHeader, ctaBand, heroCover,

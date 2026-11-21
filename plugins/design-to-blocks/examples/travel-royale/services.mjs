@@ -8,7 +8,6 @@ const { muted: MUTED, cream: CREAM, rule: RULE, control: CONTROL, heroSub: HERO_
 
 
 
-const PH = kit.themeImage('');
 const mutedP = (text, size = F.s17, lh = '1.6', extra = {}) => P(text, { ...extra, style: { color: { text: MUTED }, typography: { fontSize: size, lineHeight: lh } } });
 const twoCol = (left, right, opts = {}) => c('core/columns', {
   align: opts.align, verticalAlignment: opts.v || 'center',
@@ -123,7 +122,7 @@ const overview = section([
 // 3. Service detail rows ----------------------------------------------------------
 const mediaCol = (s) => c('core/column', { width: '50%', className: `${p}-svc-media` }, [
   c('core/group', { className: `${p}-media-stat`, layout: { type: 'default' } }, [
-    c('core/image', { url: PH + 'placeholder-landscape.svg', alt: s.alt, scale: 'cover', sizeSlug: 'large', linkDestination: 'none' }),
+    c('core/image', { url: kit.placeholder('landscape'), alt: s.alt, scale: 'cover', sizeSlug: 'large', linkDestination: 'none' }),
     stack('2px', [
       P(s.statValue, { textColor: 'primary', style: { typography: { fontSize: '1.75rem', fontWeight: '700', letterSpacing: '-0.02em', lineHeight: '1.2' } } }),
       muted(s.statLabel),

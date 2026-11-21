@@ -27,6 +27,10 @@ if (!file || !slug) {
   console.error('Usage: node load-page.mjs --file <markup> --slug <slug> [--title <title>] [--status draft|publish] [--template <file>]');
   process.exit(2);
 }
+if (readProject()?.mode === 'starter-template' && !process.argv.includes('--force')) {
+  console.error('This is a starter-template project: load it with load-starter.mjs (it uploads the images, swaps the /d2b-assets/ paths and sets the Customizer settings). load-page.mjs would leave broken image paths.');
+  process.exit(2);
+}
 const content = fs.readFileSync(file, 'utf8');
 const expectedTheme = readProject()?.theme?.slug;
 

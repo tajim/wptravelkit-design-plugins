@@ -14,6 +14,7 @@ Two layers. Use the parent's first, then the child's, then core blocks styled by
 | `is-style-ts-plain` | list | no bullets, no indent (always use, see block-rules 9) |
 | `is-style-ts-section-dark` / `-primary` / `-subtle` / `-base` | full-width group | section color scheme incl. text and links |
 | `ts-auto-terms` | WPTE term blocks | fills empty term blocks automatically |
+| `kit.wpte(kind, block)` | every WPTE block | starter mode: wraps it in a Group `<prefix>-wpte-trips/search/terms` that the starter CSS styles; child mode: returns the block unchanged |
 
 Parent icons (no need to generate): map-pin, calendar, clock, users, star, check, check-circle, plane, mountain, compass, phone, mail, arrow-right, arrow-up-right, shield-check, heart, globe, camera, bed, utensils, car, leaf, tent, award. Also the variables `--ts-icon-arrow-right` and `--ts-icon-check` for CSS.
 

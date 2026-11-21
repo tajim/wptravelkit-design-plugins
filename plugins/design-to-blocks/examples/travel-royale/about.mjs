@@ -7,7 +7,6 @@ const { c, K, F, SP, pad, linkEl, P, muted, H, eyebrow, h2, stack, grid, section
 const { muted: MUTED, cream: CREAM, rule: RULE, control: CONTROL, heroSub: HERO_SUB, darkEyebrow: DARK_EYEBROW, darkText: DARK_TEXT, darkMuted: DARK_MUTED } = kit.K;
 
 
-const PH = kit.themeImage('');
 const mutedP = (text, size = F.s17, lh = '1.6') => P(text, { style: { color: { text: MUTED }, typography: { fontSize: size, lineHeight: lh } } });
 const twoCol = (left, right, opts = {}) => c('core/columns', {
   align: opts.align, verticalAlignment: opts.v || 'center',
@@ -34,7 +33,7 @@ const founder = c('core/group', {
   style: { border: { top: { color: RULE, width: '1px' } }, spacing: { padding: { top: '22px' }, margin: { top: '10px' }, blockGap: '14px' } },
   layout: { type: 'flex', flexWrap: 'nowrap', verticalAlignment: 'center' },
 }, [
-  c('core/image', { url: PH + 'placeholder-avatar.svg', alt: 'Founder Name', className: `${p}-avatar-img`, width: '52px', height: '52px', aspectRatio: '1', scale: 'cover', linkDestination: 'none', style: { border: { radius: '999px' } } }),
+  c('core/image', { url: kit.placeholder('avatar'), alt: 'Founder Name', className: `${p}-avatar-img`, width: '52px', height: '52px', aspectRatio: '1', scale: 'cover', linkDestination: 'none', style: { border: { radius: '999px' } } }),
   stack('2px', [P('Founder Name', { style: { typography: { fontSize: '1rem', fontWeight: '600' } } }), muted('Founder &amp; Principal Travel Designer')]),
 ]);
 const storyMedia = grid(2, '10rem', '16px', [
@@ -101,7 +100,7 @@ const teamCard = ([, name, role, tags, fav]) => c('core/group', {
   style: { border: { radius: '16px' }, spacing: { blockGap: '0' } },
   layout: { type: 'default' },
 }, [
-  c('core/image', { url: PH + 'placeholder-portrait.svg', alt: name, aspectRatio: '4/5', scale: 'cover', sizeSlug: 'large', linkDestination: 'none' }),
+  c('core/image', { url: kit.placeholder('portrait'), alt: name, aspectRatio: '4/5', scale: 'cover', sizeSlug: 'large', linkDestination: 'none' }),
   stack('6px', [
     P(name, { style: { typography: { fontSize: F.s18, fontWeight: '600' } } }),
     muted(role),

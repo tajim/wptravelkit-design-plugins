@@ -31,7 +31,7 @@ Requirements: Node 20+ and npm (the first run installs the WordPress block packa
 | Path | What |
 |---|---|
 | `skills/build/SKILL.md` | the workflow Claude follows |
-| `skills/build/references/` | interview, Claude Design format, block rules (hard-won fixes), components, child theme, patterns, site loading, starter template (planned) |
+| `skills/build/references/` | interview, Claude Design format, block rules (hard-won fixes), components, child theme, patterns, site loading, starter template |
 | `scripts/lib/kit.mjs` | block-building helpers on top of `@wordpress/blocks` |
 | `scripts/build-page.mjs` | runs a page script, writes the markup |
 | `scripts/check.sh`, `validate.mjs` | editor-equivalent validation with two package sets |
@@ -40,14 +40,18 @@ Requirements: Node 20+ and npm (the first run installs the WordPress block packa
 | `scripts/scaffold-child.mjs` | new child theme from the template |
 | `scripts/make-pattern.py` | translatable PHP pattern from validated markup |
 | `scripts/load-page.mjs` | create or update a page via WP-CLI or REST |
+| `scripts/starter-css.mjs` | starter mode: the Additional CSS (template components + WPTE CSS + project CSS, pruned to what the pages use) |
+| `scripts/load-starter.mjs`, `php/load-starter.php` | starter mode: loads pages, images, patterns, menu, Customizer settings and Additional CSS onto the test site via WP-CLI, the way Demo Importer Plus will |
+| `scripts/starter-package.mjs` | starter mode: the Demo Importer Plus package (WXR, customizer-data, site-option, widgets-data, images, record.md) |
 | `scripts/screenshot.mjs` | design vs WordPress screenshots per section at 4 widths, automatic layout findings, review sheet |
-| `templates/child-theme/` | Travel Royale 1.0.0, the template for new child themes |
+| `templates/child-theme/` | Travel Royale 1.0.0, the template for new child themes (its component CSS also feeds starter templates) |
+| `templates/starter/` | JPEG placeholders for starter templates (media-library uploads cannot be SVG) |
 | `examples/travel-royale/` | four approved page scripts, their output, and the Contact Form 7 forms |
 
 ## Status
 
 Phase 1 (0.1): child-theme mode end to end.
 Phase 2 (0.2): screenshots of the design artboards and the WordPress page at 1440 / 1024 / 768 / 390, side-by-side sheets, automatic findings (overflow, orphan cards, broken images, height drift), fix-and-recheck loop.
-Phase 3 (next): starter-template mode (parent only, Customizer settings, Demo Importer Plus package), after the child components move into Travelscape as `ts-*` utilities.
+Phase 3 (0.3): starter-template mode: pages on the Travelscape parent alone, colors and Travelscape Pro fonts as Customizer settings, component CSS as Additional CSS, patterns as "My patterns", a Local loader that imports like Demo Importer Plus, and the Demo Importer Plus package.
 
-Requires Travelscape 1.0.23 or newer on the site.
+Requires Travelscape 1.0.23 or newer on the site (child themes), 1.0.24 or newer plus Travelscape Pro (starter templates).

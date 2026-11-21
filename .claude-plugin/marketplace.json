@@ -9,7 +9,7 @@
     {
       "name": "design-to-blocks",
       "source": "./plugins/design-to-blocks",
-      "description": "Turn a Claude Design project zip into tested WordPress block pages, patterns and a Travelscape child theme."
+      "description": "Turn a Claude Design project zip into tested WordPress block pages, patterns and a Travelscape child theme or starter template (Demo Importer Plus package)."
     }
   ]
 }

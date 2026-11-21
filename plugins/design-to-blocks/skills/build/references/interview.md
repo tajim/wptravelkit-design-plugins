@@ -7,8 +7,8 @@ Ask with the AskUserQuestion tool (1 to 4 questions per call, multiple choice wi
 1. **Mode**
    - Child theme for wordpress.org (free, reviewed: strict rules on images, licences, translation)
    - Premium child theme (sold on wptravelkit.com: same build, fewer review constraints)
-   - Starter template on the parent only (no child theme; colors/fonts via the Customizer; see starter-template.md)
-2. **Theme name** (offer one derived from the design file names, e.g. "Luxury Travel ..." -> "Travel Royale"). Slug = lowercase-hyphenated name. Class prefix = 2 letters from the name (Travel Royale -> `tr`), must not be `ts` (parent).
+   - Starter template on the parent only (no child theme; colors via the Customizer, fonts via Travelscape Pro; packaged for Demo Importer Plus; see starter-template.md)
+2. **Theme name** (offer one derived from the design file names, e.g. "Luxury Travel ..." -> "Travel Royale"). Slug = lowercase-hyphenated name. Class prefix = 2 letters from the name (Travel Royale -> `tr`), must not be `ts` (parent). For a starter template this is the template's name; the demo slug defaults to the slug.
 3. **Pages to build**: multi-select from the pages extract.mjs found. Ignore component sheets (Components, PropertyCard and similar canvases).
 4. **Where the design zip is**, if not passed as the argument.
 
@@ -17,6 +17,12 @@ Ask with the AskUserQuestion tool (1 to 4 questions per call, multiple choice wi
 5. **Local WordPress site**: themes folder path (e.g. `/Users/<me>/Local Sites/<site>/app/public/wp-content/themes`) and site URL (e.g. `http://travel.local`). Check the folder exists and has `travelscape/` in it.
 6. **How to load pages**: WP-CLI (Claude Code started from Local's "Open site shell"), REST with an application password (user exports D2B_WP_USER and D2B_WP_APP_PASSWORD before starting Claude Code), or "I will paste the markup myself".
 7. **Form plugin**: Contact Form 7 (default for WP Travel Kit) or none.
+
+Starter template only (read starter-template.md "Requirements" first):
+- **Test site**: Travelscape must be active there while you work (load-starter.mjs `--activate` switches; save the current theme in `starter.previousTheme`). It needs Travelscape 1.0.24+, Travelscape Pro and WP-CLI loading.
+- **Demo slug and URLs**: `starter.demoSlug` (default: the slug), `starter.demoUrl` (default `https://preview.wptravelkit.com/<demoSlug>`), `starter.assetUrl` (where the user will upload the images; must contain `content/uploads`).
+- **Header**: the design's header button text and link, phone, email, and whether the top bar shows (the Customizer header replaces the design's header).
+- **Sample trips** if the pages use WPTE blocks: path to an export of sample trips (`starter.extraWxr`), or none.
 
 ## Round 3: content decisions (only those the design raises)
 
@@ -51,6 +57,7 @@ Write it as answers come in. Shape:
     "layout": { "contentSize": "1200px", "wideSize": "1344px" },
     "demoImporterId": ""
   },
+  "starter": { "...": "starter-template mode only, see starter-template.md" },
   "brandReplacements": { "Northbound": "us" },
   "pages": [
     { "slug": "home", "title": "Home", "design": "luxury-travel-homepage", "status": "todo | built | in-review | approved", "pageId": null }

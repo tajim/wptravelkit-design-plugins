@@ -1,5 +1,7 @@
 # Loading pages onto the site
 
+Starter templates load with `load-starter.mjs` (WP-CLI only), not with load-page.mjs: see starter-template.md.
+
 `load-page.mjs` creates the page (as a draft) or updates the page with the same slug, and sets the "Block Canvas" template (`page-templates/template-block-canvas.php`). It prints the page id and link; save the id in project.json.
 
 ```bash

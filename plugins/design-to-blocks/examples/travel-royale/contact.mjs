@@ -8,7 +8,6 @@ const { muted: MUTED, cream: CREAM, rule: RULE, control: CONTROL, heroSub: HERO_
 
 
 
-const PH = kit.themeImage('');
 const mutedP = (text, size = F.s17, lh = '1.6') => P(text, { style: { color: { text: MUTED }, typography: { fontSize: size, lineHeight: lh } } });
 const twoCol = (left, right, opts = {}) => c('core/columns', {
   align: opts.align, verticalAlignment: opts.v || 'center', className: opts.className,
@@ -138,7 +137,7 @@ const officeCard = ([tag, city, address, phone, alt]) => c('core/columns', {
 }, [
   c('core/column', { width: '50%' }, [
     c('core/group', { className: `${p}-media-stat ${p}-media-stat--sm`, layout: { type: 'default' } }, [
-      c('core/image', { url: PH + 'placeholder-landscape.svg', alt, scale: 'cover', sizeSlug: 'large', linkDestination: 'none' }),
+      c('core/image', { url: kit.placeholder('landscape'), alt, scale: 'cover', sizeSlug: 'large', linkDestination: 'none' }),
     ]),
   ]),
   c('core/column', { width: '50%', style: { spacing: { padding: { top: '32px', bottom: '32px', left: '32px', right: '32px' }, blockGap: '14px' } } }, [

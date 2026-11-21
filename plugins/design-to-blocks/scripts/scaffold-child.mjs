@@ -13,12 +13,10 @@
 // Royale's and are meant to be rebuilt from the design afterwards.
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 import { argValue, readProject } from './lib/env.mjs';
+import { TEMPLATE_DIR as TEMPLATE, readTemplate, makeRetheme } from './lib/retheme.mjs';
 
-const HERE = path.dirname(fileURLToPath(import.meta.url));
-const TEMPLATE = path.join(HERE, '..', 'templates', 'child-theme');
-const tpl = JSON.parse(fs.readFileSync(path.join(TEMPLATE, 'template.json'), 'utf8'));
+const tpl = readTemplate();
 
 const project = readProject();
 const theme = project?.theme;
@@ -40,21 +38,8 @@ if (fs.existsSync(dest) && !process.argv.includes('--force')) {
   process.exit(1);
 }
 
-const fnPrefix = theme.slug.replace(/-/g, '_');
-const names = {
-  name: theme.name,
-  slug: theme.slug,
-  functionPrefix: fnPrefix,
-  constantPrefix: fnPrefix.toUpperCase(),
-  package: fnPrefix.split('_').map((w) => w[0].toUpperCase() + w.slice(1)).join('_'),
-  classPrefix: theme.classPrefix,
-  wpteStyleKey: theme.wpteStyleKey || theme.slug.split('-').pop(),
-  wpteStyleLabel: theme.wpteStyleLabel || (theme.wpteStyleKey || theme.slug.split('-').pop()).replace(/^./, (c) => c.toUpperCase()),
-};
-const font = { family: tpl.font.family, googleFamilyParam: tpl.font.googleFamilyParam, ...(theme.font || {}) };
-const colors = { ...tpl.colors, ...(theme.colors || {}) };
+const { apply: retheme, names, font } = makeRetheme(theme, tpl);
 
-// 1. copy
 fs.mkdirSync(dest, { recursive: true });
 fs.cpSync(TEMPLATE, dest, { recursive: true, force: true, filter: (src) => !src.endsWith('template.json') });
 
@@ -67,45 +52,10 @@ const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
 });
 walk(dest);
 
-const old = tpl.names;
-const steps = [
-  // order matters: longest and most specific first
-  [/Travel Royale/g, '\u0001NAME\u0001'],
-  [/TRAVEL_ROYALE/g, '\u0001CONST\u0001'],
-  [/Travel_Royale/g, '\u0001PKG\u0001'],
-  [/travel_royale/g, '\u0001FN\u0001'],
-  [/travel-royale/g, '\u0001SLUG\u0001'],
-  [/--tr-(?=[a-z])/g, '--\u0001CLS\u0001-'],
-  [/(?<![A-Za-z0-9_-])tr-(?=[a-z])/g, '\u0001CLS\u0001-'],
-  [new RegExp(`is-style-${old.wpteStyleKey}\\b`, 'g'), 'is-style-\u0001KEY\u0001'],
-  [new RegExp(`'${old.wpteStyleKey}'`, 'g'), "'\u0001KEY\u0001'"],
-  [new RegExp(`'${old.wpteStyleLabel}'`, 'g'), "'\u0001LABEL\u0001'"],
-  [new RegExp(tpl.font.googleFamilyParam.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), '\u0001FONTPARAM\u0001'],
-  [/Instrument\\\\ Sans/g, '\u0001FONTCSS\u0001'],
-  [new RegExp(tpl.font.family, 'g'), '\u0001FONT\u0001'],
-];
-const finals = {
-  NAME: names.name, CONST: names.constantPrefix, PKG: names.package, FN: names.functionPrefix, SLUG: names.slug,
-  CLS: names.classPrefix, KEY: names.wpteStyleKey, LABEL: names.wpteStyleLabel,
-  FONTPARAM: font.googleFamilyParam, FONTCSS: font.family.replace(/ /g, '\\\\ '), FONT: font.family,
-};
-// heading color has its own line in theme-setup.php (same value as body in the template)
-const headingLine = /(\$defaults\['heading-color'\]\s*=\s*')#[0-9a-f]{6}(')/;
-
 let changed = 0;
 for (const f of files) {
-  let s = fs.readFileSync(f, 'utf8');
-  const before = s;
-  if (colors.heading) s = s.replace(headingLine, `$1\u0001COLOR:heading\u0001$2`);
-  for (const [re, rep] of steps) s = s.replace(re, rep);
-  for (const [token, value] of Object.entries(tpl.colors)) {
-    const hex = value.slice(1);
-    s = s.replace(new RegExp(`#${hex}\\b`, 'gi'), `\u0001COLOR:${token}\u0001`);
-    s = s.replace(new RegExp(`%23${hex}\\b`, 'gi'), `\u0001ENC:${token}\u0001`);
-  }
-  s = s.replace(/\u0001COLOR:([a-zA-Z]+)\u0001/g, (_, t) => (colors[t] || tpl.colors[t]).toLowerCase());
-  s = s.replace(/\u0001ENC:([a-zA-Z]+)\u0001/g, (_, t) => '%23' + (colors[t] || tpl.colors[t]).slice(1).toLowerCase());
-  s = s.replace(/\u0001([A-Z]+)\u0001/g, (_, t) => finals[t]);
+  const before = fs.readFileSync(f, 'utf8');
+  const s = retheme(before);
   if (s !== before) { fs.writeFileSync(f, s); changed++; }
 }
 

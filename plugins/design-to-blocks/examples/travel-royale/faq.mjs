@@ -8,7 +8,6 @@ const { muted: MUTED, cream: CREAM, rule: RULE, control: CONTROL, heroSub: HERO_
 
 
 
-const PH = kit.themeImage('');
 const mutedP = (text, size = F.s17, lh = '1.6') => P(text, { style: { color: { text: MUTED }, typography: { fontSize: size, lineHeight: lh } } });
 
 // Data -----------------------------------------------------------------------------
@@ -198,7 +197,7 @@ const guidesSection = section([
       P('<a href="#">All travel guides</a>', { style: { typography: { fontSize: F.s15, fontWeight: '500' }, ...linkEl() } }),
     ]),
     grid(3, '15rem', '24px', guides.map(([t, meta, alt]) => stack('12px', [
-      c('core/image', { url: PH + 'placeholder-landscape.svg', alt, aspectRatio: '16/9', scale: 'cover', sizeSlug: 'large', linkDestination: 'none', style: { border: { radius: '14px' } } }),
+      c('core/image', { url: kit.placeholder('landscape'), alt, aspectRatio: '16/9', scale: 'cover', sizeSlug: 'large', linkDestination: 'none', style: { border: { radius: '14px' } } }),
       P(`<a href="#">${t}</a>`, { className: `${p}-card-link__target`, style: { typography: { fontSize: F.s17, fontWeight: '600', lineHeight: '1.35' }, ...linkEl('var:preset|color|heading') } }),
       muted(meta),
     ], { className: `${p}-card-link` })), { className: `${p}-grid-3` }),
