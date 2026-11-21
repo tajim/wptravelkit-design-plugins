@@ -112,7 +112,9 @@ export function starterThemeMods(project) {
   const lh = st.fonts?.lineHeight || '1.6';
   for (const level of TYPO_KEYS) {
     const isHeading = /^h\d$/.test(level);
-    const font = level === 'base' ? body.family : isHeading ? (heading?.family || 'inherit') : 'inherit';
+    // Headings always name a font (the body font when the design has one font): Travelscape
+    // 1.0.24 takes the heading weight from the H1 setting only when its font is not "inherit".
+    const font = level === 'base' ? body.family : isHeading ? (heading?.family || body.family) : 'inherit';
     const variant = level === 'base' ? (body.variant || '400') : isHeading ? (heading?.variant || (level === 'h1' ? '700' : '600')) : '500';
     const sizes = st.fonts?.sizes?.[level] || PRO_SIZES[level];
     mods[`travelscape_typography_${level}`] = proTypography(font, variant, sizes, level === 'base' ? (st.fonts?.bodyLineHeight || '1.6') : lh);
