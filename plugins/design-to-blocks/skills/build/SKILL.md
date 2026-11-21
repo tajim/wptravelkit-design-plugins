@@ -38,7 +38,7 @@ It installs two sets of WordPress block packages (the WordPress 7.0 ones and the
 
 Follow `references/interview.md`: ask with the AskUserQuestion tool, in at most three rounds, only what the design and the folder cannot tell you. Save every answer in `.d2b/project.json` as you go. Then show a short summary of the plan (theme name, slug, pages, site, mode) and wait for an OK.
 
-If the mode is **starter template**, read `references/starter-template.md` now and check its requirements (Travelscape 1.0.24+, Travelscape Pro, WP-CLI, Travelscape active on the test site). Say plainly what is missing before you build anything.
+If the mode is **starter template**, read `references/starter-template.md` now and check its requirements (Travelscape 1.0.26+, Travelscape Pro, WP-CLI, Travelscape active on the test site). Say plainly what is missing before you build anything.
 
 ## Stage 2: extract and plan
 

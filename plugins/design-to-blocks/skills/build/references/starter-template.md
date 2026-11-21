@@ -16,7 +16,7 @@ A starter template is a demo built on the **Travelscape parent alone** (no child
 
 ## Requirements (check in stage 1, say what is missing)
 
-- Travelscape **1.0.24 or newer** on the test site. Older versions have no `travelscape_block_system` switch: dark sections, text color inheritance and the font presets come out wrong. load-starter.mjs reports the parent version.
+- Travelscape **1.0.26 or newer** on the test site. 1.0.24 added the `travelscape_block_system` switch (without it dark sections, text color inheritance and the font presets come out wrong), 1.0.25 the starter fonts and Additional CSS in the editor canvas, 1.0.26 the fix for the classic header and footer on Block Canvas pages (before it they lost their centered container). load-starter.mjs reports the parent version.
 - **Travelscape Pro** active (fonts). Starter templates are "pro" demos.
 - **WP-CLI** loading (`site.method: "wpcli"`, `site.path`): theme_mods and Additional CSS cannot be written over REST. On Local: start Claude Code from the site shell.
 - WP Travel Engine, Contact Form 7 (if the design has a form).

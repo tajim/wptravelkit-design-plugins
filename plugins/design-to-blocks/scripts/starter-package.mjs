@@ -205,7 +205,7 @@ ${JSON.stringify(plugins, null, 2)}
 
 - Travelscape theme_mods: colors (\`travelscape_color_ed\`), Travelscape Pro fonts (\`travelscape_typography_*\`), \`travelscape_block_system\` = on, header settings, and the Additional CSS (${Buffer.byteLength(css)} bytes, key \`custom-css\`). Demo Importer Plus **replaces** all theme_mods with these.
 - ${pages.length} page(s) on the Block Canvas template, ${pages.length} pattern(s) under Patterns > My patterns > ${cfg.patternCategory.name}, the menu "${cfg.menu.name}" in the primary location, the front page "${front ? front.title : '(none)'}".
-- Requires Travelscape 1.0.24 or newer (the block switch). On older versions dark sections and fonts are wrong.
+- Requires Travelscape 1.0.26 or newer: 1.0.24 adds the block switch (older: dark sections and fonts are wrong), 1.0.26 keeps the Customizer header and footer centered on Block Canvas pages.
 ${extraFile ? `- Extra content from \`${extraFile}\`: ${extra.items.length} item(s), ${extra.terms.length} term(s).` : '- No trips are included. If the pages use WP Travel Engine blocks, add your sample trips export with --extra-wxr, or the trip grids will be empty after import.'}
 
 ## 4. Test before you publish the record

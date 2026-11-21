@@ -19,7 +19,7 @@ Ask with the AskUserQuestion tool (1 to 4 questions per call, multiple choice wi
 7. **Form plugin**: Contact Form 7 (default for WP Travel Kit) or none.
 
 Starter template only (read starter-template.md "Requirements" first):
-- **Test site**: Travelscape must be active there while you work (load-starter.mjs `--activate` switches; save the current theme in `starter.previousTheme`). It needs Travelscape 1.0.24+, Travelscape Pro and WP-CLI loading.
+- **Test site**: Travelscape must be active there while you work (load-starter.mjs `--activate` switches; save the current theme in `starter.previousTheme`). It needs Travelscape 1.0.26+, Travelscape Pro and WP-CLI loading.
 - **Demo slug and URLs**: `starter.demoSlug` (default: the slug), `starter.demoUrl` (default `https://preview.wptravelkit.com/<demoSlug>`), `starter.assetUrl` (where the user will upload the images; must contain `content/uploads`).
 - **Header**: the design's header button text and link, phone, email, and whether the top bar shows (the Customizer header replaces the design's header).
 - **Sample trips** if the pages use WPTE blocks: path to an export of sample trips (`starter.extraWxr`), or none.

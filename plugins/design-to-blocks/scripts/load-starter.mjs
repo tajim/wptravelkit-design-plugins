@@ -86,7 +86,10 @@ for (const p of pj.pages || []) {
 fs.writeFileSync(project.file, JSON.stringify(pj, null, 2) + '\n');
 
 console.log(JSON.stringify(result, null, 2));
-if (!/^supported/.test(result.blockSwitch)) {
+if (/^supported, but/.test(result.blockSwitch)) {
+  console.error(`WARNING: ${result.blockSwitch}. Ask the user to update Travelscape.`);
+  process.exitCode = 3;
+} else if (!/^supported/.test(result.blockSwitch)) {
   console.error(`WARNING: ${result.blockSwitch}. Dark sections, text color inheritance and the block font presets will be wrong until the parent is updated.`);
   process.exitCode = 3;
 }

@@ -242,7 +242,7 @@ do_action( 'customize_save_after', $wp_customize );
 echo wp_json_encode(
 	array(
 		'parentVersion'  => $parent_version,
-		'blockSwitch'    => version_compare( $parent_version, '1.0.24', '>=' ) ? 'supported' : 'NOT SUPPORTED: Travelscape ' . $parent_version . ' has no travelscape_block_system switch (needs 1.0.24)',
+		'blockSwitch'    => version_compare( $parent_version, '1.0.26', '>=' ) ? 'supported' : ( version_compare( $parent_version, '1.0.24', '>=' ) ? 'supported, but Travelscape ' . $parent_version . ' needs 1.0.26 for a centered classic header and footer on Block Canvas pages' : 'NOT SUPPORTED: Travelscape ' . $parent_version . ' has no travelscape_block_system switch (needs 1.0.26)' ),
 		'proActive'      => function_exists( 'travelscape_customizer_defaults' ),
 		'pages'          => $out_pages,
 		'patterns'       => $patterns,

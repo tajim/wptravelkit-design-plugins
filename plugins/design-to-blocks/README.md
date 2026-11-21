@@ -54,4 +54,4 @@ Phase 1 (0.1): child-theme mode end to end.
 Phase 2 (0.2): screenshots of the design artboards and the WordPress page at 1440 / 1024 / 768 / 390, side-by-side sheets, automatic findings (overflow, orphan cards, broken images, height drift), fix-and-recheck loop.
 Phase 3 (0.3): starter-template mode: pages on the Travelscape parent alone, colors and Travelscape Pro fonts as Customizer settings, component CSS as Additional CSS, patterns as "My patterns", a Local loader that imports like Demo Importer Plus, and the Demo Importer Plus package.
 
-Requires Travelscape 1.0.23 or newer on the site (child themes), 1.0.24 or newer plus Travelscape Pro (starter templates).
+Requires Travelscape 1.0.23 or newer on the site (child themes), 1.0.26 or newer plus Travelscape Pro (starter templates).
