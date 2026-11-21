@@ -1,0 +1,51 @@
+{
+  "about": "Travel Royale 1.0.0 (Travelscape child theme) used as the starting point for new child themes. scaffold-child.mjs copies these files and swaps the values below for the new theme's. Requires Travelscape 1.0.23 or newer.",
+  "requiresParent": "1.0.23",
+  "names": {
+    "name": "Travel Royale",
+    "slug": "travel-royale",
+    "functionPrefix": "travel_royale",
+    "constantPrefix": "TRAVEL_ROYALE",
+    "package": "Travel_Royale",
+    "classPrefix": "tr",
+    "wpteStyleKey": "royale",
+    "wpteStyleLabel": "Royale"
+  },
+  "font": {
+    "family": "Instrument Sans",
+    "googleFamilyParam": "Instrument+Sans:ital,wght@0,400..700;1,400..700"
+  },
+  "colors": {
+    "primary": "#2f5e46",
+    "secondary": "#1f2427",
+    "body": "#1c1b19",
+    "subtle": "#f1ede6",
+    "border": "#e6e1d8",
+    "muted": "#625d55",
+    "cream": "#faf8f4",
+    "control": "#d6d0c5",
+    "tint": "#e8efea",
+    "heroSub": "#e9ecee",
+    "darkEyebrow": "#bccdc2",
+    "darkText": "#c9ced1",
+    "darkMuted": "#c3c8cc",
+    "controlHover": "#a9a194",
+    "placeholderText": "#8a847b",
+    "footerBg": "#f7f7f7"
+  },
+  "colorNotes": {
+    "primary": "brand color: buttons, links, icons",
+    "secondary": "dark sections and dark cards",
+    "body": "body text and headings",
+    "subtle": "sand/light section background",
+    "border": "borders and dividers (the kit calls it rule)",
+    "muted": "secondary text",
+    "cream": "light card background",
+    "control": "input and outline-button borders",
+    "tint": "icon tile and tag background (primary at ~10%)",
+    "heroSub": "secondary text on dark images",
+    "darkEyebrow": "eyebrow text on dark sections",
+    "darkText": "body text on dark sections",
+    "darkMuted": "small text on dark sections"
+  }
+}

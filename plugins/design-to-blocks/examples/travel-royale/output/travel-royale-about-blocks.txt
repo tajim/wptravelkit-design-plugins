@@ -1,0 +1,759 @@
+<!-- wp:cover {"url":"https://images.pexels.com/photos/19737857/pexels-photo-19737857.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=2000","isUserOverlayColor":true,"minHeight":600,"minHeightUnit":"px","customGradient":"linear-gradient(90deg,rgba(16,18,20,0.78) 0%,rgba(16,18,20,0.4) 60%,rgba(16,18,20,0.15) 100%),linear-gradient(180deg,rgba(16,18,20,0.45) 0%,rgba(16,18,20,0) 30%)","align":"full","style":{"spacing":{"padding":{"top":"128px","bottom":"clamp(3rem, 6vw, 4.5rem)","left":"var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002droot\u002d\u002dpadding-left)","right":"var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002droot\u002d\u002dpadding-right)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1344px"}} -->
+<div class="wp-block-cover alignfull" style="margin-top:0;margin-bottom:0;padding-top:128px;padding-right:var(--wp--style--root--padding-right);padding-bottom:clamp(3rem, 6vw, 4.5rem);padding-left:var(--wp--style--root--padding-left);min-height:600px"><img class="wp-block-cover__image-background" alt="" src="https://images.pexels.com/photos/19737857/pexels-photo-19737857.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(90deg,rgba(16,18,20,0.78) 0%,rgba(16,18,20,0.4) 60%,rgba(16,18,20,0.15) 100%),linear-gradient(180deg,rgba(16,18,20,0.45) 0%,rgba(16,18,20,0) 30%)"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"constrained","contentSize":"860px","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.875rem"},"elements":{"link":{"color":{"text":"#e9ecee"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="has-text-color has-link-color" style="color:#e9ecee;font-size:0.875rem"><a href="/">Home</a> › About us</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2.5rem, 1.5rem + 3vw, 3.75rem)","fontWeight":"700","letterSpacing":"-0.025em","lineHeight":"1.08"}}} -->
+<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2.5rem, 1.5rem + 3vw, 3.75rem);font-weight:700;letter-spacing:-0.025em;line-height:1.08">We plan North America the way we’d want to travel it ourselves.</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"1.1875rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#e9ecee;font-size:1.1875rem;line-height:1.55">A small, independent team of travel designers. Over 20 years, we’ve stayed in the hotels, met the guides and driven the roads we recommend.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7.5vw, 6rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7.5vw, 6rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"left":"clamp(3rem, 6vw, 6rem)"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"blockGap":"18px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">Our story</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">It started with one trip to Banff, and a phone that kept ringing.</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1.0625rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1.0625rem;line-height:1.65">In 2005, our founder planned a two-week Rockies trip for friends. Every hotel was hand-picked, every drive timed for the light, every dinner booked weeks ahead. The friends told their friends. Within a year, the phone didn’t stop.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1.0625rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1.0625rem;line-height:1.65">Two decades later we’re a team of twelve, still independent and still focused on one continent. We don’t sell packaged tours or run call centers. Each trip is designed by one person who knows the places personally and stays with you until you’re home.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"border":{"top":{"color":"#e6e1d8","width":"1px"}},"spacing":{"padding":{"top":"22px"},"margin":{"top":"10px"},"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+<div class="wp-block-group" style="border-top-color:#e6e1d8;border-top-width:1px;margin-top:10px;padding-top:22px"><!-- wp:image {"width":"52px","height":"52px","aspectRatio":"1","scale":"cover","linkDestination":"none","className":"tr-avatar-img","style":{"border":{"radius":"999px"}}} -->
+<figure class="wp-block-image is-resized has-custom-border tr-avatar-img"><img src="/wp-content/themes/travel-royale/assets/images/placeholder-avatar.svg" alt="Founder Name" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:52px;height:52px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"2px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<p style="font-size:1rem;font-weight:600">Founder Name</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Founder &amp; Principal Travel Designer</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"grid","columnCount":2,"minimumColumnWidth":"10rem"}} -->
+<div class="wp-block-group"><!-- wp:cover {"url":"https://images.pexels.com/photos/8828672/pexels-photo-8828672.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=900","alt":"Planning a route on a map","dimRatio":0,"isUserOverlayColor":true,"minHeight":240,"minHeightUnit":"px","isDark":false,"style":{"border":{"radius":"16px"},"layout":{"rowSpan":2}},"layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light" style="border-radius:16px;min-height:240px"><img class="wp-block-cover__image-background" alt="Planning a route on a map" src="https://images.pexels.com/photos/8828672/pexels-photo-8828672.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"16px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="https://images.pexels.com/photos/2662086/pexels-photo-2662086.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700" alt="Moraine Lake in Banff" style="border-radius:16px;aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:cover {"customOverlayColor":"#f1ede6","isUserOverlayColor":true,"contentPosition":"bottom left","isDark":false,"style":{"border":{"radius":"16px"},"dimensions":{"aspectRatio":"1"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left" style="border-radius:16px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#f1ede6"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"6px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"clamp(2rem, 1.3rem + 2vw, 2.75rem)","fontWeight":"700","letterSpacing":"-0.02em","lineHeight":"1"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:clamp(2rem, 1.3rem + 2vw, 2.75rem);font-weight:700;letter-spacing:-0.02em;line-height:1">2005</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.45"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem;line-height:1.45">Founded in Seattle. Still family-owned and independent.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"secondary","textColor":"base","align":"full","className":"is-style-ts-section-dark","style":{"spacing":{"padding":{"top":"48px","bottom":"48px"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-ts-section-dark has-base-color has-secondary-background-color has-text-color has-background" style="margin-top:0;margin-bottom:0;padding-top:48px;padding-bottom:48px"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"className":"tr-grid-2x2","style":{"spacing":{"blockGap":"32px"}},"layout":{"type":"grid","columnCount":4,"minimumColumnWidth":"14rem"}} -->
+<div class="wp-block-group tr-grid-2x2"><!-- wp:group {"style":{"border":{"left":{"color":"#bccdc2","width":"2px"}},"spacing":{"padding":{"left":"20px"},"blockGap":"4px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-left-color:#bccdc2;border-left-width:2px;padding-left:20px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"clamp(1.75rem, 1.3rem + 1.3vw, 2.25rem)","fontWeight":"700","letterSpacing":"-0.02em","lineHeight":"1.2"}}} -->
+<p style="font-size:clamp(1.75rem, 1.3rem + 1.3vw, 2.25rem);font-weight:700;letter-spacing:-0.02em;line-height:1.2">20+ years</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c9ced1"},"typography":{"fontSize":"0.9375rem"}}} -->
+<p class="has-text-color" style="color:#c9ced1;font-size:0.9375rem">Planning North American travel</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"left":{"color":"#bccdc2","width":"2px"}},"spacing":{"padding":{"left":"20px"},"blockGap":"4px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-left-color:#bccdc2;border-left-width:2px;padding-left:20px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"clamp(1.75rem, 1.3rem + 1.3vw, 2.25rem)","fontWeight":"700","letterSpacing":"-0.02em","lineHeight":"1.2"}}} -->
+<p style="font-size:clamp(1.75rem, 1.3rem + 1.3vw, 2.25rem);font-weight:700;letter-spacing:-0.02em;line-height:1.2">3,400+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c9ced1"},"typography":{"fontSize":"0.9375rem"}}} -->
+<p class="has-text-color" style="color:#c9ced1;font-size:0.9375rem">Private journeys arranged</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"left":{"color":"#bccdc2","width":"2px"}},"spacing":{"padding":{"left":"20px"},"blockGap":"4px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-left-color:#bccdc2;border-left-width:2px;padding-left:20px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"clamp(1.75rem, 1.3rem + 1.3vw, 2.25rem)","fontWeight":"700","letterSpacing":"-0.02em","lineHeight":"1.2"}}} -->
+<p style="font-size:clamp(1.75rem, 1.3rem + 1.3vw, 2.25rem);font-weight:700;letter-spacing:-0.02em;line-height:1.2">68%</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c9ced1"},"typography":{"fontSize":"0.9375rem"}}} -->
+<p class="has-text-color" style="color:#c9ced1;font-size:0.9375rem">Of travelers book with us again</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"left":{"color":"#bccdc2","width":"2px"}},"spacing":{"padding":{"left":"20px"},"blockGap":"4px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-left-color:#bccdc2;border-left-width:2px;padding-left:20px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"clamp(1.75rem, 1.3rem + 1.3vw, 2.25rem)","fontWeight":"700","letterSpacing":"-0.02em","lineHeight":"1.2"}}} -->
+<p style="font-size:clamp(1.75rem, 1.3rem + 1.3vw, 2.25rem);font-weight:700;letter-spacing:-0.02em;line-height:1.2">60+ nights</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c9ced1"},"typography":{"fontSize":"0.9375rem"}}} -->
+<p class="has-text-color" style="color:#c9ced1;font-size:0.9375rem">Spent inspecting hotels each year</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7.5vw, 6rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7.5vw, 6rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"40px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"bottom","style":{"spacing":{"blockGap":{"left":"64px"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"width":"41.66%"} -->
+<div class="wp-block-column" style="flex-basis:41.66%"><!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">What we believe</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">Four promises behind every trip</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"58.33%"} -->
+<div class="wp-block-column" style="flex-basis:58.33%"><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1.0625rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1.0625rem;line-height:1.55">Luxury is not a thread count. It’s the time you get back because someone else thought of everything.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:group {"className":"tr-grid-2x2","style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"grid","columnCount":4,"minimumColumnWidth":"14rem"}} -->
+<div class="wp-block-group tr-grid-2x2"><!-- wp:group {"style":{"color":{"background":"#faf8f4"},"border":{"radius":"16px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"28px","bottom":"28px","left":"24px","right":"24px"},"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-border-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:16px;background-color:#faf8f4;padding-top:28px;padding-right:24px;padding-bottom:28px;padding-left:24px"><!-- wp:paragraph {"className":"tr-icon-tile tr-icon-tile\u002d\u002drow ts-icon\u002d\u002dheart-handshake","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="tr-icon-tile tr-icon-tile--row ts-icon--heart-handshake has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:600">01</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.1875rem","fontWeight":"600"},"spacing":{"margin":{"top":"8px"}}}} -->
+<p style="margin-top:8px;font-size:1.1875rem;font-weight:600">One person, start to finish</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem;line-height:1.55">The designer who plans your trip is the one you call from the road. No hand-offs.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"color":{"background":"#faf8f4"},"border":{"radius":"16px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"28px","bottom":"28px","left":"24px","right":"24px"},"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-border-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:16px;background-color:#faf8f4;padding-top:28px;padding-right:24px;padding-bottom:28px;padding-left:24px"><!-- wp:paragraph {"className":"tr-icon-tile tr-icon-tile\u002d\u002drow ts-icon\u002d\u002deye","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="tr-icon-tile tr-icon-tile--row ts-icon--eye has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:600">02</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.1875rem","fontWeight":"600"},"spacing":{"margin":{"top":"8px"}}}} -->
+<p style="margin-top:8px;font-size:1.1875rem;font-weight:600">Seen with our own eyes</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem;line-height:1.55">We only recommend hotels, guides and experiences our team has tried in person.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"color":{"background":"#faf8f4"},"border":{"radius":"16px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"28px","bottom":"28px","left":"24px","right":"24px"},"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-border-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:16px;background-color:#faf8f4;padding-top:28px;padding-right:24px;padding-bottom:28px;padding-left:24px"><!-- wp:paragraph {"className":"tr-icon-tile tr-icon-tile\u002d\u002drow ts-icon\u002d\u002dreceipt","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="tr-icon-tile tr-icon-tile--row ts-icon--receipt has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:600">03</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.1875rem","fontWeight":"600"},"spacing":{"margin":{"top":"8px"}}}} -->
+<p style="margin-top:8px;font-size:1.1875rem;font-weight:600">Clear, honest pricing</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem;line-height:1.55">One itemized price. No hidden markups, and hotel rates that match booking direct.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"color":{"background":"#faf8f4"},"border":{"radius":"16px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"28px","bottom":"28px","left":"24px","right":"24px"},"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-border-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:16px;background-color:#faf8f4;padding-top:28px;padding-right:24px;padding-bottom:28px;padding-left:24px"><!-- wp:paragraph {"className":"tr-icon-tile tr-icon-tile\u002d\u002drow ts-icon\u002d\u002dleaf","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="tr-icon-tile tr-icon-tile--row ts-icon--leaf has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:600">04</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.1875rem","fontWeight":"600"},"spacing":{"margin":{"top":"8px"}}}} -->
+<p style="margin-top:8px;font-size:1.1875rem;font-weight:600">Travel that gives back</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem;line-height:1.55">Local guides, locally owned lodges and a share of every trip to conservation.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"subtle","align":"full","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7.5vw, 6rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-subtle-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7.5vw, 6rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"32px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"32px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"constrained","contentSize":"640px","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">Meet the travel designers</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">The people who will plan your trip</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1.0625rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1.0625rem;line-height:1.55">Each designer specializes in a region and travels there at least twice a year. We match you with the one who knows your trip best.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","className":"is-style-ts-arrow","style":{"typography":{"fontSize":"0.9375rem","fontWeight":"500"}}} -->
+<div class="wp-block-button is-style-ts-arrow"><a class="wp-block-button__link has-primary-color has-text-color has-custom-font-size wp-element-button" href="#" style="font-size:0.9375rem;font-weight:500">Meet the whole team</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-grid-2x2","style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"grid","columnCount":4,"minimumColumnWidth":"14rem"}} -->
+<div class="wp-block-group tr-grid-2x2"><!-- wp:group {"backgroundColor":"base","className":"tr-media-card","style":{"border":{"radius":"16px"},"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-media-card has-base-background-color has-background" style="border-radius:16px"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/travel-royale/assets/images/placeholder-portrait.svg" alt="Founder Name" style="aspect-ratio:4/5;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"},"blockGap":"6px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem","fontWeight":"600"}}} -->
+<p style="font-size:1.125rem;font-weight:600">Founder Name</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Founder &amp; Principal Designer</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"6px","margin":{"top":"8px"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+<div class="wp-block-group" style="margin-top:8px"><!-- wp:paragraph {"textColor":"primary","className":"tr-pill","style":{"color":{"background":"#e8efea"},"border":{"radius":"999px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"10px","right":"10px"}},"typography":{"fontSize":"0.8125rem","fontWeight":"500"}}} -->
+<p class="tr-pill has-primary-color has-text-color has-background" style="border-radius:999px;background-color:#e8efea;padding-top:4px;padding-right:10px;padding-bottom:4px;padding-left:10px;font-size:0.8125rem;font-weight:500">Canadian Rockies</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary","className":"tr-pill","style":{"color":{"background":"#e8efea"},"border":{"radius":"999px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"10px","right":"10px"}},"typography":{"fontSize":"0.8125rem","fontWeight":"500"}}} -->
+<p class="tr-pill has-primary-color has-text-color has-background" style="border-radius:999px;background-color:#e8efea;padding-top:4px;padding-right:10px;padding-bottom:4px;padding-left:10px;font-size:0.8125rem;font-weight:500">Rail</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"},"border":{"top":{"color":"#e6e1d8","width":"1px"}},"spacing":{"padding":{"top":"12px"},"margin":{"top":"8px"}}}} -->
+<p class="has-text-color" style="border-top-color:#e6e1d8;border-top-width:1px;color:#625d55;margin-top:8px;padding-top:12px;font-size:0.875rem;line-height:1.5">“Sunrise at Moraine Lake, before the first bus arrives.”</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","className":"tr-media-card","style":{"border":{"radius":"16px"},"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-media-card has-base-background-color has-background" style="border-radius:16px"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/travel-royale/assets/images/placeholder-portrait.svg" alt="Designer Name" style="aspect-ratio:4/5;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"},"blockGap":"6px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem","fontWeight":"600"}}} -->
+<p style="font-size:1.125rem;font-weight:600">Designer Name</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Senior Travel Designer</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"6px","margin":{"top":"8px"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+<div class="wp-block-group" style="margin-top:8px"><!-- wp:paragraph {"textColor":"primary","className":"tr-pill","style":{"color":{"background":"#e8efea"},"border":{"radius":"999px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"10px","right":"10px"}},"typography":{"fontSize":"0.8125rem","fontWeight":"500"}}} -->
+<p class="tr-pill has-primary-color has-text-color has-background" style="border-radius:999px;background-color:#e8efea;padding-top:4px;padding-right:10px;padding-bottom:4px;padding-left:10px;font-size:0.8125rem;font-weight:500">Alaska</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary","className":"tr-pill","style":{"color":{"background":"#e8efea"},"border":{"radius":"999px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"10px","right":"10px"}},"typography":{"fontSize":"0.8125rem","fontWeight":"500"}}} -->
+<p class="tr-pill has-primary-color has-text-color has-background" style="border-radius:999px;background-color:#e8efea;padding-top:4px;padding-right:10px;padding-bottom:4px;padding-left:10px;font-size:0.8125rem;font-weight:500">Wildlife</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"},"border":{"top":{"color":"#e6e1d8","width":"1px"}},"spacing":{"padding":{"top":"12px"},"margin":{"top":"8px"}}}} -->
+<p class="has-text-color" style="border-top-color:#e6e1d8;border-top-width:1px;color:#625d55;margin-top:8px;padding-top:12px;font-size:0.875rem;line-height:1.5">“Watching bears fish from a floatplane-only lodge.”</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","className":"tr-media-card","style":{"border":{"radius":"16px"},"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-media-card has-base-background-color has-background" style="border-radius:16px"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/travel-royale/assets/images/placeholder-portrait.svg" alt="Designer Name" style="aspect-ratio:4/5;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"},"blockGap":"6px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem","fontWeight":"600"}}} -->
+<p style="font-size:1.125rem;font-weight:600">Designer Name</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Travel Designer</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"6px","margin":{"top":"8px"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+<div class="wp-block-group" style="margin-top:8px"><!-- wp:paragraph {"textColor":"primary","className":"tr-pill","style":{"color":{"background":"#e8efea"},"border":{"radius":"999px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"10px","right":"10px"}},"typography":{"fontSize":"0.8125rem","fontWeight":"500"}}} -->
+<p class="tr-pill has-primary-color has-text-color has-background" style="border-radius:999px;background-color:#e8efea;padding-top:4px;padding-right:10px;padding-bottom:4px;padding-left:10px;font-size:0.8125rem;font-weight:500">California</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary","className":"tr-pill","style":{"color":{"background":"#e8efea"},"border":{"radius":"999px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"10px","right":"10px"}},"typography":{"fontSize":"0.8125rem","fontWeight":"500"}}} -->
+<p class="tr-pill has-primary-color has-text-color has-background" style="border-radius:999px;background-color:#e8efea;padding-top:4px;padding-right:10px;padding-bottom:4px;padding-left:10px;font-size:0.8125rem;font-weight:500">Wine</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"},"border":{"top":{"color":"#e6e1d8","width":"1px"}},"spacing":{"padding":{"top":"12px"},"margin":{"top":"8px"}}}} -->
+<p class="has-text-color" style="border-top-color:#e6e1d8;border-top-width:1px;color:#625d55;margin-top:8px;padding-top:12px;font-size:0.875rem;line-height:1.5">“A long lunch in Healdsburg, then the drive down Highway 1.”</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","className":"tr-media-card","style":{"border":{"radius":"16px"},"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-media-card has-base-background-color has-background" style="border-radius:16px"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/travel-royale/assets/images/placeholder-portrait.svg" alt="Designer Name" style="aspect-ratio:4/5;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"},"blockGap":"6px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem","fontWeight":"600"}}} -->
+<p style="font-size:1.125rem;font-weight:600">Designer Name</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Travel Designer</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"6px","margin":{"top":"8px"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+<div class="wp-block-group" style="margin-top:8px"><!-- wp:paragraph {"textColor":"primary","className":"tr-pill","style":{"color":{"background":"#e8efea"},"border":{"radius":"999px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"10px","right":"10px"}},"typography":{"fontSize":"0.8125rem","fontWeight":"500"}}} -->
+<p class="tr-pill has-primary-color has-text-color has-background" style="border-radius:999px;background-color:#e8efea;padding-top:4px;padding-right:10px;padding-bottom:4px;padding-left:10px;font-size:0.8125rem;font-weight:500">New York</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary","className":"tr-pill","style":{"color":{"background":"#e8efea"},"border":{"radius":"999px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"10px","right":"10px"}},"typography":{"fontSize":"0.8125rem","fontWeight":"500"}}} -->
+<p class="tr-pill has-primary-color has-text-color has-background" style="border-radius:999px;background-color:#e8efea;padding-top:4px;padding-right:10px;padding-bottom:4px;padding-left:10px;font-size:0.8125rem;font-weight:500">Québec</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"},"border":{"top":{"color":"#e6e1d8","width":"1px"}},"spacing":{"padding":{"top":"12px"},"margin":{"top":"8px"}}}} -->
+<p class="has-text-color" style="border-top-color:#e6e1d8;border-top-width:1px;color:#625d55;margin-top:8px;padding-top:12px;font-size:0.875rem;line-height:1.5">“Old Québec in the first snow of December.”</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7.5vw, 6rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7.5vw, 6rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"64px"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"width":"41.66%"} -->
+<div class="wp-block-column" style="flex-basis:41.66%"><!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">Why a travel designer</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">What changes when you book with us</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1.0625rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1.0625rem;line-height:1.55">The hotel rate is usually the same as booking direct. The difference is everything around it.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"58.33%"} -->
+<div class="wp-block-column" style="flex-basis:58.33%"><!-- wp:table {"className":"tr-compare"} -->
+<figure class="wp-block-table tr-compare"><table class="has-fixed-layout"><thead><tr><th></th><th>Booking it yourself</th><th>With us</th></tr></thead><tbody><tr><td>Hotel rate</td><td>Public rate</td><td>Same rate, plus partner perks</td></tr><tr><td>Upgrades &amp; credits</td><td>Luck of the day</td><td>Upgrade, breakfast, $100 credit</td></tr><tr><td>Hard-to-get bookings</td><td>Sold out online</td><td>Held allocations and personal contacts</td></tr><tr><td>Logistics</td><td>Dozens of bookings</td><td>One itinerary, one confirmation</td></tr><tr><td>When plans change</td><td>Airline call queue</td><td>24/7 line to your designer</td></tr><tr><td>Local knowledge</td><td>Review sites</td><td>Places our team has stayed</td></tr></tbody></table></figure>
+<!-- /wp:table --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"32px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">Milestones</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(1.625rem, 1.3rem + 1vw, 2rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.2"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(1.625rem, 1.3rem + 1vw, 2rem);font-weight:700;letter-spacing:-0.015em;line-height:1.2">Twenty years on one continent</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-timeline","style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"grid","columnCount":5,"minimumColumnWidth":"11rem"}} -->
+<div class="wp-block-group tr-timeline"><!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}}} -->
+<p style="font-size:1.5rem;font-weight:700">2005</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<p style="font-size:1rem;font-weight:600">The first trip</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.5">A two-week Rockies journey for friends becomes the first client trip.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}}} -->
+<p style="font-size:1.5rem;font-weight:700">2010</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<p style="font-size:1rem;font-weight:600">Alaska &amp; the West</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.5">Expanded to Alaska, California and the national parks.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}}} -->
+<p style="font-size:1.5rem;font-weight:700">2015</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<p style="font-size:1rem;font-weight:600">Vancouver office</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.5">Opened a second office to be closer to Western Canada.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}}} -->
+<p style="font-size:1.5rem;font-weight:700">2020</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<p style="font-size:1rem;font-weight:600">Our impact fund</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.5">Began giving 1% of every trip to conservation partners.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}}} -->
+<p style="font-size:1.5rem;font-weight:700">2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<p style="font-size:1rem;font-weight:600">3,400 journeys</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.5">A team of twelve designers, still independent.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"secondary","textColor":"base","align":"full","className":"is-style-ts-section-dark","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7.5vw, 6rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-ts-section-dark has-base-color has-secondary-background-color has-text-color has-background" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7.5vw, 6rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"36px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"bottom","style":{"spacing":{"blockGap":{"left":"64px"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"color":{"text":"#bccdc2"},"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-text-color" style="color:#bccdc2;font-size:0.875rem;font-weight:600">On the ground</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">We’ve slept in every hotel we recommend.</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph {"style":{"color":{"text":"#c9ced1"},"typography":{"fontSize":"1.125rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#c9ced1;font-size:1.125rem;line-height:1.55">Our team spends 60+ nights a year inspecting hotels, testing guides and finding new places. If it doesn’t meet our standard, we don’t sell it.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:group {"className":"tr-grid-2x2","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"grid","columnCount":4,"minimumColumnWidth":"14rem"}} -->
+<div class="wp-block-group tr-grid-2x2"><!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"14px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="https://images.pexels.com/photos/2662086/pexels-photo-2662086.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Canadian Rockies" style="border-radius:14px;aspect-ratio:4/3;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600"}}} -->
+<p style="font-size:1.0625rem;font-weight:600">Canadian Rockies</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dmap-pin-check","style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="ts-icon ts-icon--map-pin-check has-text-color" style="color:#c3c8cc;font-size:0.875rem">42 hotels inspected</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"14px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="https://images.pexels.com/photos/6145279/pexels-photo-6145279.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Alaska" style="border-radius:14px;aspect-ratio:4/3;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600"}}} -->
+<p style="font-size:1.0625rem;font-weight:600">Alaska</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dmap-pin-check","style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="ts-icon ts-icon--map-pin-check has-text-color" style="color:#c3c8cc;font-size:0.875rem">18 lodges inspected</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"14px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="https://images.pexels.com/photos/11109505/pexels-photo-11109505.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="California Coast &amp; Wine" style="border-radius:14px;aspect-ratio:4/3;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600"}}} -->
+<p style="font-size:1.0625rem;font-weight:600">California Coast &amp; Wine</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dmap-pin-check","style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="ts-icon ts-icon--map-pin-check has-text-color" style="color:#c3c8cc;font-size:0.875rem">56 hotels inspected</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"14px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="https://images.pexels.com/photos/14644822/pexels-photo-14644822.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Québec &amp; the East" style="border-radius:14px;aspect-ratio:4/3;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600"}}} -->
+<p style="font-size:1.0625rem;font-weight:600">Québec &amp; the East</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dmap-pin-check","style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="ts-icon ts-icon--map-pin-check has-text-color" style="color:#c3c8cc;font-size:0.875rem">34 hotels inspected</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"clamp(3rem, 6vw, 4.5rem)","bottom":"clamp(3rem, 6vw, 4.5rem)"},"margin":{"top":"0","bottom":"0"}},"border":{"bottom":{"color":"#e6e1d8","width":"1px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="border-bottom-color:#e6e1d8;border-bottom-width:1px;margin-top:0;margin-bottom:0;padding-top:clamp(3rem, 6vw, 4.5rem);padding-bottom:clamp(3rem, 6vw, 4.5rem)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"24px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"600","textAlign":"center"}}} -->
+<p class="has-text-align-center has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:600">Memberships, accreditations &amp; press</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"tr-grid-3","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"grid","columnCount":6,"minimumColumnWidth":"9rem"}} -->
+<div class="wp-block-group tr-grid-3"><!-- wp:group {"style":{"border":{"radius":"12px","width":"1px","style":"dashed","color":"#d6d0c5"},"dimensions":{"minHeight":"84px"},"spacing":{"padding":{"left":"12px","right":"12px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#d6d0c5;border-style:dashed;border-width:1px;border-radius:12px;min-height:84px;padding-right:12px;padding-left:12px"><!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dbadge-check","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"500","textAlign":"center"}}} -->
+<p class="has-text-align-center ts-icon ts-icon--badge-check has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:500">Affiliation logo</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"radius":"12px","width":"1px","style":"dashed","color":"#d6d0c5"},"dimensions":{"minHeight":"84px"},"spacing":{"padding":{"left":"12px","right":"12px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#d6d0c5;border-style:dashed;border-width:1px;border-radius:12px;min-height:84px;padding-right:12px;padding-left:12px"><!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dshield-check","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"500","textAlign":"center"}}} -->
+<p class="has-text-align-center ts-icon ts-icon--shield-check has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:500">Accreditation</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"radius":"12px","width":"1px","style":"dashed","color":"#d6d0c5"},"dimensions":{"minHeight":"84px"},"spacing":{"padding":{"left":"12px","right":"12px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#d6d0c5;border-style:dashed;border-width:1px;border-radius:12px;min-height:84px;padding-right:12px;padding-left:12px"><!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002daward","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"500","textAlign":"center"}}} -->
+<p class="has-text-align-center ts-icon ts-icon--award has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:500">Award logo</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"radius":"12px","width":"1px","style":"dashed","color":"#d6d0c5"},"dimensions":{"minHeight":"84px"},"spacing":{"padding":{"left":"12px","right":"12px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#d6d0c5;border-style:dashed;border-width:1px;border-radius:12px;min-height:84px;padding-right:12px;padding-left:12px"><!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dnewspaper","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"500","textAlign":"center"}}} -->
+<p class="has-text-align-center ts-icon ts-icon--newspaper has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:500">Press logo</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"radius":"12px","width":"1px","style":"dashed","color":"#d6d0c5"},"dimensions":{"minHeight":"84px"},"spacing":{"padding":{"left":"12px","right":"12px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#d6d0c5;border-style:dashed;border-width:1px;border-radius:12px;min-height:84px;padding-right:12px;padding-left:12px"><!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dnewspaper","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"500","textAlign":"center"}}} -->
+<p class="has-text-align-center ts-icon ts-icon--newspaper has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:500">Press logo</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"radius":"12px","width":"1px","style":"dashed","color":"#d6d0c5"},"dimensions":{"minHeight":"84px"},"spacing":{"padding":{"left":"12px","right":"12px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#d6d0c5;border-style:dashed;border-width:1px;border-radius:12px;min-height:84px;padding-right:12px;padding-left:12px"><!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dlandmark","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"500","textAlign":"center"}}} -->
+<p class="has-text-align-center ts-icon ts-icon--landmark has-text-color" style="color:#625d55;font-size:0.875rem;font-weight:500">Tourism board</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7.5vw, 6rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7.5vw, 6rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"left":"clamp(3rem, 6vw, 6rem)"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"16px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="https://images.pexels.com/photos/18058418/pexels-photo-18058418.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Boardwalk between coastal rainforest and the sea" style="border-radius:16px;aspect-ratio:4/3;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">Responsible travel</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">Leaving places better than we found them</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1.0625rem","lineHeight":"1.6"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1.0625rem;line-height:1.6">The wild places our travelers love need protecting. Giving back is built into how we work, not added at checkout.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"8px"},"blockGap":"18px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="margin-top:8px"><!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dtrees","style":{"spacing":{"blockGap":"3px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--trees"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600"}}} -->
+<p style="font-size:1.0625rem;font-weight:600">1% for conservation</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem;line-height:1.5">A share of every trip supports wilderness and wildlife partners across North America.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dusers","style":{"spacing":{"blockGap":"3px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--users"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600"}}} -->
+<p style="font-size:1.0625rem;font-weight:600">Local guides and owners</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem;line-height:1.5">We choose independent lodges and Indigenous-led experiences wherever we can.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dsprout","style":{"spacing":{"blockGap":"3px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--sprout"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600"}}} -->
+<p style="font-size:1.0625rem;font-weight:600">Lower-impact itineraries</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem;line-height:1.5">Fewer flights, more rail and slower routes, without giving up comfort.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:group {"backgroundColor":"subtle","align":"wide","style":{"border":{"radius":"20px"},"spacing":{"padding":{"top":"64px","bottom":"64px","left":"clamp(1.5rem, 5vw, 5rem)","right":"clamp(1.5rem, 5vw, 5rem)"},"blockGap":"24px"}},"layout":{"type":"constrained","contentSize":"940px"}} -->
+<div class="wp-block-group alignwide has-subtle-background-color has-background" style="border-radius:20px;padding-top:64px;padding-right:clamp(1.5rem, 5vw, 5rem);padding-bottom:64px;padding-left:clamp(1.5rem, 5vw, 5rem)"><!-- wp:paragraph {"className":"tr-quote-mark ts-icon\u002d\u002dquote","style":{"typography":{"fontSize":"clamp(1.375rem, 1.1rem + 0.9vw, 1.75rem)","fontWeight":"500","lineHeight":"1.4","letterSpacing":"-0.01em","textAlign":"center"}}} -->
+<p class="has-text-align-center tr-quote-mark ts-icon--quote" style="font-size:clamp(1.375rem, 1.1rem + 0.9vw, 1.75rem);font-weight:500;letter-spacing:-0.01em;line-height:1.4">We’ve used this team for eleven trips now. They know us so well that the first draft is usually the one we book.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","textAlign":"center"}}} -->
+<p class="has-text-align-center has-text-color" style="color:#625d55;font-size:0.9375rem"><strong>Sample traveler</strong> · Client since 2014</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"64px"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"width":"41.66%"} -->
+<div class="wp-block-column" style="flex-basis:41.66%"><!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">Working with us</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">Common questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1.0625rem","lineHeight":"1.55"},"elements":{"link":{"color":{"text":"var:preset|color|primary"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="has-text-color has-link-color" style="color:#625d55;font-size:1.0625rem;line-height:1.55">Something else on your mind? <a href="#">Ask a travel designer</a>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"58.33%"} -->
+<div class="wp-block-column" style="flex-basis:58.33%"><!-- wp:group {"className":"tr-faq","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-faq"><!-- wp:details {"showContent":true} -->
+<details class="wp-block-details" open><summary>Do you charge a planning fee?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.6"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.6">Trips under 7 nights carry a $350 planning fee, credited back when you book. For longer journeys there is no fee; we are paid by our hotel and lodge partners, and you pay the same rate as booking direct.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>How far in advance should we contact you?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.6"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.6">Six to nine months is ideal, especially for summer in the Rockies and Alaska or fall in New England. We can often arrange shorter-notice trips too, and we will tell you honestly what is still available.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Do you only plan trips in the US and Canada?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.6"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.6">Yes. Focusing on one continent is how we know every hotel, guide and road personally. For trips elsewhere we are happy to refer you to specialists we trust.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>What happens if something goes wrong while we travel?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.6"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.6">You get a 24/7 number that reaches someone on our team who knows your trip. Delayed flights, weather closures and changes of plan are handled for you, usually before you need to ask.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Can you plan for families or larger groups?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.6"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.6">Often. Multigenerational trips, milestone celebrations and private group journeys of up to 30 guests make up about a third of what we plan.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:cover {"url":"https://images.pexels.com/photos/5326969/pexels-photo-5326969.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=2000","isUserOverlayColor":true,"customGradient":"linear-gradient(90deg,rgba(16,18,20,0.8) 0%,rgba(16,18,20,0.45) 60%,rgba(16,18,20,0.2) 100%)","align":"wide","style":{"border":{"radius":"20px"},"spacing":{"padding":{"top":"clamp(3rem, 6vw, 4.5rem)","bottom":"clamp(3rem, 6vw, 4.5rem)","left":"clamp(1.5rem, 4.5vw, 4rem)","right":"clamp(1.5rem, 4.5vw, 4rem)"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-cover alignwide" style="border-radius:20px;padding-top:clamp(3rem, 6vw, 4.5rem);padding-right:clamp(1.5rem, 4.5vw, 4rem);padding-bottom:clamp(3rem, 6vw, 4.5rem);padding-left:clamp(1.5rem, 4.5vw, 4rem)"><img class="wp-block-cover__image-background" alt="" src="https://images.pexels.com/photos/5326969/pexels-photo-5326969.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(90deg,rgba(16,18,20,0.8) 0%,rgba(16,18,20,0.45) 60%,rgba(16,18,20,0.2) 100%)"></span><div class="wp-block-cover__inner-container"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"48px"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"width":"58.33%"} -->
+<div class="wp-block-column" style="flex-basis:58.33%"><!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textColor":"base","style":{"typography":{"fontSize":"clamp(2rem, 1.3rem + 2vw, 2.75rem)","fontWeight":"700","letterSpacing":"-0.02em","lineHeight":"1.12"}}} -->
+<h2 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2rem, 1.3rem + 2vw, 2.75rem);font-weight:700;letter-spacing:-0.02em;line-height:1.12">Let’s start with a conversation.</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"1.125rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#e9ecee;font-size:1.125rem;line-height:1.55">Tell us how you like to travel. We’ll match you with the right designer and send a draft itinerary within 48 hours.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"41.66%"} -->
+<div class="wp-block-column" style="flex-basis:41.66%"><!-- wp:group {"backgroundColor":"base","textColor":"heading","style":{"border":{"radius":"16px"},"spacing":{"padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"blockGap":"14px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-heading-color has-base-background-color has-text-color has-background" style="border-radius:16px;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem","fontWeight":"600"}}} -->
+<p style="font-size:1.125rem;font-weight:600">Speak with a travel designer</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","textColor":"primary-inverse","width":100,"style":{"border":{"radius":"999px"},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"24px","right":"24px"}},"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-inverse-color has-primary-background-color has-text-color has-background has-custom-font-size wp-element-button" href="#" style="border-radius:999px;padding-top:14px;padding-right:24px;padding-bottom:14px;padding-left:24px;font-size:1rem;font-weight:600">Book a consultation</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"backgroundColor":"base","textColor":"heading","width":100,"style":{"border":{"radius":"999px","width":"1px","color":"#d6d0c5"},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"24px","right":"24px"}},"typography":{"fontSize":"1rem","fontWeight":"500"}}} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-heading-color has-base-background-color has-text-color has-background has-border-color has-custom-font-size wp-element-button" href="tel:+18005550142" style="border-color:#d6d0c5;border-width:1px;border-radius:999px;padding-top:14px;padding-right:24px;padding-bottom:14px;padding-left:24px;font-size:1rem;font-weight:500">+1 (800) 555-0142</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","textAlign":"center"}}} -->
+<p class="has-text-align-center has-text-color" style="color:#625d55;font-size:0.875rem">Mon–Sat, 8am–8pm ET · Seattle &amp; Vancouver offices</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->

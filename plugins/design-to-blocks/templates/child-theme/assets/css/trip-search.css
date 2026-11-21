@@ -1,0 +1,218 @@
+/**
+ * WPTE Trip Search — Travel Royale (is-style-royale).
+ * White pill bar (~72px), short field dividers, primary pill submit.
+ */
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip-sfilter-wrapper {
+	padding: 0;
+	background: transparent;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__search-fields,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__search-fields.horizontal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	min-height: 72px;
+	height: 72px;
+	padding: 0 8px 0 28px;
+	background-color: #fff;
+	border: none;
+	border-radius: 999px;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field {
+	position: relative;
+	flex: 1 1 0;
+	min-width: 0;
+	height: auto !important;
+	min-height: 0;
+	margin: 0 !important;
+	padding: 0 1.25rem 0 2.5rem;
+	background: transparent !important;
+	border: none !important;
+	border-radius: 0 !important;
+	box-shadow: none;
+}
+
+/* Short ~36px divider between fields (not full-height). */
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field + .wpte-trip__adv-field::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 1px;
+	height: 36px;
+	transform: translateY(-50%);
+	background-color: var(--primary-border-color, var(--wp--preset--color--subtle-two));
+	pointer-events: none;
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field.wpte__select-field::after {
+	content: none !important;
+	display: none !important;
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field .icon {
+	position: absolute !important;
+	top: 50%;
+	left: 1rem;
+	transform: translateY(-50%) !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 18px;
+	height: 18px;
+	margin: 0;
+	color: var(--body-color, var(--wp--preset--color--text));
+	opacity: 0.65;
+	pointer-events: none;
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field .icon svg {
+	width: 16px;
+	height: 16px;
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field .wpte__input {
+	width: 100%;
+	height: auto !important;
+	min-height: 0 !important;
+	padding: 0 !important;
+	border: none !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	color: var(--heading-color, var(--wp--preset--color--heading));
+	font-family: var(--font-family, var(--wp--preset--font-family--secondary));
+	font-size: 15px !important;
+	font-weight: 500;
+	line-height: 1.3;
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field .wpte__input::placeholder {
+	color: var(--body-color, var(--wp--preset--color--text));
+	opacity: 0.55;
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field {
+	flex: 0 0 auto;
+	margin: 0;
+	padding: 0 0 0 8px;
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field .wpte-trip__search-btn,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field .wpte-trip__search-submit,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field button,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field input[type="submit"] {
+	display: inline-flex !important;
+	align-items: center;
+	justify-content: center;
+	width: auto !important;
+	min-height: 56px;
+	height: 56px !important;
+	margin: 0;
+	padding: 0 26px !important;
+	border: none !important;
+	border-radius: 999px !important;
+	background-color: var(--primary-color, var(--wp--preset--color--primary)) !important;
+	color: #fff !important;
+	font-family: var(--font-family, var(--wp--preset--font-family--secondary));
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1;
+	cursor: pointer;
+	box-shadow: none;
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field .wpte-trip__search-btn:hover,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field .wpte-trip__search-submit:hover,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field button:hover,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field input[type="submit"]:hover,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field .wpte-trip__search-btn:focus,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field .wpte-trip__search-submit:focus,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field button:focus,
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field input[type="submit"]:focus {
+	background-color: var(--heading-color, var(--wp--preset--color--heading)) !important;
+	color: #fff !important;
+}
+
+/* Dropdown panels above the pill. */
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field.wpte__select-field .wpte__select-options {
+	top: calc(100% + 12px);
+	left: 0;
+	z-index: 30;
+	min-width: 220px;
+	padding: 8px;
+	border-radius: 16px;
+	background-color: #fff;
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.16);
+}
+
+.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field.wpte__select-field .wpte__select-options ul li span {
+	padding: 10px 12px;
+	border-radius: 10px;
+}
+
+@media (max-width: 781px) {
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__search-fields,
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__search-fields.horizontal {
+		flex-direction: column;
+		align-items: stretch;
+		height: auto;
+		min-height: 0;
+		padding: 16px;
+		border-radius: 20px;
+		gap: 0;
+	}
+
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field {
+		width: 100%;
+		padding: 14px 12px 14px 2.5rem;
+	}
+
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field .icon {
+		left: 12px;
+	}
+
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__adv-field + .wpte-trip__adv-field::before {
+		top: 0;
+		left: 12px;
+		right: 12px;
+		width: auto;
+		height: 1px;
+		transform: none;
+	}
+
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field {
+		width: 100%;
+		padding: 12px 0 0;
+	}
+
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field .wpte-trip__search-btn,
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field .wpte-trip__search-submit,
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field button,
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__submit-field input[type="submit"] {
+		width: 100% !important;
+		border-radius: 999px !important;
+	}
+}
+
+/* Mobile: each stacked field gets its own 56px row (the desktop flex basis of 0 collapsed them). */
+@media (max-width: 781px) {
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__search-fields,
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__search-fields.horizontal {
+		padding: 8px 16px 16px;
+	}
+
+	.wp-block-wptravelengine-trip-search.is-style-royale .wpte-trip__search-fields .wpte-trip__adv-field {
+		display: flex;
+		flex: none;
+		align-items: center;
+		min-height: 56px;
+		padding: 0 12px 0 2.75rem;
+	}
+}

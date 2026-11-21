@@ -1,0 +1,435 @@
+<!-- wp:cover {"url":"https://images.pexels.com/photos/18033385/pexels-photo-18033385.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=2000","isUserOverlayColor":true,"minHeight":500,"minHeightUnit":"px","customGradient":"linear-gradient(90deg,rgba(16,18,20,0.8) 0%,rgba(16,18,20,0.45) 60%,rgba(16,18,20,0.2) 100%),linear-gradient(180deg,rgba(16,18,20,0.45) 0%,rgba(16,18,20,0) 30%)","align":"full","style":{"spacing":{"padding":{"top":"128px","bottom":"clamp(3rem, 6vw, 4.5rem)","left":"var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002droot\u002d\u002dpadding-left)","right":"var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002droot\u002d\u002dpadding-right)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1344px"}} -->
+<div class="wp-block-cover alignfull" style="margin-top:0;margin-bottom:0;padding-top:128px;padding-right:var(--wp--style--root--padding-right);padding-bottom:clamp(3rem, 6vw, 4.5rem);padding-left:var(--wp--style--root--padding-left);min-height:500px"><img class="wp-block-cover__image-background" alt="" src="https://images.pexels.com/photos/18033385/pexels-photo-18033385.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(90deg,rgba(16,18,20,0.8) 0%,rgba(16,18,20,0.45) 60%,rgba(16,18,20,0.2) 100%),linear-gradient(180deg,rgba(16,18,20,0.45) 0%,rgba(16,18,20,0) 30%)"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"18px"}},"layout":{"type":"constrained","contentSize":"780px","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.875rem"},"elements":{"link":{"color":{"text":"#e9ecee"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="has-text-color has-link-color" style="color:#e9ecee;font-size:0.875rem"><a href="/">Home</a> › Contact</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2.5rem, 1.5rem + 3vw, 3.625rem)","fontWeight":"700","letterSpacing":"-0.025em","lineHeight":"1.08"}}} -->
+<h1 class="wp-block-heading has-base-color has-text-color" style="font-size:clamp(2.5rem, 1.5rem + 3vw, 3.625rem);font-weight:700;letter-spacing:-0.025em;line-height:1.08">Let’s plan something unforgettable.</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"1.1875rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#e9ecee;font-size:1.1875rem;line-height:1.55">Tell us a little about your trip. A travel designer, not a call center, will reply within one business day.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"12px 28px","margin":{"top":"6px"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+<div class="wp-block-group" style="margin-top:6px"><!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dclock","style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--clock has-text-color" style="color:#e9ecee;font-size:0.9375rem;line-height:1.5">Reply within 1 business day</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dgift","style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--gift has-text-color" style="color:#e9ecee;font-size:0.9375rem;line-height:1.5">Free consultation, no obligation</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dlock","style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--lock has-text-color" style="color:#e9ecee;font-size:0.9375rem;line-height:1.5">Your details stay private</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"32px","bottom":"32px"},"margin":{"top":"0","bottom":"0"}},"border":{"bottom":{"color":"#e6e1d8","width":"1px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="border-bottom-color:#e6e1d8;border-bottom-width:1px;margin-top:0;margin-bottom:0;padding-top:32px;padding-bottom:32px"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"className":"tr-grid-2x2","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"grid","columnCount":4,"minimumColumnWidth":"14rem"}} -->
+<div class="wp-block-group tr-grid-2x2"><!-- wp:group {"className":"tr-card-link","style":{"color":{"background":"#faf8f4"},"border":{"radius":"16px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link has-border-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:16px;background-color:#faf8f4;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dphone","style":{"spacing":{"blockGap":"2px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--phone"><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Call a travel designer</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600","lineHeight":"1.4"},"elements":{"link":{"color":{"text":"var:preset|color|heading"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-link-color" style="font-size:1.0625rem;font-weight:600;line-height:1.4"><a href="tel:+18005550142">+1 (800) 555-0142</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.8125rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.8125rem">Mon–Sat, 8am–8pm ET</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-card-link","style":{"color":{"background":"#faf8f4"},"border":{"radius":"16px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link has-border-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:16px;background-color:#faf8f4;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dmail","style":{"spacing":{"blockGap":"2px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--mail"><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Email</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600","lineHeight":"1.4"},"elements":{"link":{"color":{"text":"var:preset|color|heading"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-link-color" style="font-size:1.0625rem;font-weight:600;line-height:1.4"><a href="mailto:hello@example.com">hello@example.com</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.8125rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.8125rem">Reply within one business day</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-card-link","style":{"color":{"background":"#faf8f4"},"border":{"radius":"16px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link has-border-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:16px;background-color:#faf8f4;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dmessage-circle","style":{"spacing":{"blockGap":"2px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--message-circle"><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">WhatsApp</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600","lineHeight":"1.4"},"elements":{"link":{"color":{"text":"var:preset|color|heading"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-link-color" style="font-size:1.0625rem;font-weight:600;line-height:1.4"><a href="#">Message us</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.8125rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.8125rem">Quick questions, any time</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-card-link","style":{"color":{"background":"#faf8f4"},"border":{"radius":"16px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link has-border-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:16px;background-color:#faf8f4;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px"><!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dcalendar-check","style":{"spacing":{"blockGap":"2px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--calendar-check"><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Book a call</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600","lineHeight":"1.4"},"elements":{"link":{"color":{"text":"var:preset|color|heading"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-link-color" style="font-size:1.0625rem;font-weight:600;line-height:1.4"><a href="#consult">Free 30-minute call</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.8125rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.8125rem">Phone or video</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","anchor":"enquiry","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7vw, 5.5rem)","bottom":"clamp(3.5rem, 7vw, 5.5rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" id="enquiry" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7vw, 5.5rem);padding-bottom:clamp(3.5rem, 7vw, 5.5rem)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","className":"tr-cols-stack-tablet","style":{"spacing":{"blockGap":{"left":"56px"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top tr-cols-stack-tablet"><!-- wp:column {"width":"62%"} -->
+<div class="wp-block-column" style="flex-basis:62%"><!-- wp:group {"style":{"spacing":{"blockGap":"28px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">Trip enquiry</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">Tell us about your trip</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1.0625rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1.0625rem;line-height:1.55">Rough ideas are fine. The more we know, the better our first proposal.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","className":"tr-cf7","style":{"border":{"radius":"20px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"clamp(1.5rem, 3vw, 2.5rem)","bottom":"clamp(1.5rem, 3vw, 2.5rem)","left":"clamp(1.25rem, 3vw, 2.5rem)","right":"clamp(1.25rem, 3vw, 2.5rem)"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-cf7 has-border-color has-base-background-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:20px;padding-top:clamp(1.5rem, 3vw, 2.5rem);padding-right:clamp(1.25rem, 3vw, 2.5rem);padding-bottom:clamp(1.5rem, 3vw, 2.5rem);padding-left:clamp(1.25rem, 3vw, 2.5rem)"><!-- wp:shortcode -->
+[contact-form-7 id="REPLACE-WITH-TRIP-ENQUIRY-FORM-ID" title="Trip enquiry"]
+<!-- /wp:shortcode --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"38%","className":"tr-enquiry-aside"} -->
+<div class="wp-block-column tr-enquiry-aside" style="flex-basis:38%"><!-- wp:group {"style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"backgroundColor":"secondary","textColor":"base","style":{"border":{"radius":"20px"},"spacing":{"padding":{"top":"32px","bottom":"16px","left":"32px","right":"32px"},"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-base-color has-secondary-background-color has-text-color has-background" style="border-radius:20px;padding-top:32px;padding-right:32px;padding-bottom:16px;padding-left:32px"><!-- wp:paragraph {"style":{"color":{"text":"#bccdc2"},"typography":{"fontSize":"0.875rem","fontWeight":"500"},"spacing":{"padding":{"bottom":"6px"}}}} -->
+<p class="has-text-color" style="color:#bccdc2;padding-bottom:6px;font-size:0.875rem;font-weight:500">What happens next</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"border":{"bottom":{"color":"rgba(255,255,255,0.14)","width":"1px"}},"spacing":{"padding":{"top":"16px","bottom":"16px"},"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<div class="wp-block-group" style="border-bottom-color:rgba(255,255,255,0.14);border-bottom-width:1px;padding-top:16px;padding-bottom:16px"><!-- wp:paragraph {"className":"tr-num tr-num\u002d\u002dsm","style":{"typography":{"fontSize":"0.9375rem","fontWeight":"600"}}} -->
+<p class="tr-num tr-num--sm" style="font-size:0.9375rem;font-weight:600">1</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<p style="font-size:1rem;font-weight:600">We read every word</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#c3c8cc;font-size:0.875rem;line-height:1.5">Your enquiry goes to the designer who knows your destination best.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"bottom":{"color":"rgba(255,255,255,0.14)","width":"1px"}},"spacing":{"padding":{"top":"16px","bottom":"16px"},"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<div class="wp-block-group" style="border-bottom-color:rgba(255,255,255,0.14);border-bottom-width:1px;padding-top:16px;padding-bottom:16px"><!-- wp:paragraph {"className":"tr-num tr-num\u002d\u002dsm","style":{"typography":{"fontSize":"0.9375rem","fontWeight":"600"}}} -->
+<p class="tr-num tr-num--sm" style="font-size:0.9375rem;font-weight:600">2</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<p style="font-size:1rem;font-weight:600">A conversation, within a day</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#c3c8cc;font-size:0.875rem;line-height:1.5">We call or email to ask a few questions about how you like to travel.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"16px","bottom":"16px"},"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<div class="wp-block-group" style="padding-top:16px;padding-bottom:16px"><!-- wp:paragraph {"className":"tr-num tr-num\u002d\u002dsm","style":{"typography":{"fontSize":"0.9375rem","fontWeight":"600"}}} -->
+<p class="tr-num tr-num--sm" style="font-size:0.9375rem;font-weight:600">3</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<p style="font-size:1rem;font-weight:600">Your draft itinerary in 48 hours</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#c3c8cc;font-size:0.875rem;line-height:1.5">Hotels, routes and a clear price. Change anything until it is right.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"color":{"background":"#faf8f4"},"border":{"radius":"20px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"blockGap":"14px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-border-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:20px;background-color:#faf8f4;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600"}}} -->
+<p style="font-size:1.0625rem;font-weight:600">Office hours</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"border":{"bottom":{"color":"#e6e1d8","width":"1px"}},"spacing":{"padding":{"bottom":"10px"},"blockGap":"16px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group" style="border-bottom-color:#e6e1d8;border-bottom-width:1px;padding-bottom:10px"><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem">Monday – Friday</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9375rem","fontWeight":"600"}}} -->
+<p style="font-size:0.9375rem;font-weight:600">8am – 8pm ET</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"bottom":{"color":"#e6e1d8","width":"1px"}},"spacing":{"padding":{"bottom":"10px"},"blockGap":"16px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group" style="border-bottom-color:#e6e1d8;border-bottom-width:1px;padding-bottom:10px"><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem">Saturday</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9375rem","fontWeight":"600"}}} -->
+<p style="font-size:0.9375rem;font-weight:600">9am – 5pm ET</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"bottom":{"color":"#e6e1d8","width":"1px"}},"spacing":{"padding":{"bottom":"10px"},"blockGap":"16px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group" style="border-bottom-color:#e6e1d8;border-bottom-width:1px;padding-bottom:10px"><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem">Sunday</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9375rem","fontWeight":"600"}}} -->
+<p style="font-size:0.9375rem;font-weight:600">Closed</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dheadset tr-icon-primary","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--headset tr-icon-primary has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.5">Clients currently traveling can reach the concierge 24/7.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"border":{"radius":"20px","width":"1px","color":"#e6e1d8"},"spacing":{"padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#e6e1d8;border-width:1px;border-radius:20px;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:paragraph {"textColor":"primary","className":"tr-stars"} -->
+<p class="tr-stars has-primary-color has-text-color">5 out of 5 stars</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","lineHeight":"1.55"}}} -->
+<p style="font-size:1rem;line-height:1.55">“I sent a two-line email. Two days later we had an itinerary that felt like it had been written for us.”</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem"><strong>Sample traveler</strong> · Pacific Coast Grand Drive</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"subtle","align":"full","anchor":"consult","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7.5vw, 6rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-subtle-background-color has-background" id="consult" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7.5vw, 6rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","className":"tr-cols-stack-tablet","style":{"spacing":{"blockGap":{"left":"64px"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top tr-cols-stack-tablet"><!-- wp:column {"width":"41.66%"} -->
+<div class="wp-block-column" style="flex-basis:41.66%"><!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">Prefer to talk?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">Book a free 30-minute consultation</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1.0625rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1.0625rem;line-height:1.55">Pick a time for a phone or video call with a travel designer. Times are shown in Eastern Time.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"12px"},"blockGap":"10px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="margin-top:12px"><!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dvideo tr-icon-primary","style":{"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--video tr-icon-primary" style="font-size:0.9375rem;line-height:1.5">Phone or video, your choice</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002duser-check tr-icon-primary","style":{"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--user-check tr-icon-primary" style="font-size:0.9375rem;line-height:1.5">Matched to a destination specialist</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dfile-text tr-icon-primary","style":{"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--file-text tr-icon-primary" style="font-size:0.9375rem;line-height:1.5">Draft itinerary within 48 hours of the call</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"58.33%"} -->
+<div class="wp-block-column" style="flex-basis:58.33%"><!-- wp:group {"backgroundColor":"base","className":"tr-cf7 tr-cf7\u002d\u002dconsult","style":{"border":{"radius":"20px"},"shadow":"var:preset|shadow|sm","spacing":{"padding":{"top":"clamp(1.5rem, 3vw, 2rem)","bottom":"clamp(1.5rem, 3vw, 2rem)","left":"clamp(1.25rem, 3vw, 2rem)","right":"clamp(1.25rem, 3vw, 2rem)"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-cf7 tr-cf7--consult has-base-background-color has-background" style="border-radius:20px;padding-top:clamp(1.5rem, 3vw, 2rem);padding-right:clamp(1.25rem, 3vw, 2rem);padding-bottom:clamp(1.5rem, 3vw, 2rem);padding-left:clamp(1.25rem, 3vw, 2rem);box-shadow:var(--wp--preset--shadow--sm)"><!-- wp:shortcode -->
+[contact-form-7 id="REPLACE-WITH-CONSULTATION-FORM-ID" title="Consultation request"]
+<!-- /wp:shortcode --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7.5vw, 6rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7.5vw, 6rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"32px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">Our offices</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">Visit us, by appointment</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-grid-stack-tablet","style":{"spacing":{"blockGap":"24px"}},"layout":{"type":"grid","columnCount":2,"minimumColumnWidth":"28rem"}} -->
+<div class="wp-block-group tr-grid-stack-tablet"><!-- wp:columns {"backgroundColor":"base","className":"tr-svc-row","style":{"border":{"radius":"20px","width":"1px","color":"#e6e1d8"},"spacing":{"blockGap":{"left":"0px"}}}} -->
+<div class="wp-block-columns tr-svc-row has-border-color has-base-background-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:20px"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"className":"tr-media-stat tr-media-stat\u002d\u002dsm","layout":{"type":"default"}} -->
+<div class="wp-block-group tr-media-stat tr-media-stat--sm"><!-- wp:image {"scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/travel-royale/assets/images/placeholder-landscape.svg" alt="Seattle city skyline" style="object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"blockGap":"14px"}}} -->
+<div class="wp-block-column" style="padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px;flex-basis:50%"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.8125rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.8125rem;font-weight:600">Head office · United States</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.625rem","fontWeight":"700","letterSpacing":"-0.01em","lineHeight":"1.2"}}} -->
+<p style="font-size:1.625rem;font-weight:700;letter-spacing:-0.01em;line-height:1.2">Seattle</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem;line-height:1.55">1200 Example Avenue, Suite 400<br>Seattle, WA 98101</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dphone tr-icon-primary","style":{"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--phone tr-icon-primary" style="font-size:0.9375rem;line-height:1.5">+1 (800) 555-0142</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dclock tr-icon-primary","style":{"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--clock tr-icon-primary" style="font-size:0.9375rem;line-height:1.5">Mon–Fri 9am–6pm PT</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-link-after ts-icon\u002d\u002darrow-up-right","style":{"typography":{"fontSize":"0.9375rem","fontWeight":"600"},"spacing":{"margin":{"top":"8px"}},"elements":{"link":{"color":{"text":"var:preset|color|primary"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-link-after ts-icon--arrow-up-right has-link-color" style="margin-top:8px;font-size:0.9375rem;font-weight:600"><a href="#">Get directions</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"backgroundColor":"base","className":"tr-svc-row","style":{"border":{"radius":"20px","width":"1px","color":"#e6e1d8"},"spacing":{"blockGap":{"left":"0px"}}}} -->
+<div class="wp-block-columns tr-svc-row has-border-color has-base-background-color has-background" style="border-color:#e6e1d8;border-width:1px;border-radius:20px"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"className":"tr-media-stat tr-media-stat\u002d\u002dsm","layout":{"type":"default"}} -->
+<div class="wp-block-group tr-media-stat tr-media-stat--sm"><!-- wp:image {"scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/travel-royale/assets/images/placeholder-landscape.svg" alt="Vancouver harbour and city skyline" style="object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"blockGap":"14px"}}} -->
+<div class="wp-block-column" style="padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px;flex-basis:50%"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.8125rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.8125rem;font-weight:600">Canada office</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.625rem","fontWeight":"700","letterSpacing":"-0.01em","lineHeight":"1.2"}}} -->
+<p style="font-size:1.625rem;font-weight:700;letter-spacing:-0.01em;line-height:1.2">Vancouver</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.9375rem;line-height:1.55">800 Example Street, Suite 1500<br>Vancouver, BC V6C 0A0</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dphone tr-icon-primary","style":{"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--phone tr-icon-primary" style="font-size:0.9375rem;line-height:1.5">+1 (800) 555-0143</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dclock tr-icon-primary","style":{"typography":{"fontSize":"0.9375rem","lineHeight":"1.5"}}} -->
+<p class="ts-icon ts-icon--clock tr-icon-primary" style="font-size:0.9375rem;line-height:1.5">Mon–Fri 9am–6pm PT</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-link-after ts-icon\u002d\u002darrow-up-right","style":{"typography":{"fontSize":"0.9375rem","fontWeight":"600"},"spacing":{"margin":{"top":"8px"}},"elements":{"link":{"color":{"text":"var:preset|color|primary"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-link-after ts-icon--arrow-up-right has-link-color" style="margin-top:8px;font-size:0.9375rem;font-weight:600"><a href="#">Get directions</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:group {"backgroundColor":"secondary","textColor":"base","align":"wide","className":"is-style-ts-section-dark","style":{"border":{"radius":"20px"},"spacing":{"padding":{"top":"48px","bottom":"48px","left":"clamp(1.5rem, 4vw, 3.5rem)","right":"clamp(1.5rem, 4vw, 3.5rem)"},"blockGap":"32px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+<div class="wp-block-group alignwide is-style-ts-section-dark has-base-color has-secondary-background-color has-text-color has-background" style="border-radius:20px;padding-top:48px;padding-right:clamp(1.5rem, 4vw, 3.5rem);padding-bottom:48px;padding-left:clamp(1.5rem, 4vw, 3.5rem)"><!-- wp:group {"className":"tr-icon-side tr-icon-side\u002d\u002doutline tr-icon-side\u002d\u002dxl ts-icon\u002d\u002dheadset","style":{"layout":{"selfStretch":"fill"},"spacing":{"blockGap":"6px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side tr-icon-side--outline tr-icon-side--xl ts-icon--headset"><!-- wp:paragraph {"style":{"typography":{"fontSize":"clamp(1.375rem, 1.2rem + 0.6vw, 1.625rem)","fontWeight":"700","lineHeight":"1.25"}}} -->
+<p style="font-size:clamp(1.375rem, 1.2rem + 0.6vw, 1.625rem);font-weight:700;line-height:1.25">Already traveling with us?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"1rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#c3c8cc;font-size:1rem;line-height:1.5">Use the 24/7 concierge line on your itinerary. Average reply under 10 minutes, any hour.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"style":{"spacing":{"blockGap":"12px"}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"base","className":"tr-chip ts-icon\u002d\u002dmessage-circle","style":{"color":{"background":"transparent"},"border":{"radius":"999px","width":"1px","color":"rgba(255,255,255,0.4)"},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"22px","right":"22px"}},"typography":{"fontSize":"1rem","fontWeight":"500"}}} -->
+<div class="wp-block-button tr-chip ts-icon--message-circle"><a class="wp-block-button__link has-base-color has-text-color has-background has-border-color has-custom-font-size wp-element-button" href="#" style="border-color:rgba(255,255,255,0.4);border-width:1px;border-radius:999px;background-color:transparent;padding-top:14px;padding-right:22px;padding-bottom:14px;padding-left:22px;font-size:1rem;font-weight:500">WhatsApp</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"backgroundColor":"base","textColor":"heading","className":"tr-chip ts-icon\u002d\u002dphone","style":{"border":{"radius":"999px"},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"24px","right":"24px"}},"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<div class="wp-block-button tr-chip ts-icon--phone"><a class="wp-block-button__link has-heading-color has-base-background-color has-text-color has-background has-custom-font-size wp-element-button" href="tel:+18005550199" style="border-radius:999px;padding-top:14px;padding-right:24px;padding-bottom:14px;padding-left:24px;font-size:1rem;font-weight:600">+1 (800) 555-0199</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"left":"64px"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"width":"41.66%"} -->
+<div class="wp-block-column" style="flex-basis:41.66%"><!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary","style":{"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-primary-color has-text-color" style="font-size:0.875rem;font-weight:600">Before you get in touch</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(1.625rem, 1.3rem + 1vw, 2rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.2"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(1.625rem, 1.3rem + 1vw, 2rem);font-weight:700;letter-spacing:-0.015em;line-height:1.2">Quick answers</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"tr-link-after ts-icon\u002d\u002darrow-right","style":{"typography":{"fontSize":"0.9375rem","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|primary"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-link-after ts-icon--arrow-right has-link-color" style="font-size:0.9375rem;font-weight:500"><a href="/faq/">See all FAQs</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"58.33%"} -->
+<div class="wp-block-column" style="flex-basis:58.33%"><!-- wp:group {"className":"tr-faq","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-faq"><!-- wp:details {"showContent":true} -->
+<details class="wp-block-details" open><summary>Is the consultation really free?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.6"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.6">Yes. The first call and your draft itinerary carry no cost and no obligation. A planning fee only applies to some shorter trips, and it is credited back when you book.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>How quickly will I hear back?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.6"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.6">Within one business day for enquiries, and usually the same day. If you are already traveling, the 24/7 concierge replies in under 10 minutes on average.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Can I visit your office?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.6"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.6">Yes, by appointment at our Seattle and Vancouver offices. Most clients prefer phone or video, which works just as well.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->

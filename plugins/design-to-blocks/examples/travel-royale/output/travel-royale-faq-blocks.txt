@@ -1,0 +1,585 @@
+<!-- wp:cover {"url":"https://images.pexels.com/photos/7005517/pexels-photo-7005517.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=2000","isUserOverlayColor":true,"focalPoint":{"x":0.5,"y":0.6},"minHeight":520,"minHeightUnit":"px","customGradient":"linear-gradient(180deg,rgba(16,18,20,0.65) 0%,rgba(16,18,20,0.55) 50%,rgba(16,18,20,0.75) 100%)","align":"full","style":{"spacing":{"padding":{"top":"128px","bottom":"clamp(3rem, 6vw, 4.5rem)","left":"var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002droot\u002d\u002dpadding-left)","right":"var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002droot\u002d\u002dpadding-right)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"820px"}} -->
+<div class="wp-block-cover alignfull" style="margin-top:0;margin-bottom:0;padding-top:128px;padding-right:var(--wp--style--root--padding-right);padding-bottom:clamp(3rem, 6vw, 4.5rem);padding-left:var(--wp--style--root--padding-left);min-height:520px"><img class="wp-block-cover__image-background" alt="" src="https://images.pexels.com/photos/7005517/pexels-photo-7005517.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000" style="object-position:50% 60%" data-object-fit="cover" data-object-position="50% 60%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(180deg,rgba(16,18,20,0.65) 0%,rgba(16,18,20,0.55) 50%,rgba(16,18,20,0.75) 100%)"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"18px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.875rem","textAlign":"center"},"elements":{"link":{"color":{"text":"#e9ecee"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="has-text-align-center has-text-color has-link-color" style="color:#e9ecee;font-size:0.875rem"><a href="/">Home</a> › FAQ</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"textColor":"base","style":{"typography":{"fontSize":"clamp(2.25rem, 1.4rem + 2.8vw, 3.5rem)","fontWeight":"700","letterSpacing":"-0.025em","lineHeight":"1.08","textAlign":"center"}}} -->
+<h1 class="wp-block-heading has-text-align-center has-base-color has-text-color" style="font-size:clamp(2.25rem, 1.4rem + 2.8vw, 3.5rem);font-weight:700;letter-spacing:-0.025em;line-height:1.08">How can we help?</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"1.1875rem","lineHeight":"1.55","textAlign":"center"}}} -->
+<p class="has-text-align-center has-text-color" style="color:#e9ecee;font-size:1.1875rem;line-height:1.55">Answers about planning, pricing, travel documents and what happens while you travel.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"10px"}}},"layout":{"type":"constrained","contentSize":"720px"}} -->
+<div class="wp-block-group" style="margin-top:10px"><!-- wp:search {"label":"Search questions","showLabel":false,"placeholder":"Search, e.g. deposit, eTA, cancellation","width":100,"widthUnit":"%","buttonText":"Search","buttonPosition":"no-button","className":"tr-faq-search"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#e9ecee;font-size:0.875rem">Popular:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"base","className":"tr-faq-pick","style":{"color":{"background":"rgba(0,0,0,0.25)"},"border":{"radius":"999px","width":"1px","color":"rgba(255,255,255,0.6)"},"spacing":{"padding":{"top":"7px","bottom":"7px","left":"14px","right":"14px"}},"typography":{"fontSize":"0.875rem","fontWeight":"500"}}} -->
+<div class="wp-block-button tr-faq-pick"><a class="wp-block-button__link has-base-color has-text-color has-background has-border-color has-custom-font-size wp-element-button" href="#faq-questions" style="border-color:rgba(255,255,255,0.6);border-width:1px;border-radius:999px;background-color:rgba(0,0,0,0.25);padding-top:7px;padding-right:14px;padding-bottom:7px;padding-left:14px;font-size:0.875rem;font-weight:500">Planning fee</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"textColor":"base","className":"tr-faq-pick","style":{"color":{"background":"rgba(0,0,0,0.25)"},"border":{"radius":"999px","width":"1px","color":"rgba(255,255,255,0.6)"},"spacing":{"padding":{"top":"7px","bottom":"7px","left":"14px","right":"14px"}},"typography":{"fontSize":"0.875rem","fontWeight":"500"}}} -->
+<div class="wp-block-button tr-faq-pick"><a class="wp-block-button__link has-base-color has-text-color has-background has-border-color has-custom-font-size wp-element-button" href="#faq-questions" style="border-color:rgba(255,255,255,0.6);border-width:1px;border-radius:999px;background-color:rgba(0,0,0,0.25);padding-top:7px;padding-right:14px;padding-bottom:7px;padding-left:14px;font-size:0.875rem;font-weight:500">Deposit</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"textColor":"base","className":"tr-faq-pick","style":{"color":{"background":"rgba(0,0,0,0.25)"},"border":{"radius":"999px","width":"1px","color":"rgba(255,255,255,0.6)"},"spacing":{"padding":{"top":"7px","bottom":"7px","left":"14px","right":"14px"}},"typography":{"fontSize":"0.875rem","fontWeight":"500"}}} -->
+<div class="wp-block-button tr-faq-pick"><a class="wp-block-button__link has-base-color has-text-color has-background has-border-color has-custom-font-size wp-element-button" href="#faq-questions" style="border-color:rgba(255,255,255,0.6);border-width:1px;border-radius:999px;background-color:rgba(0,0,0,0.25);padding-top:7px;padding-right:14px;padding-bottom:7px;padding-left:14px;font-size:0.875rem;font-weight:500">eTA</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"textColor":"base","className":"tr-faq-pick","style":{"color":{"background":"rgba(0,0,0,0.25)"},"border":{"radius":"999px","width":"1px","color":"rgba(255,255,255,0.6)"},"spacing":{"padding":{"top":"7px","bottom":"7px","left":"14px","right":"14px"}},"typography":{"fontSize":"0.875rem","fontWeight":"500"}}} -->
+<div class="wp-block-button tr-faq-pick"><a class="wp-block-button__link has-base-color has-text-color has-background has-border-color has-custom-font-size wp-element-button" href="#faq-questions" style="border-color:rgba(255,255,255,0.6);border-width:1px;border-radius:999px;background-color:rgba(0,0,0,0.25);padding-top:7px;padding-right:14px;padding-bottom:7px;padding-left:14px;font-size:0.875rem;font-weight:500">Cancellation</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"36px","bottom":"36px"},"margin":{"top":"0","bottom":"0"}},"border":{"bottom":{"color":"#e6e1d8","width":"1px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="border-bottom-color:#e6e1d8;border-bottom-width:1px;margin-top:0;margin-bottom:0;padding-top:36px;padding-bottom:36px"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"className":"tr-grid-2x2","style":{"spacing":{"blockGap":"32px"}},"layout":{"type":"grid","columnCount":4,"minimumColumnWidth":"14rem"}} -->
+<div class="wp-block-group tr-grid-2x2"><!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dreceipt","style":{"spacing":{"blockGap":"2px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--receipt"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.25rem","fontWeight":"700","letterSpacing":"-0.01em"}}} -->
+<p style="font-size:1.25rem;font-weight:700;letter-spacing:-0.01em">No hidden markups</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.45"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.45">Hotel rates match booking direct</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dcalendar-clock","style":{"spacing":{"blockGap":"2px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--calendar-clock"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.25rem","fontWeight":"700","letterSpacing":"-0.01em"}}} -->
+<p style="font-size:1.25rem;font-weight:700;letter-spacing:-0.01em">48 hours</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.45"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.45">From first call to draft itinerary</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dwallet","style":{"spacing":{"blockGap":"2px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--wallet"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.25rem","fontWeight":"700","letterSpacing":"-0.01em"}}} -->
+<p style="font-size:1.25rem;font-weight:700;letter-spacing:-0.01em">25% deposit</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.45"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.45">Balance due 60 days before travel</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-icon-side ts-icon\u002d\u002dheadset","style":{"spacing":{"blockGap":"2px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-icon-side ts-icon--headset"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.25rem","fontWeight":"700","letterSpacing":"-0.01em"}}} -->
+<p style="font-size:1.25rem;font-weight:700;letter-spacing:-0.01em">&lt; 10 min</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.45"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.45">Average 24/7 concierge reply</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"clamp(3rem, 6vw, 4.5rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:clamp(3rem, 6vw, 4.5rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:columns {"align":"wide","anchor":"faq-questions","className":"tr-faq-page","style":{"spacing":{"blockGap":{"left":"64px"}}}} -->
+<div class="wp-block-columns alignwide tr-faq-page" id="faq-questions"><!-- wp:column {"width":"320px","className":"tr-faq-side"} -->
+<div class="wp-block-column tr-faq-side" style="flex-basis:320px"><!-- wp:group {"style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"tagName":"nav","ariaLabel":"Question topics","className":"tr-topics","style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+<nav aria-label="Question topics" class="wp-block-group tr-topics"><!-- wp:paragraph {"className":"tr-topics__title","style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","fontWeight":"600"},"spacing":{"padding":{"left":"14px","right":"14px","bottom":"8px"}}}} -->
+<p class="tr-topics__title has-text-color" style="color:#625d55;padding-right:14px;padding-bottom:8px;padding-left:14px;font-size:0.875rem;font-weight:600">Topics</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"tr-topic is-active ts-icon\u002d\u002dlist","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group tr-topic is-active ts-icon--list"><!-- wp:paragraph {"className":"tr-topic__label"} -->
+<p class="tr-topic__label"><a href="#faq-questions">All questions</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-topic__count"} -->
+<p class="tr-topic__count">24</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-topic ts-icon\u002d\u002dmap","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group tr-topic ts-icon--map"><!-- wp:paragraph {"className":"tr-topic__label"} -->
+<p class="tr-topic__label"><a href="#faq-planning">Planning &amp; booking</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-topic__count"} -->
+<p class="tr-topic__count">5</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-topic ts-icon\u002d\u002dcredit-card","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group tr-topic ts-icon--credit-card"><!-- wp:paragraph {"className":"tr-topic__label"} -->
+<p class="tr-topic__label"><a href="#faq-pricing">Pricing &amp; payments</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-topic__count"} -->
+<p class="tr-topic__count">4</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-topic ts-icon\u002d\u002dplane","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group tr-topic ts-icon--plane"><!-- wp:paragraph {"className":"tr-topic__label"} -->
+<p class="tr-topic__label"><a href="#faq-documents">Flights &amp; travel documents</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-topic__count"} -->
+<p class="tr-topic__count">3</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-topic ts-icon\u002d\u002dbuilding-2","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group tr-topic ts-icon--building-2"><!-- wp:paragraph {"className":"tr-topic__label"} -->
+<p class="tr-topic__label"><a href="#faq-hotels">Hotels &amp; experiences</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-topic__count"} -->
+<p class="tr-topic__count">3</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-topic ts-icon\u002d\u002dshield-check","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group tr-topic ts-icon--shield-check"><!-- wp:paragraph {"className":"tr-topic__label"} -->
+<p class="tr-topic__label"><a href="#faq-cancellations">Insurance &amp; cancellations</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-topic__count"} -->
+<p class="tr-topic__count">3</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-topic ts-icon\u002d\u002dheadset","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group tr-topic ts-icon--headset"><!-- wp:paragraph {"className":"tr-topic__label"} -->
+<p class="tr-topic__label"><a href="#faq-trip">During your trip</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-topic__count"} -->
+<p class="tr-topic__count">3</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-topic ts-icon\u002d\u002dusers","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group tr-topic ts-icon--users"><!-- wp:paragraph {"className":"tr-topic__label"} -->
+<p class="tr-topic__label"><a href="#faq-groups">Families, groups &amp; occasions</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-topic__count"} -->
+<p class="tr-topic__count">3</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></nav>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"subtle","className":"tr-faq-aside","style":{"border":{"radius":"16px"},"spacing":{"padding":{"top":"22px","bottom":"22px","left":"22px","right":"22px"},"blockGap":"10px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-faq-aside has-subtle-background-color has-background" style="border-radius:16px;padding-top:22px;padding-right:22px;padding-bottom:22px;padding-left:22px"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<p style="font-size:1rem;font-weight:600">Already traveling?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem;line-height:1.5">Use the 24/7 concierge number on your itinerary for anything urgent.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary","className":"ts-icon ts-icon\u002d\u002dheadset","style":{"typography":{"fontSize":"0.9375rem","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="ts-icon ts-icon--headset has-primary-color has-text-color has-link-color" style="font-size:0.9375rem;font-weight:600"><a href="#">Contact concierge</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"48px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"anchor":"faq-planning","className":"tr-faq-group","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"default"}} -->
+<div id="faq-planning" class="wp-block-group tr-faq-group"><!-- wp:heading {"className":"tr-icon-label tr-icon-label\u002d\u002dsm ts-icon\u002d\u002dmap","style":{"typography":{"fontSize":"clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem)","fontWeight":"600"}}} -->
+<h2 class="wp-block-heading tr-icon-label tr-icon-label--sm ts-icon--map" style="font-size:clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);font-weight:600">Planning &amp; booking</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tr-faq tr-faq\u002d\u002dcircle","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-faq tr-faq--circle"><!-- wp:details {"showContent":true} -->
+<details class="wp-block-details" open><summary>How does planning a trip with you work?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">It starts with a free 30-minute call with a travel designer. Within 48 hours you get a draft itinerary with hotel options, a map and a clear price. We refine it together until it feels right, then book everything on one confirmation.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>How far in advance should I contact you?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Six to nine months ahead is ideal, and up to a year for summer in the Rockies and Alaska, fall foliage in New England, or holiday weeks. Shorter-notice trips are often possible; we will tell you honestly what is still available.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Do you only plan trips in the US and Canada?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Yes. Focusing on one continent means our team has personally visited the hotels, guides and routes we recommend. For trips elsewhere we are happy to refer you to specialists we trust.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Can I book a single service, like just a hotel or a car?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Absolutely. Many clients start with one booking. You still get partner hotel perks where they apply and access to our 24/7 concierge for that part of your trip.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Can you work around flights or hotels I have already booked?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Usually, yes. Send us your existing confirmations and we will plan transfers, experiences and the rest of the trip around them.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"anchor":"faq-pricing","className":"tr-faq-group","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"default"}} -->
+<div id="faq-pricing" class="wp-block-group tr-faq-group"><!-- wp:heading {"className":"tr-icon-label tr-icon-label\u002d\u002dsm ts-icon\u002d\u002dcredit-card","style":{"typography":{"fontSize":"clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem)","fontWeight":"600"}}} -->
+<h2 class="wp-block-heading tr-icon-label tr-icon-label--sm ts-icon--credit-card" style="font-size:clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);font-weight:600">Pricing &amp; payments</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tr-faq tr-faq\u002d\u002dcircle","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-faq tr-faq--circle"><!-- wp:details -->
+<details class="wp-block-details"><summary>Do you charge a planning fee?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Trips shorter than 7 nights carry a $500 planning fee, credited back in full when you book. Longer journeys have no planning fee. Private Client membership is priced separately.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Will I pay more than booking directly?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">No. Hotel rates match what you would pay booking direct, and partner perks like upgrades, breakfast and hotel credits are added on top. Every price we quote is itemized, with no hidden markups.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>What deposit is required and when is the balance due?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">A 25% deposit confirms your trip. The balance is due 60 days before departure. Some hotels, lodges and rail journeys have their own deposit rules, which we show clearly before you book.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Which payment methods do you accept?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">All major credit cards, bank transfer and ACH. Paying by card can also earn your usual rewards points. Prices are quoted in US dollars, or Canadian dollars on request.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"anchor":"faq-documents","className":"tr-faq-group","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"default"}} -->
+<div id="faq-documents" class="wp-block-group tr-faq-group"><!-- wp:heading {"className":"tr-icon-label tr-icon-label\u002d\u002dsm ts-icon\u002d\u002dplane","style":{"typography":{"fontSize":"clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem)","fontWeight":"600"}}} -->
+<h2 class="wp-block-heading tr-icon-label tr-icon-label--sm ts-icon--plane" style="font-size:clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);font-weight:600">Flights &amp; travel documents</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tr-faq tr-faq\u002d\u002dcircle","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-faq tr-faq--circle"><!-- wp:details -->
+<details class="wp-block-details"><summary>Do you book first class, business class and private jets?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Yes. We book premium cabins on all major airlines and source private jet, floatplane and helicopter charters. Charter quotes usually arrive within a few hours.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>What documents do I need to travel between the US and Canada?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">It depends on your citizenship. Most travelers need a valid passport, and many visitors also need an eTA for Canada or an ESTA for the US. We check the current requirements for every traveler on your booking and remind you well before departure.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Can you help with airport meet-and-greet and fast-track?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Yes. Where available we arrange VIP meet-and-greet, fast-track security, lounge access and a driver waiting at arrivals with your name.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"anchor":"faq-hotels","className":"tr-faq-group","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"default"}} -->
+<div id="faq-hotels" class="wp-block-group tr-faq-group"><!-- wp:heading {"className":"tr-icon-label tr-icon-label\u002d\u002dsm ts-icon\u002d\u002dbuilding-2","style":{"typography":{"fontSize":"clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem)","fontWeight":"600"}}} -->
+<h2 class="wp-block-heading tr-icon-label tr-icon-label--sm ts-icon--building-2" style="font-size:clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);font-weight:600">Hotels &amp; experiences</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tr-faq tr-faq\u002d\u002dcircle","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-faq tr-faq--circle"><!-- wp:details -->
+<details class="wp-block-details"><summary>Have you really visited the hotels you recommend?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Yes. Our team spends 60+ nights a year inspecting hotels and lodges. If we have not stayed there or seen it in person, we tell you.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>What perks do I get at partner hotels?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Typically a room upgrade on arrival when available, daily breakfast for two, a $100 credit to use at the hotel, and early check-in or late checkout when possible. Exact perks vary by hotel and are listed in your proposal.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Can you book private guides and exclusive experiences?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Yes. Helicopter tours, private naturalists, chef’s tables, winery cellars and after-hours access are all arranged with partners we have worked with for years.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"anchor":"faq-cancellations","className":"tr-faq-group","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"default"}} -->
+<div id="faq-cancellations" class="wp-block-group tr-faq-group"><!-- wp:heading {"className":"tr-icon-label tr-icon-label\u002d\u002dsm ts-icon\u002d\u002dshield-check","style":{"typography":{"fontSize":"clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem)","fontWeight":"600"}}} -->
+<h2 class="wp-block-heading tr-icon-label tr-icon-label--sm ts-icon--shield-check" style="font-size:clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);font-weight:600">Insurance &amp; cancellations</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tr-faq tr-faq\u002d\u002dcircle","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-faq tr-faq--circle"><!-- wp:details -->
+<details class="wp-block-details"><summary>What is your cancellation policy?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Your deposit is refundable up to 90 days before departure, minus any non-refundable supplier costs, which we always flag before you book. Closer to departure, each hotel and operator’s own terms apply.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Should I buy travel insurance?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">We strongly recommend it. We help you choose cover for cancellation, medical care, evacuation and delays from licensed third-party insurers, including cancel-for-any-reason options.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>What happens if weather or a closure affects my trip?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">We watch your route in real time. If a road, park or flight is affected, the concierge team rebooks hotels, transfers and experiences, usually before you need to ask.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"anchor":"faq-trip","className":"tr-faq-group","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"default"}} -->
+<div id="faq-trip" class="wp-block-group tr-faq-group"><!-- wp:heading {"className":"tr-icon-label tr-icon-label\u002d\u002dsm ts-icon\u002d\u002dheadset","style":{"typography":{"fontSize":"clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem)","fontWeight":"600"}}} -->
+<h2 class="wp-block-heading tr-icon-label tr-icon-label--sm ts-icon--headset" style="font-size:clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);font-weight:600">During your trip</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tr-faq tr-faq\u002d\u002dcircle","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-faq tr-faq--circle"><!-- wp:details -->
+<details class="wp-block-details"><summary>How do I reach you while I am traveling?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Your itinerary includes a 24/7 number with phone, text and WhatsApp, answered by our own team. The average reply time is under 10 minutes, day or night.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Will I get a printed itinerary?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Yes. You receive a printed travel book a couple of weeks before departure, plus a mobile app with your full itinerary, confirmations, maps and contacts, which also works offline.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Can the concierge book restaurants and change plans on the go?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Of course. Dinner reservations, extra nights, a different activity, gifts or flowers. Just message us.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"anchor":"faq-groups","className":"tr-faq-group","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"default"}} -->
+<div id="faq-groups" class="wp-block-group tr-faq-group"><!-- wp:heading {"className":"tr-icon-label tr-icon-label\u002d\u002dsm ts-icon\u002d\u002dusers","style":{"typography":{"fontSize":"clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem)","fontWeight":"600"}}} -->
+<h2 class="wp-block-heading tr-icon-label tr-icon-label--sm ts-icon--users" style="font-size:clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);font-weight:600">Families, groups &amp; occasions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tr-faq tr-faq\u002d\u002dcircle","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-faq tr-faq--circle"><!-- wp:details -->
+<details class="wp-block-details"><summary>Do you plan multigenerational and family trips?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Often. We plan for grandparents through toddlers, with connecting rooms, kids’ activities, sensible pacing and private vehicles big enough for everyone.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Can you plan honeymoons, proposals and anniversaries?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">Yes, and quietly. We coordinate surprises with hotels and guides and keep every detail private until the moment.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>What is the largest group you can arrange?</summary><!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1rem","lineHeight":"1.65"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1rem;line-height:1.65">We regularly plan private group journeys of up to 30 guests, including whole-lodge buyouts and private rail cars.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-faq-empty","style":{"border":{"radius":"16px","width":"1px","style":"dashed","color":"#d6d0c5"},"spacing":{"padding":{"top":"48px","bottom":"48px","left":"24px","right":"24px"},"blockGap":"12px"}},"layout":{"type":"constrained","contentSize":"420px"}} -->
+<div class="wp-block-group tr-faq-empty has-border-color" style="border-color:#d6d0c5;border-style:dashed;border-width:1px;border-radius:16px;padding-top:48px;padding-right:24px;padding-bottom:48px;padding-left:24px"><!-- wp:paragraph {"className":"ts-icon ts-icon\u002d\u002dlg ts-icon\u002d\u002dmessage-circle-question","style":{"typography":{"fontSize":"1.25rem","fontWeight":"600","textAlign":"center"}}} -->
+<p class="has-text-align-center ts-icon ts-icon--lg ts-icon--message-circle-question" style="font-size:1.25rem;font-weight:600">No answers match that search</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.9375rem","textAlign":"center"}}} -->
+<p class="has-text-align-center has-text-color" style="color:#625d55;font-size:0.9375rem">Try a different word, or ask us directly. A travel designer replies within one business day.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"8px"},"blockGap":"12px"}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:8px"><!-- wp:button {"backgroundColor":"base","textColor":"heading","className":"tr-faq-clear","style":{"border":{"radius":"999px","width":"1px","color":"#d6d0c5"},"spacing":{"padding":{"top":"11px","bottom":"11px","left":"18px","right":"18px"}},"typography":{"fontSize":"0.9375rem","fontWeight":"500"}}} -->
+<div class="wp-block-button tr-faq-clear"><a class="wp-block-button__link has-heading-color has-base-background-color has-text-color has-background has-border-color has-custom-font-size wp-element-button" href="#faq-questions" style="border-color:#d6d0c5;border-width:1px;border-radius:999px;padding-top:11px;padding-right:18px;padding-bottom:11px;padding-left:18px;font-size:0.9375rem;font-weight:500">Clear search</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"backgroundColor":"primary","textColor":"primary-inverse","style":{"border":{"radius":"999px"},"spacing":{"padding":{"top":"11px","bottom":"11px","left":"18px","right":"18px"}},"typography":{"fontSize":"0.9375rem","fontWeight":"600"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-primary-inverse-color has-primary-background-color has-text-color has-background has-custom-font-size wp-element-button" href="/contact/" style="border-radius:999px;padding-top:11px;padding-right:18px;padding-bottom:11px;padding-left:18px;font-size:0.9375rem;font-weight:600">Ask a question</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"secondary","textColor":"base","align":"full","className":"is-style-ts-section-dark","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7.5vw, 6rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-ts-section-dark has-base-color has-secondary-background-color has-text-color has-background" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7.5vw, 6rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"36px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"bottom","style":{"spacing":{"blockGap":{"left":"64px"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"color":{"text":"#bccdc2"},"typography":{"fontSize":"0.875rem","fontWeight":"600"}}} -->
+<p class="has-text-color" style="color:#bccdc2;font-size:0.875rem;font-weight:600">Still have questions?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2rem, 1.4rem + 1.6vw, 2.5rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.15"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(2rem, 1.4rem + 1.6vw, 2.5rem);font-weight:700;letter-spacing:-0.015em;line-height:1.15">Talk to a real person, however you like.</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph {"style":{"color":{"text":"#c9ced1"},"typography":{"fontSize":"1.125rem","lineHeight":"1.55"}}} -->
+<p class="has-text-color" style="color:#c9ced1;font-size:1.125rem;line-height:1.55">Every message goes to our own team in Seattle and Vancouver, never an outsourced call center.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:group {"className":"tr-grid-2x2","style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"grid","columnCount":4,"minimumColumnWidth":"14rem"}} -->
+<div class="wp-block-group tr-grid-2x2"><!-- wp:group {"className":"tr-card-link","style":{"border":{"radius":"16px","width":"1px","color":"rgba(255,255,255,0.18)"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"blockGap":"10px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link has-border-color" style="border-color:rgba(255,255,255,0.18);border-width:1px;border-radius:16px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:paragraph {"className":"tr-icon-tile tr-icon-tile\u002d\u002doutline ts-icon\u002d\u002dphone","style":{"typography":{"fontSize":"1.125rem","fontWeight":"600"}}} -->
+<p class="tr-icon-tile tr-icon-tile--outline ts-icon--phone" style="font-size:1.125rem;font-weight:600">Call us</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.9375rem"},"elements":{"link":{"color":{"text":"#e9ecee"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-text-color has-link-color" style="color:#e9ecee;font-size:0.9375rem"><a href="tel:+18005550142">+1 (800) 555-0142</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#c3c8cc;font-size:0.875rem">Mon–Sat, 8am–8pm ET</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-card-link","style":{"border":{"radius":"16px","width":"1px","color":"rgba(255,255,255,0.18)"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"blockGap":"10px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link has-border-color" style="border-color:rgba(255,255,255,0.18);border-width:1px;border-radius:16px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:paragraph {"className":"tr-icon-tile tr-icon-tile\u002d\u002doutline ts-icon\u002d\u002dmail","style":{"typography":{"fontSize":"1.125rem","fontWeight":"600"}}} -->
+<p class="tr-icon-tile tr-icon-tile--outline ts-icon--mail" style="font-size:1.125rem;font-weight:600">Email</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.9375rem"},"elements":{"link":{"color":{"text":"#e9ecee"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-text-color has-link-color" style="color:#e9ecee;font-size:0.9375rem"><a href="mailto:hello@example.com">hello@example.com</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#c3c8cc;font-size:0.875rem">Reply within one business day</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-card-link","style":{"border":{"radius":"16px","width":"1px","color":"rgba(255,255,255,0.18)"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"blockGap":"10px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link has-border-color" style="border-color:rgba(255,255,255,0.18);border-width:1px;border-radius:16px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:paragraph {"className":"tr-icon-tile tr-icon-tile\u002d\u002doutline ts-icon\u002d\u002dmessage-circle","style":{"typography":{"fontSize":"1.125rem","fontWeight":"600"}}} -->
+<p class="tr-icon-tile tr-icon-tile--outline ts-icon--message-circle" style="font-size:1.125rem;font-weight:600">WhatsApp</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.9375rem"},"elements":{"link":{"color":{"text":"#e9ecee"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-text-color has-link-color" style="color:#e9ecee;font-size:0.9375rem"><a href="#">Message a designer</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#c3c8cc;font-size:0.875rem">Great for quick questions</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-card-link","style":{"border":{"radius":"16px","width":"1px","color":"rgba(255,255,255,0.18)"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"blockGap":"10px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link has-border-color" style="border-color:rgba(255,255,255,0.18);border-width:1px;border-radius:16px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:paragraph {"className":"tr-icon-tile tr-icon-tile\u002d\u002doutline ts-icon\u002d\u002dcalendar-check","style":{"typography":{"fontSize":"1.125rem","fontWeight":"600"}}} -->
+<p class="tr-icon-tile tr-icon-tile--outline ts-icon--calendar-check" style="font-size:1.125rem;font-weight:600">Book a call</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"color":{"text":"#e9ecee"},"typography":{"fontSize":"0.9375rem"},"elements":{"link":{"color":{"text":"#e9ecee"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-text-color has-link-color" style="color:#e9ecee;font-size:0.9375rem"><a href="#">Free 30-minute consultation</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#c3c8cc"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#c3c8cc;font-size:0.875rem">Pick a time that suits you</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"clamp(3.5rem, 7.5vw, 6rem)","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:clamp(3.5rem, 7.5vw, 6rem);padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
+<div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontSize":"clamp(1.25rem, 1.1rem + 0.5vw, 1.375rem)","fontWeight":"600"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(1.25rem, 1.1rem + 0.5vw, 1.375rem);font-weight:600">Helpful before you go</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9375rem","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|primary"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="has-link-color" style="font-size:0.9375rem;font-weight:500"><a href="#">All travel guides</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-grid-3","style":{"spacing":{"blockGap":"24px"}},"layout":{"type":"grid","columnCount":3,"minimumColumnWidth":"15rem"}} -->
+<div class="wp-block-group tr-grid-3"><!-- wp:group {"className":"tr-card-link","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"14px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="/wp-content/themes/travel-royale/assets/images/placeholder-landscape.svg" alt="Border crossing between the US and Canada" style="border-radius:14px;aspect-ratio:16/9;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600","lineHeight":"1.35"},"elements":{"link":{"color":{"text":"var:preset|color|heading"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-link-color" style="font-size:1.0625rem;font-weight:600;line-height:1.35"><a href="#">Entry requirements for the US and Canada, explained</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Travel documents · 6 min read</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-card-link","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"14px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="/wp-content/themes/travel-royale/assets/images/placeholder-landscape.svg" alt="Turquoise lake in the Canadian Rockies" style="border-radius:14px;aspect-ratio:16/9;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600","lineHeight":"1.35"},"elements":{"link":{"color":{"text":"var:preset|color|heading"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-link-color" style="font-size:1.0625rem;font-weight:600;line-height:1.35"><a href="#">What to pack for the Canadian Rockies in every season</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Packing guide · 5 min read</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tr-card-link","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tr-card-link"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"14px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="/wp-content/themes/travel-royale/assets/images/placeholder-landscape.svg" alt="Couple sitting by a mountain lake" style="border-radius:14px;aspect-ratio:16/9;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"className":"tr-card-link__target","style":{"typography":{"fontSize":"1.0625rem","fontWeight":"600","lineHeight":"1.35"},"elements":{"link":{"color":{"text":"var:preset|color|heading"},"typography":{"textDecoration":"none"}}}}} -->
+<p class="tr-card-link__target has-link-color" style="font-size:1.0625rem;font-weight:600;line-height:1.35"><a href="#">Choosing travel insurance for a luxury trip</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"0.875rem"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:0.875rem">Planning guide · 7 min read</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"base","align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"clamp(3.5rem, 7.5vw, 6rem)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:clamp(3.5rem, 7.5vw, 6rem)"><!-- wp:group {"backgroundColor":"subtle","align":"wide","style":{"border":{"radius":"20px"},"spacing":{"padding":{"top":"48px","bottom":"48px","left":"clamp(1.5rem, 4vw, 3.5rem)","right":"clamp(1.5rem, 4vw, 3.5rem)"},"blockGap":"32px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+<div class="wp-block-group alignwide has-subtle-background-color has-background" style="border-radius:20px;padding-top:48px;padding-right:clamp(1.5rem, 4vw, 3.5rem);padding-bottom:48px;padding-left:clamp(1.5rem, 4vw, 3.5rem)"><!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontSize":"clamp(1.5rem, 1.1rem + 1.2vw, 1.875rem)","fontWeight":"700","letterSpacing":"-0.015em","lineHeight":"1.2"}}} -->
+<h2 class="wp-block-heading" style="font-size:clamp(1.5rem, 1.1rem + 1.2vw, 1.875rem);font-weight:700;letter-spacing:-0.015em;line-height:1.2">Ready to start planning?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#625d55"},"typography":{"fontSize":"1.0625rem","lineHeight":"1.5"}}} -->
+<p class="has-text-color" style="color:#625d55;font-size:1.0625rem;line-height:1.5">A free 30-minute call with a travel designer. Draft itinerary within 48 hours.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"style":{"spacing":{"blockGap":"12px"}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"heading","className":"tr-chip ts-icon\u002d\u002dphone","style":{"border":{"radius":"999px","width":"1px","color":"#d6d0c5"},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"24px","right":"24px"}},"typography":{"fontSize":"1rem","fontWeight":"500"}}} -->
+<div class="wp-block-button tr-chip ts-icon--phone"><a class="wp-block-button__link has-heading-color has-base-background-color has-text-color has-background has-border-color has-custom-font-size wp-element-button" href="tel:+18005550142" style="border-color:#d6d0c5;border-width:1px;border-radius:999px;padding-top:14px;padding-right:24px;padding-bottom:14px;padding-left:24px;font-size:1rem;font-weight:500">+1 (800) 555-0142</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"backgroundColor":"primary","textColor":"primary-inverse","className":"tr-btn-arrow","style":{"border":{"radius":"999px"},"spacing":{"padding":{"top":"14px","bottom":"14px","left":"24px","right":"24px"}},"typography":{"fontSize":"1rem","fontWeight":"600"}}} -->
+<div class="wp-block-button tr-btn-arrow"><a class="wp-block-button__link has-primary-inverse-color has-primary-background-color has-text-color has-background has-custom-font-size wp-element-button" href="#" style="border-radius:999px;padding-top:14px;padding-right:24px;padding-bottom:14px;padding-left:24px;font-size:1rem;font-weight:600">Book a consultation</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->

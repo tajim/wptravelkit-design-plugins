@@ -1,0 +1,132 @@
+/**
+ * WPTE Trips — Travel Royale (is-style-royale), layout 1 card.
+ */
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single {
+	margin-bottom: 0;
+	height: 100%;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trips-single-inner-wrap {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow: hidden;
+	padding: 0;
+	border: 1px solid var(--primary-border-color, var(--wp--preset--color--subtle-two));
+	border-radius: 16px;
+	background-color: var(--base-color, var(--wp--preset--color--base));
+	box-shadow: none;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-fig {
+	position: relative;
+	margin: 0;
+	overflow: hidden;
+	aspect-ratio: 4 / 3;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-fig a {
+	display: block;
+	height: 100%;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-fig img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-feat-ribbon {
+	position: absolute;
+	top: 0.75rem;
+	left: 0.75rem;
+	z-index: 2;
+	margin: 0;
+	background: transparent;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-feat-ribbon-txt {
+	display: inline-flex;
+	padding: 0.35rem 0.65rem;
+	border-radius: 999px;
+	background-color: var(--heading-color, var(--wp--preset--color--heading));
+	color: var(--base-color, var(--wp--preset--color--base));
+	font-family: var(--font-family, var(--wp--preset--font-family--secondary));
+	font-size: var(--wp--preset--font-size--caption, 0.8125rem);
+	font-weight: 600;
+	line-height: 1;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-content-wrap {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 0.4rem;
+	padding: var(--wp--preset--spacing--small, 1rem);
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-title {
+	margin: 0;
+	font-family: var(--font-family-h4, var(--wp--preset--font-family--primary));
+	font-size: var(--font-size-h4, var(--wp--preset--font-size--medium));
+	font-weight: 600;
+	line-height: 1.3;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-title a {
+	color: var(--heading-color, var(--wp--preset--color--heading));
+	text-decoration: none;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-title a:hover,
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-title a:focus {
+	color: var(--primary-color, var(--wp--preset--color--primary));
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-desti {
+	margin: 0;
+	color: var(--body-color, var(--wp--preset--color--text));
+	font-size: var(--wp--preset--font-size--small, 1rem);
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-budget .actual-price {
+	color: var(--primary-color, var(--wp--preset--color--primary));
+	font-weight: 700;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-budget .striked-price {
+	color: var(--body-color, var(--wp--preset--color--text));
+	opacity: 0.65;
+	text-decoration: line-through;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-discount {
+	display: inline-flex;
+	padding: 0.2rem 0.5rem;
+	border-radius: 999px;
+	background-color: var(--subtle-color, var(--wp--preset--color--subtle));
+	color: var(--primary-color, var(--wp--preset--color--primary));
+	font-size: var(--wp--preset--font-size--caption, 0.8125rem);
+	font-weight: 600;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-viewmre-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: auto;
+	padding: 0.65rem 1rem;
+	border-radius: 999px;
+	background-color: var(--primary-color, var(--wp--preset--color--primary));
+	color: var(--wp--preset--color--primary-inverse, var(--base-color));
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-viewmre-btn:hover,
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-viewmre-btn:focus {
+	background-color: var(--heading-color, var(--wp--preset--color--heading));
+	color: var(--base-color, var(--wp--preset--color--base));
+}

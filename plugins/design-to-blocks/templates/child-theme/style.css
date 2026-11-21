@@ -1,0 +1,1724 @@
+/*
+Theme Name: Travel Royale
+Theme URI: https://wptravelkit.com/wordpress-travel-themes/travel-royale/
+Author: WP Travel Kit
+Author URI: https://wptravelkit.com/
+Description: Travel Royale is an elegant, block-based child theme of Travelscape for luxury travel agencies, private tour designers and tailor-made trip planners. It pairs a full-screen hero with a trip search, signature destination grids, curated journeys from WP Travel Engine, experience and perk cards, a "how we plan" story section, traveler reviews and a consultation call-to-action. Every page is built with native WordPress blocks, so you can edit text, images and colors right in the block editor. Works with WP Travel Engine, Contact Form 7 and one-click demo import through Demo Importer Plus.
+Template: travelscape
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, custom-logo, custom-menu, featured-images, full-width-template, block-patterns, translation-ready, wide-blocks, blog
+Text Domain: travel-royale
+*/
+
+/* -------------------------------------------------------------------------
+   Header (block template part, parts/header.html)
+   ------------------------------------------------------------------------- */
+
+.travelscape-block-header {
+	border-bottom: 0;
+}
+
+.tr-header {
+	background-color: var(--wp--preset--color--base);
+	border-bottom: 1px solid var(--wp--preset--color--subtle-two);
+}
+
+.tr-header .wp-block-site-title a,
+.tr-header-phone a {
+	color: var(--wp--preset--color--heading);
+	text-decoration: none;
+}
+
+.tr-header .tr-header-nav a {
+	text-decoration: none;
+}
+
+/* Transparent header over a full-width Cover at the top of a Block Canvas page. */
+body.travel-royale-overlay-header #page {
+	position: relative;
+}
+
+body.travel-royale-overlay-header .travelscape-block-header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 30;
+	background-color: transparent;
+}
+
+body.travel-royale-overlay-header .tr-header {
+	background-color: transparent;
+	border-bottom-color: rgba(255, 255, 255, 0.18);
+}
+
+body.travel-royale-overlay-header .tr-header .wp-block-site-title a,
+body.travel-royale-overlay-header .tr-header-phone,
+body.travel-royale-overlay-header .tr-header-phone a,
+body.travel-royale-overlay-header .tr-header .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item__content,
+body.travel-royale-overlay-header .tr-header .wp-block-navigation__responsive-container-open {
+	color: #ffffff;
+}
+
+body.travel-royale-overlay-header .tr-header-cta .wp-block-button__link {
+	background-color: #ffffff !important;
+	color: var(--wp--preset--color--heading) !important;
+}
+
+/* -------------------------------------------------------------------------
+   Footer (block template part, parts/footer.html)
+   ------------------------------------------------------------------------- */
+
+.travelscape-block-footer {
+	padding: 0;
+	border-top: 0;
+	background-color: transparent;
+	font-size: inherit;
+}
+
+.tr-footer a {
+	color: #625d55;
+	text-decoration: none;
+}
+
+.tr-footer a:hover,
+.tr-footer a:focus {
+	color: var(--wp--preset--color--heading);
+	text-decoration: underline;
+}
+
+.tr-footer .wp-block-site-title a {
+	color: var(--wp--preset--color--heading);
+}
+
+.tr-footer .wp-block-list li {
+	margin: 0 0 10px;
+}
+
+/* -------------------------------------------------------------------------
+   Components used by the Travel Royale patterns
+   ------------------------------------------------------------------------- */
+
+/* Small pill label (e.g. "Most requested"). */
+.tr-pill {
+	width: fit-content;
+}
+
+/* Icon in a soft green tile above a title: add tr-icon-tile + ts-icon--{name}. */
+.tr-icon-tile {
+	position: relative;
+}
+
+.tr-icon-tile::before {
+	display: block;
+	width: 36px;
+	height: 36px;
+	margin-bottom: 12px;
+	border-radius: 10px;
+	background-color: #e8efea;
+	content: "";
+}
+
+.tr-icon-tile::after {
+	position: absolute;
+	top: 8px;
+	inset-inline-start: 8px;
+	width: 20px;
+	height: 20px;
+	background-color: var(--wp--preset--color--primary);
+	content: "";
+	-webkit-mask: var(--ts-icon) center / contain no-repeat;
+	mask: var(--ts-icon) center / contain no-repeat;
+}
+
+/* Numbered step tile (dark section). */
+.tr-num {
+	display: flex;
+	flex: 0 0 44px;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	margin: 0;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	border-radius: 10px;
+	line-height: 1;
+}
+
+/* Round initials avatar. */
+.tr-avatar {
+	display: flex;
+	flex: 0 0 44px;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	margin: 0;
+	border-radius: 999px;
+	line-height: 1;
+}
+
+/* Five filled stars; the paragraph text stays for screen readers. */
+.tr-stars {
+	font-size: 0 !important;
+	line-height: 0;
+}
+
+.tr-stars::before {
+	display: block;
+	width: 102px;
+	height: 18px;
+	background-color: currentColor;
+	content: "";
+	-webkit-mask: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22black%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z%22 /%3E %3C/svg%3E") 0 0 / 18px 18px space no-repeat;
+	mask: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22black%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z%22 /%3E %3C/svg%3E") 0 0 / 18px 18px space no-repeat;
+	-webkit-mask-repeat: space no-repeat;
+	mask-repeat: space no-repeat;
+}
+
+/* Card with an image on the left (Experiences). */
+.tr-media-card {
+	overflow: hidden;
+}
+
+.tr-media-card > .wp-block-cover {
+	border-radius: 0;
+}
+
+/* -------------------------------------------------------------------------
+   Extra Lucide icons (ISC) for ts-icon / tr-icon-tile
+   ------------------------------------------------------------------------- */
+
+.ts-icon--wine {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M8 22h8%22 /%3E %3Cpath d=%22M7 10h10%22 /%3E %3Cpath d=%22M12 15v7%22 /%3E %3Cpath d=%22M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5Z%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--paw-print {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Ccircle cx=%2211%22 cy=%224%22 r=%222%22 /%3E %3Ccircle cx=%2218%22 cy=%228%22 r=%222%22 /%3E %3Ccircle cx=%2220%22 cy=%2216%22 r=%222%22 /%3E %3Cpath d=%22M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--house {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8%22 /%3E %3Cpath d=%22M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--building-2 {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M10 12h4%22 /%3E %3Cpath d=%22M10 8h4%22 /%3E %3Cpath d=%22M14 21v-3a2 2 0 0 0-4 0v3%22 /%3E %3Cpath d=%22M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2%22 /%3E %3Cpath d=%22M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--gift {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M12 7v14%22 /%3E %3Cpath d=%22M20 11v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8%22 /%3E %3Cpath d=%22M7.5 7a1 1 0 0 1 0-5A4.8 8 0 0 1 12 7a4.8 8 0 0 1 4.5-5 1 1 0 0 1 0 5%22 /%3E %3Crect x=%223%22 y=%227%22 width=%2218%22 height=%224%22 rx=%221%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--coffee {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M10 2v2%22 /%3E %3Cpath d=%22M14 2v2%22 /%3E %3Cpath d=%22M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1%22 /%3E %3Cpath d=%22M6 2v2%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--headset {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z%22 /%3E %3Cpath d=%22M21 16v2a4 4 0 0 1-4 4h-5%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--route {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M9 5h8.5a1 1 0 010 7h-11a1 1 0 000 7H15%22 /%3E %3Ccircle cx=%2218%22 cy=%2219%22 r=%223%22 /%3E %3Ccircle cx=%226%22 cy=%225%22 r=%223%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--map {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z%22 /%3E %3Cpath d=%22M15 5.764v15%22 /%3E %3Cpath d=%22M9 3.236v15%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--sparkles {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z%22 /%3E %3Cpath d=%22M20 2v4%22 /%3E %3Cpath d=%22M22 4h-4%22 /%3E %3Ccircle cx=%224%22 cy=%2220%22 r=%222%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--arrow-big-up-dash {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M14 16a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1h3.293a.707.707 0 0 0 .5-1.207l-6.939-6.939a1.207 1.207 0 0 0-1.708 0l-6.94 6.94a.707.707 0 0 0 .5 1.206H8a1 1 0 0 1 1 1v2a1 1 0 0 0 1 1z%22 /%3E %3Cpath d=%22M9 20h6%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--helicopter {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M11 17v4%22 /%3E %3Cpath d=%22M14 3v8a2 2 0 0 0 2 2h5.865%22 /%3E %3Cpath d=%22M17 17v4%22 /%3E %3Cpath d=%22M18 17a4 4 0 0 0 4-4 8 6 0 0 0-8-6 6 5 0 0 0-6 5v3a2 2 0 0 0 2 2z%22 /%3E %3Cpath d=%22M2 10v5%22 /%3E %3Cpath d=%22M6 3h16%22 /%3E %3Cpath d=%22M7 21h14%22 /%3E %3Cpath d=%22M8 13H2%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--clock-4 {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Ccircle cx=%2212%22 cy=%2212%22 r=%2210%22 /%3E %3Cpath d=%22M12 6v6l4 2%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--calendar-check {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M8 2v3%22 /%3E %3Cpath d=%22M16 2v3%22 /%3E %3Crect x=%223%22 y=%223%22 width=%2218%22 height=%2218%22 rx=%222%22 /%3E %3Cpath d=%22M3 9h18%22 /%3E %3Cpath d=%22m9 15 2 2 4-4%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--calendar-days {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M8 2v3%22 /%3E %3Cpath d=%22M16 2v3%22 /%3E %3Crect x=%223%22 y=%223%22 width=%2218%22 height=%2218%22 rx=%222%22 /%3E %3Cpath d=%22M3 9h18%22 /%3E %3Cpath d=%22M8 13h.01%22 /%3E %3Cpath d=%22M12 13h.01%22 /%3E %3Cpath d=%22M16 13h.01%22 /%3E %3Cpath d=%22M8 17h.01%22 /%3E %3Cpath d=%22M12 17h.01%22 /%3E %3Cpath d=%22M16 17h.01%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--star-filled {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22black%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z%22 /%3E %3C/svg%3E");
+}
+
+/* -------------------------------------------------------------------------
+   About page components
+   ------------------------------------------------------------------------- */
+
+/* Larger initials avatars. */
+.tr-avatar--md {
+	flex-basis: 52px;
+	width: 52px;
+	height: 52px;
+}
+
+.tr-avatar--lg {
+	flex-basis: 88px;
+	width: 88px;
+	height: 88px;
+}
+
+/* Icon tile on the left, small label (e.g. "01") on the right. */
+.tr-icon-tile--row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tr-icon-tile--row::before {
+	width: 48px;
+	height: 48px;
+	margin-bottom: 0;
+	border-radius: 12px;
+}
+
+.tr-icon-tile--row::after {
+	top: 12px;
+	width: 24px;
+	height: 24px;
+}
+
+/* Icon tile beside a title and text: put on the group that holds them. */
+.tr-icon-side {
+	position: relative;
+	min-height: 44px;
+	padding-inline-start: 60px;
+}
+
+.tr-icon-side::before {
+	position: absolute;
+	top: 0;
+	inset-inline-start: 0;
+	width: 44px;
+	height: 44px;
+	border-radius: 10px;
+	background-color: #e8efea;
+	content: "";
+}
+
+.tr-icon-side::after {
+	position: absolute;
+	top: 11px;
+	inset-inline-start: 11px;
+	width: 22px;
+	height: 22px;
+	background-color: var(--wp--preset--color--primary);
+	content: "";
+	-webkit-mask: var(--ts-icon) center / contain no-repeat;
+	mask: var(--ts-icon) center / contain no-repeat;
+}
+
+/* Comparison table. */
+.wp-block-table.tr-compare {
+	overflow-x: auto;
+	margin: 0;
+	border: 1px solid #e6e1d8;
+	border-radius: 16px;
+}
+
+.wp-block-table.tr-compare table {
+	min-width: 560px;
+	border-collapse: collapse;
+	font-size: 0.9375rem;
+	line-height: 1.5;
+}
+
+.wp-block-table.tr-compare thead {
+	border-bottom: 1px solid #e6e1d8;
+	background-color: #faf8f4;
+}
+
+.wp-block-table.tr-compare th,
+.wp-block-table.tr-compare td {
+	padding: 16px 20px;
+	border: 0;
+	text-align: start;
+	vertical-align: top;
+}
+
+.wp-block-table.tr-compare th {
+	color: #625d55;
+	font-size: 0.8125rem;
+	font-weight: 600;
+}
+
+.wp-block-table.tr-compare th:last-child {
+	color: var(--wp--preset--color--primary);
+}
+
+.wp-block-table.tr-compare tbody tr + tr {
+	border-top: 1px solid #e6e1d8;
+}
+
+.wp-block-table.tr-compare td:first-child {
+	color: var(--wp--preset--color--heading);
+	font-weight: 600;
+}
+
+.wp-block-table.tr-compare td:nth-child(2) {
+	color: #625d55;
+}
+
+.wp-block-table.tr-compare td:last-child {
+	color: var(--wp--preset--color--heading);
+	font-weight: 500;
+}
+
+.wp-block-table.tr-compare td:last-child::before {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-inline-end: 8px;
+	vertical-align: -0.15em;
+	background-color: var(--wp--preset--color--primary);
+	content: "";
+	-webkit-mask: var(--ts-icon-check) center / contain no-repeat;
+	mask: var(--ts-icon-check) center / contain no-repeat;
+}
+
+/* Timeline: a line across the top of each item with a dot. */
+.tr-timeline > * {
+	position: relative;
+	padding-top: 28px;
+	padding-inline-end: 24px;
+	border-top: 2px solid #e6e1d8;
+}
+
+.tr-timeline > *::before {
+	position: absolute;
+	top: -7px;
+	inset-inline-start: 0;
+	width: 12px;
+	height: 12px;
+	border-radius: 999px;
+	background-color: var(--wp--preset--color--primary);
+	box-shadow: 0 0 0 4px var(--wp--preset--color--base);
+	content: "";
+}
+
+/* Large quote mark above a featured testimonial. */
+.tr-quote-mark::before {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 0 auto 24px;
+	background-color: var(--wp--preset--color--primary);
+	content: "";
+	-webkit-mask: var(--ts-icon) center / contain no-repeat;
+	mask: var(--ts-icon) center / contain no-repeat;
+}
+
+/* FAQ accordion built from Details blocks. */
+.tr-faq > .wp-block-details {
+	padding: 22px 0;
+	border-bottom: 1px solid #e6e1d8;
+}
+
+.tr-faq > .wp-block-details:first-child {
+	border-top: 1px solid #e6e1d8;
+}
+
+.tr-faq summary {
+	display: flex;
+	gap: 24px;
+	align-items: center;
+	justify-content: space-between;
+	color: var(--wp--preset--color--heading);
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 1.4;
+	list-style: none;
+	cursor: pointer;
+}
+
+.tr-faq summary::-webkit-details-marker {
+	display: none;
+}
+
+.tr-faq summary::after {
+	flex: 0 0 20px;
+	width: 20px;
+	height: 20px;
+	background-color: var(--wp--preset--color--primary);
+	content: "";
+	-webkit-mask: var(--tr-faq-icon) center / contain no-repeat;
+	mask: var(--tr-faq-icon) center / contain no-repeat;
+}
+
+.tr-faq {
+	--tr-faq-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M5 12h14%22 /%3E %3Cpath d=%22M12 5v14%22 /%3E %3C/svg%3E");
+}
+
+.tr-faq details[open] > summary::after {
+	--tr-faq-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M5 12h14%22 /%3E %3C/svg%3E");
+}
+
+.tr-faq details > :not(summary) {
+	margin-top: 12px;
+	margin-bottom: 0;
+	padding-inline-end: 44px;
+}
+
+/* -------------------------------------------------------------------------
+   More Lucide icons (ISC)
+   ------------------------------------------------------------------------- */
+
+.ts-icon--heart-handshake {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--eye {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0%22 /%3E %3Ccircle cx=%2212%22 cy=%2212%22 r=%223%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--receipt {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M12 17V7%22 /%3E %3Cpath d=%22M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8%22 /%3E %3Cpath d=%22M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--trees {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z%22 /%3E %3Cpath d=%22M7 16v6%22 /%3E %3Cpath d=%22M13 19v3%22 /%3E %3Cpath d=%22M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--sprout {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3%22 /%3E %3Cpath d=%22M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4%22 /%3E %3Cpath d=%22M5 21h14%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--quote {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z%22 /%3E %3Cpath d=%22M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--badge-check {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z%22 /%3E %3Cpath d=%22m16 9-5.5 5.5L8 12%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--newspaper {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M15 18h-5%22 /%3E %3Cpath d=%22M18 14h-8%22 /%3E %3Cpath d=%22M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2%22 /%3E %3Crect width=%228%22 height=%224%22 x=%2210%22 y=%226%22 rx=%221%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--landmark {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M10 18v-7%22 /%3E %3Cpath d=%22M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z%22 /%3E %3Cpath d=%22M14 18v-7%22 /%3E %3Cpath d=%22M18 18v-7%22 /%3E %3Cpath d=%22M3 22h18%22 /%3E %3Cpath d=%22M6 18v-7%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--map-pin-check {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728%22 /%3E %3Ccircle cx=%2212%22 cy=%2210%22 r=%223%22 /%3E %3Cpath d=%22m16 18 2 2 4-4%22 /%3E %3C/svg%3E");
+}
+
+/* Round founder photo next to the name. */
+.tr-avatar-img {
+	flex: 0 0 auto;
+	margin: 0;
+}
+
+.tr-avatar-img img {
+	display: block;
+}
+
+/* Tablets: card rows of four become 2 x 2, rows of six become 3 x 2. */
+@media (min-width: 601px) and (max-width: 1024px) {
+	.tr-grid-2x2.is-layout-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.tr-grid-3.is-layout-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
+
+/* Timeline turns vertical on tablets and phones. */
+@media (max-width: 1024px) {
+	.tr-timeline.is-layout-grid {
+		grid-template-columns: minmax(0, 1fr);
+		gap: 0;
+	}
+
+	.tr-timeline > * {
+		padding: 0 0 32px 32px;
+		border-top: 0;
+		border-inline-start: 2px solid #e6e1d8;
+	}
+
+	.tr-timeline > :last-child {
+		padding-bottom: 0;
+	}
+
+	.tr-timeline > *::before {
+		top: 6px;
+		inset-inline-start: -7px;
+	}
+}
+
+/* -------------------------------------------------------------------------
+   Services page components
+   ------------------------------------------------------------------------- */
+
+/* Pill links with a leading icon (hero service links). */
+.tr-chip .wp-block-button__link {
+	display: inline-flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.tr-chip .wp-block-button__link::before {
+	flex: none;
+	width: 18px;
+	height: 18px;
+	background-color: currentColor;
+	content: "";
+	-webkit-mask: var(--ts-icon) center / contain no-repeat;
+	mask: var(--ts-icon) center / contain no-repeat;
+}
+
+/* Button with a trailing arrow. */
+.tr-btn-arrow .wp-block-button__link {
+	display: inline-flex;
+	gap: 6px;
+	align-items: center;
+	justify-content: center;
+}
+
+.tr-btn-arrow .wp-block-button__link::after {
+	flex: none;
+	width: 16px;
+	height: 16px;
+	background-color: currentColor;
+	content: "";
+	-webkit-mask: var(--ts-icon-arrow-right) center / contain no-repeat;
+	mask: var(--ts-icon-arrow-right) center / contain no-repeat;
+}
+
+/* "Learn more" link with a down arrow. */
+.tr-more-down a {
+	display: inline-flex;
+	gap: 6px;
+	align-items: center;
+}
+
+.tr-more-down a::after {
+	flex: none;
+	width: 16px;
+	height: 16px;
+	background-color: currentColor;
+	content: "";
+	-webkit-mask: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M12 5v14%22 /%3E %3Cpath d=%22m19 12-7 7-7-7%22 /%3E %3C/svg%3E") center / contain no-repeat;
+	mask: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M12 5v14%22 /%3E %3Cpath d=%22m19 12-7 7-7-7%22 /%3E %3C/svg%3E") center / contain no-repeat;
+}
+
+/* 48px icon tile above a title. */
+.tr-icon-tile--lg::before {
+	width: 48px;
+	height: 48px;
+	margin-bottom: 18px;
+	border-radius: 12px;
+}
+
+.tr-icon-tile--lg::after {
+	top: 12px;
+	inset-inline-start: 12px;
+	width: 24px;
+	height: 24px;
+}
+
+/* Icon tile before a short label on one line. */
+.tr-icon-label {
+	position: relative;
+	display: flex;
+	align-items: center;
+	min-height: 44px;
+	padding-inline-start: 56px;
+}
+
+.tr-icon-label::before {
+	position: absolute;
+	top: 0;
+	inset-inline-start: 0;
+	width: 44px;
+	height: 44px;
+	border-radius: 10px;
+	background-color: #e8efea;
+	content: "";
+}
+
+.tr-icon-label::after {
+	position: absolute;
+	top: 11px;
+	inset-inline-start: 11px;
+	width: 22px;
+	height: 22px;
+	background-color: var(--wp--preset--color--primary);
+	content: "";
+	-webkit-mask: var(--ts-icon) center / contain no-repeat;
+	mask: var(--ts-icon) center / contain no-repeat;
+}
+
+/* Outlined icon tile for dark sections. */
+.tr-icon-side--outline::before {
+	box-sizing: border-box;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	background-color: transparent;
+}
+
+.tr-icon-side--outline::after {
+	background-color: currentColor;
+}
+
+/* Service rows: image on one side, details on the other. */
+.tr-svc-row {
+	overflow: hidden;
+}
+
+.tr-media-stat {
+	position: relative;
+	height: 100%;
+	min-height: 480px;
+}
+
+.tr-media-stat > .wp-block-image {
+	position: absolute;
+	inset: 0;
+	margin: 0;
+}
+
+.tr-media-stat > .wp-block-image img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.tr-media-stat > .tr-stat-badge {
+	position: absolute;
+	bottom: 24px;
+	inset-inline-start: 24px;
+	margin: 0;
+}
+
+.tr-svc-row--img-last .tr-stat-badge {
+	inset-inline-start: auto;
+	inset-inline-end: 24px;
+}
+
+/* Two columns of filled check marks. */
+.tr-checks {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 12px 24px;
+	padding: 0;
+	list-style: none;
+}
+
+.tr-checks li {
+	position: relative;
+	margin: 0;
+	padding-inline-start: 26px;
+	font-size: 0.9375rem;
+	line-height: 1.45;
+}
+
+.tr-checks li::before {
+	position: absolute;
+	top: 1px;
+	inset-inline-start: 0;
+	width: 18px;
+	height: 18px;
+	border-radius: 999px;
+	background: var(--wp--preset--color--primary) url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22white%22 stroke-width=%223%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M20 6 9 17l-5-5%22/%3E%3C/svg%3E") center / 11px no-repeat;
+	content: "";
+}
+
+/* Plain check list (service levels). */
+.tr-ticks {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tr-ticks li {
+	position: relative;
+	margin: 0;
+	padding-inline-start: 26px;
+	font-size: 0.9375rem;
+	line-height: 1.45;
+}
+
+.tr-ticks li::before {
+	position: absolute;
+	top: 1px;
+	inset-inline-start: 0;
+	width: 18px;
+	height: 18px;
+	background-color: var(--wp--preset--color--primary);
+	content: "";
+	-webkit-mask: var(--ts-icon-check) center / contain no-repeat;
+	mask: var(--ts-icon-check) center / contain no-repeat;
+}
+
+.tr-tier--dark .tr-ticks li::before {
+	background-color: #bccdc2;
+}
+
+/* Service level cards. */
+.tr-tier {
+	position: relative;
+}
+
+.tr-tier > .tr-badge {
+	position: absolute;
+	top: 20px;
+	inset-inline-end: 20px;
+	margin: 0;
+}
+
+/* Testimonial card with a large quote mark on the left. */
+.tr-quote-card::before {
+	flex: 0 0 56px;
+	width: 56px;
+	height: 56px;
+	background-color: var(--wp--preset--color--primary);
+	content: "";
+	-webkit-mask: var(--ts-icon) center / contain no-repeat;
+	mask: var(--ts-icon) center / contain no-repeat;
+}
+
+@media (max-width: 1024px) {
+	.tr-checks {
+		grid-template-columns: minmax(0, 1fr);
+	}
+}
+
+/* Tablets: three cards stack in one centered column. */
+@media (min-width: 601px) and (max-width: 1024px) {
+	.tr-grid-stack-tablet.is-layout-grid {
+		grid-template-columns: minmax(0, 1fr);
+		max-width: 640px;
+		margin-inline: auto;
+	}
+}
+
+/* Phones and small tablets: image on top of every service row. */
+@media (max-width: 781px) {
+	.tr-svc-row--img-last {
+		flex-direction: column-reverse;
+	}
+
+	.tr-media-stat {
+		height: auto;
+		min-height: 0;
+		aspect-ratio: 16 / 10;
+	}
+
+	.tr-media-stat > .tr-stat-badge {
+		bottom: 12px;
+		inset-inline-start: 12px;
+		padding: 10px 14px !important;
+	}
+
+	.tr-svc-row--img-last .tr-stat-badge {
+		inset-inline-start: 12px;
+		inset-inline-end: auto;
+	}
+}
+
+@media (max-width: 600px) {
+	.tr-quote-card.is-layout-flex {
+		flex-direction: column;
+		gap: 20px;
+		align-items: flex-start;
+	}
+
+	.tr-quote-card::before {
+		flex-basis: 40px;
+		width: 40px;
+		height: 40px;
+	}
+}
+
+.ts-icon--plane-takeoff {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M2 22h20%22 /%3E %3Cpath d=%22M6.36 17.4 4 17l-2-4 1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12 5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.41 2.41 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z%22 /%3E %3C/svg%3E");
+}
+
+/* The editor adds an inline height:auto to images; keep service row images filling their half. */
+.tr-media-stat > .wp-block-image img {
+	height: 100% !important;
+}
+
+/* -------------------------------------------------------------------------
+   FAQ page components
+   ------------------------------------------------------------------------- */
+
+/* Search field in the hero. */
+.tr-faq-search .wp-block-search__inside-wrapper {
+	position: relative;
+	box-sizing: border-box;
+	height: 68px;
+	padding: 8px 24px 8px 58px;
+	border: 0;
+	border-radius: 999px;
+	background: #fff;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.tr-faq-search .wp-block-search__inside-wrapper::before {
+	position: absolute;
+	top: 50%;
+	inset-inline-start: 24px;
+	width: 22px;
+	height: 22px;
+	background-color: #625d55;
+	content: "";
+	transform: translateY(-50%);
+	-webkit-mask: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22m21 21-4.34-4.34%22 /%3E %3Ccircle cx=%2211%22 cy=%2211%22 r=%228%22 /%3E %3C/svg%3E") center / contain no-repeat;
+	mask: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22m21 21-4.34-4.34%22 /%3E %3Ccircle cx=%2211%22 cy=%2211%22 r=%228%22 /%3E %3C/svg%3E") center / contain no-repeat;
+}
+
+.tr-faq-search .wp-block-search__inside-wrapper:focus-within {
+	outline: 2px solid #fff;
+	outline-offset: 3px;
+}
+
+.tr-faq-search input.wp-block-search__input {
+	height: 52px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	box-shadow: none;
+	color: #1c1b19;
+	font-size: 1.0625rem;
+	outline: 0;
+}
+
+/* Topic list beside the questions. */
+.tr-topic {
+	position: relative;
+	min-height: 52px;
+	padding: 0 14px 0 46px;
+	border-radius: 12px;
+}
+
+.tr-topic::before {
+	position: absolute;
+	top: 50%;
+	inset-inline-start: 14px;
+	width: 20px;
+	height: 20px;
+	background-color: var(--wp--preset--color--primary);
+	content: "";
+	transform: translateY(-50%);
+	-webkit-mask: var(--ts-icon) center / contain no-repeat;
+	mask: var(--ts-icon) center / contain no-repeat;
+}
+
+.tr-topic .tr-topic__label {
+	margin: 0;
+	font-size: 0.9375rem;
+	font-weight: 500;
+	line-height: 1.3;
+}
+
+.tr-topic .tr-topic__label a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.tr-topic .tr-topic__count {
+	margin: 0;
+	color: #625d55;
+	font-size: 0.8125rem;
+}
+
+.tr-topic:hover {
+	background-color: #f1ede6;
+}
+
+.tr-topic.is-active {
+	background-color: #1f2427;
+	color: #fff;
+}
+
+.tr-topic.is-active::before {
+	background-color: #fff;
+}
+
+.tr-topic.is-active .tr-topic__label {
+	font-weight: 600;
+}
+
+.tr-topic.is-active .tr-topic__count {
+	color: #c3c8cc;
+}
+
+body.travelscape-block-system .tr-topic .tr-topic__label a::after {
+	position: absolute;
+	inset: 0;
+	content: "";
+}
+
+/* Smaller 40px icon tile beside a heading. */
+.tr-icon-label--sm {
+	min-height: 40px;
+	padding-inline-start: 52px;
+}
+
+.tr-icon-label--sm::before {
+	width: 40px;
+	height: 40px;
+}
+
+.tr-icon-label--sm::after {
+	top: 10px;
+	inset-inline-start: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+/* FAQ with round +/- buttons. */
+.tr-faq--circle {
+	border-top: 1px solid #e6e1d8;
+}
+
+.tr-faq--circle > .wp-block-details:first-child {
+	border-top: 0;
+}
+
+.tr-faq--circle summary::after {
+	box-sizing: border-box;
+	flex: 0 0 32px;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #d6d0c5;
+	border-radius: 999px;
+	background: transparent url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%232f5e46%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M5 12h14%22 /%3E %3Cpath d=%22M12 5v14%22 /%3E %3C/svg%3E") center / 18px no-repeat;
+	-webkit-mask: none;
+	mask: none;
+}
+
+.tr-faq--circle details[open] > summary::after {
+	border-color: var(--wp--preset--color--primary);
+	background: var(--wp--preset--color--primary) url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23ffffff%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M5 12h14%22 /%3E %3C/svg%3E") center / 18px no-repeat;
+}
+
+.tr-faq--circle details > :not(summary) {
+	padding-inline-end: 64px;
+}
+
+.tr-faq-page [hidden] {
+	display: none !important;
+}
+
+/* "No answers" message: only shown on the site when a search finds nothing. */
+body.travelscape-block-system .tr-faq-empty:not(.is-visible) {
+	display: none;
+}
+
+.tr-faq-empty .ts-icon--lg::before {
+	width: 36px;
+	height: 36px;
+	margin: 0 auto 12px;
+	background-color: var(--wp--preset--color--primary);
+}
+
+/* Outlined icon tile above a title (dark sections). */
+.tr-icon-tile--outline::before {
+	box-sizing: border-box;
+	width: 44px;
+	height: 44px;
+	margin-bottom: 16px;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	background-color: transparent;
+}
+
+.tr-icon-tile--outline::after {
+	top: 11px;
+	inset-inline-start: 11px;
+	width: 22px;
+	height: 22px;
+	background-color: currentColor;
+}
+
+/* Whole card clickable through its main link (site only, so the editor stays editable). */
+.tr-card-link {
+	position: relative;
+}
+
+body.travelscape-block-system .tr-card-link .tr-card-link__target a::after {
+	position: absolute;
+	inset: 0;
+	content: "";
+}
+
+.tr-card-link:hover .tr-card-link__target a {
+	text-decoration: underline;
+}
+
+@media (max-width: 781px) {
+	/* Topics turn into a row of scrolling pills. */
+	.tr-topics.is-layout-flex {
+		flex-direction: row;
+		flex-wrap: nowrap;
+		gap: 8px;
+		overflow-x: auto;
+		padding-bottom: 4px;
+		scrollbar-width: none;
+	}
+
+	.tr-topics .tr-topics__title,
+	.tr-topic .tr-topic__count,
+	.tr-faq-aside {
+		display: none;
+	}
+
+	.tr-topic {
+		flex: none;
+		min-height: 44px;
+		padding: 0 16px 0 40px;
+		border: 1px solid #d6d0c5;
+		border-radius: 999px;
+	}
+
+	.tr-topic.is-active {
+		border-color: #1f2427;
+	}
+
+	.tr-topic::before {
+		inset-inline-start: 16px;
+		width: 17px;
+		height: 17px;
+	}
+
+	.tr-topic .tr-topic__label {
+		white-space: nowrap;
+	}
+}
+
+@media (max-width: 600px) {
+	.tr-faq-search .wp-block-search__inside-wrapper {
+		height: 56px;
+		padding: 6px 16px 6px 46px;
+		border-radius: 14px;
+	}
+
+	.tr-faq-search .wp-block-search__inside-wrapper::before {
+		inset-inline-start: 16px;
+		width: 20px;
+		height: 20px;
+	}
+
+	.tr-faq-search input.wp-block-search__input {
+		height: 44px;
+		font-size: 1rem;
+	}
+
+	.tr-faq--circle details > :not(summary) {
+		padding-inline-end: 0;
+	}
+}
+
+.ts-icon--credit-card {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Crect width=%2220%22 height=%2214%22 x=%222%22 y=%225%22 rx=%222%22 /%3E %3Cline x1=%222%22 x2=%2222%22 y1=%2210%22 y2=%2210%22 /%3E %3Cpath d=%22M6 14h2%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--list {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M3 5h.01%22 /%3E %3Cpath d=%22M3 12h.01%22 /%3E %3Cpath d=%22M3 19h.01%22 /%3E %3Cpath d=%22M8 5h13%22 /%3E %3Cpath d=%22M8 12h13%22 /%3E %3Cpath d=%22M8 19h13%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--calendar-clock {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M16 2v3%22 /%3E %3Cpath d=%22M17 15.5v1.7l1 .625%22 /%3E %3Cpath d=%22M21 8.936V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h3.935%22 /%3E %3Cpath d=%22M3 9h9.873%22 /%3E %3Cpath d=%22M8 2v3%22 /%3E %3Ccircle cx=%2217%22 cy=%2217%22 r=%225%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--wallet {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1%22 /%3E %3Cpath d=%22M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--message-circle {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--message-circle-question {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719%22 /%3E %3Cpath d=%22M9 9.5a3 2.5 0 016 0c0 2-2 2-3 3.5%22 /%3E %3Cpath d=%22M12 17h.01%22 /%3E %3C/svg%3E");
+}
+
+/* -------------------------------------------------------------------------
+   Contact page components
+   ------------------------------------------------------------------------- */
+
+/* Inline ts-icon in the primary color. */
+.tr-icon-primary::before {
+	background-color: var(--wp--preset--color--primary);
+}
+
+/* Small numbered tile (36px). */
+.tr-num--sm {
+	flex-basis: 36px;
+	width: 36px;
+	height: 36px;
+}
+
+/* Large outlined icon tile beside a title (64px). */
+.tr-icon-side--xl {
+	min-height: 64px;
+	padding-inline-start: 84px;
+}
+
+.tr-icon-side--xl::before {
+	top: 50%;
+	width: 64px;
+	height: 64px;
+	border-radius: 16px;
+	transform: translateY(-50%);
+}
+
+.tr-icon-side--xl::after {
+	top: 50%;
+	inset-inline-start: 17px;
+	width: 30px;
+	height: 30px;
+	transform: translateY(-50%);
+}
+
+/* Text link with a trailing icon: add tr-link-after + ts-icon--{name}. */
+.tr-link-after a {
+	display: inline-flex;
+	gap: 6px;
+	align-items: center;
+}
+
+.tr-link-after a::after {
+	flex: none;
+	width: 16px;
+	height: 16px;
+	background-color: currentColor;
+	content: "";
+	-webkit-mask: var(--ts-icon) center / contain no-repeat;
+	mask: var(--ts-icon) center / contain no-repeat;
+}
+
+/* Office card image (shorter than service rows). */
+.tr-media-stat--sm {
+	min-height: 340px;
+}
+
+/* Sidebar lines up with the form card on wide screens. */
+@media (min-width: 1025px) {
+	.tr-enquiry-aside {
+		padding-top: 150px;
+	}
+}
+
+/* Two-column sections stack on tablets so the form keeps its width. */
+@media (min-width: 782px) and (max-width: 1024px) {
+	.wp-block-columns.tr-cols-stack-tablet {
+		flex-wrap: wrap !important;
+	}
+
+	.wp-block-columns.tr-cols-stack-tablet > .wp-block-column {
+		flex-basis: 100% !important;
+	}
+}
+
+/* -------------------------------------------------------------------------
+   Contact Form 7 (wrap the shortcode in a group with the tr-cf7 class)
+   ------------------------------------------------------------------------- */
+
+.tr-cf7 .wpcf7 form {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.tr-cf7--consult .wpcf7 form {
+	gap: 22px;
+}
+
+.tr-cf7 .wpcf7 p {
+	margin: 0;
+}
+
+.tr-cf7 .wpcf7 br {
+	display: none;
+}
+
+.tr-cf7 .wpcf7-form-control-wrap {
+	display: block;
+}
+
+.tr-cf7 .tr-cf7-fieldset {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	min-width: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.tr-cf7 .tr-cf7-fieldset + .tr-cf7-fieldset {
+	padding-top: 28px;
+	border-top: 1px solid #e6e1d8;
+}
+
+.tr-cf7 .tr-cf7-fieldset legend {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 16px;
+	color: var(--wp--preset--color--heading);
+	font-size: 1.125rem;
+	font-weight: 600;
+}
+
+.tr-cf7 .tr-cf7-fieldset legend + * {
+	clear: both;
+}
+
+.tr-cf7 .tr-cf7-grid {
+	display: grid;
+	gap: 16px;
+}
+
+.tr-cf7 .tr-cf7-grid--2 {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.tr-cf7 .tr-cf7-grid--4 {
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.tr-cf7 .tr-field {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	min-width: 0;
+}
+
+.tr-cf7 .tr-field > label,
+.tr-cf7 .tr-cf7-label {
+	color: var(--wp--preset--color--heading);
+	font-size: 0.875rem;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.tr-cf7 .tr-pills {
+	margin-top: 2px;
+}
+
+.tr-cf7 .tr-opt {
+	color: #625d55;
+	font-weight: 400;
+}
+
+/* Text inputs, selects and the message box. */
+.tr-cf7 input[type="text"],
+.tr-cf7 input[type="email"],
+.tr-cf7 input[type="tel"],
+.tr-cf7 input[type="number"],
+.tr-cf7 input[type="date"],
+.tr-cf7 select,
+.tr-cf7 textarea {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 100%;
+	height: 52px;
+	margin: 0;
+	padding: 0 16px;
+	border: 1px solid #d6d0c5;
+	border-radius: 12px;
+	background-color: #fff;
+	box-shadow: none;
+	color: #1c1b19;
+	font-family: inherit;
+	font-size: 1rem;
+	line-height: 1.4;
+}
+
+.tr-cf7 select {
+	padding-inline-end: 40px;
+	background: #fff url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23625d55%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22m6 9 6 6 6-6%22 /%3E %3C/svg%3E") right 14px center / 18px no-repeat;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.tr-cf7 textarea {
+	height: auto;
+	min-height: 140px;
+	padding: 14px 16px;
+	line-height: 1.5;
+	resize: vertical;
+}
+
+.tr-cf7 input::placeholder,
+.tr-cf7 textarea::placeholder {
+	color: #8a847b;
+	opacity: 1;
+}
+
+.tr-cf7 input:focus,
+.tr-cf7 select:focus,
+.tr-cf7 textarea:focus {
+	border-color: var(--wp--preset--color--primary);
+	outline: 0;
+	box-shadow: 0 0 0 3px rgba(47, 94, 70, 0.15);
+}
+
+.tr-cf7 .wpcf7-not-valid {
+	border-color: #b3261e;
+}
+
+.tr-cf7 .wpcf7-not-valid-tip {
+	margin-top: 6px;
+	font-size: 0.8125rem;
+}
+
+/* Radio and checkbox options shown as pills. */
+.tr-cf7 .tr-pills .wpcf7-form-control {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.tr-cf7 .tr-pills .wpcf7-list-item {
+	margin: 0;
+}
+
+.tr-cf7 .tr-pills label {
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+
+.tr-cf7 .tr-pills input {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: 0;
+	opacity: 0;
+}
+
+.tr-cf7 .tr-pills .wpcf7-list-item-label {
+	box-sizing: border-box;
+	display: inline-flex;
+	gap: 6px;
+	align-items: center;
+	justify-content: center;
+	min-height: 44px;
+	padding: 0 16px;
+	border: 1px solid #d6d0c5;
+	border-radius: 999px;
+	background: #fff;
+	color: #1c1b19;
+	font-size: 0.9375rem;
+	font-weight: 500;
+	line-height: 1.2;
+	transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.tr-cf7 .tr-pills label:hover .wpcf7-list-item-label {
+	border-color: #a9a194;
+}
+
+.tr-cf7 .tr-pills input:checked + .wpcf7-list-item-label {
+	border-color: var(--wp--preset--color--primary);
+	background: #e8efea;
+	color: var(--wp--preset--color--primary);
+	font-weight: 600;
+}
+
+.tr-cf7 .tr-pills input:focus-visible + .wpcf7-list-item-label {
+	outline: 2px solid var(--wp--preset--color--primary);
+	outline-offset: 2px;
+}
+
+/* Contact method pills with icons. */
+.tr-cf7 .tr-pills--method .wpcf7-list-item-label::before {
+	flex: none;
+	width: 18px;
+	height: 18px;
+	background-color: #625d55;
+	content: "";
+	-webkit-mask: var(--tr-pill-icon) center / contain no-repeat;
+	mask: var(--tr-pill-icon) center / contain no-repeat;
+}
+
+.tr-cf7 .tr-pills--method input:checked + .wpcf7-list-item-label::before {
+	background-color: currentColor;
+}
+
+.tr-cf7 .tr-pills--method .wpcf7-list-item:nth-child(1) { --tr-pill-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7%22 /%3E %3Crect x=%222%22 y=%224%22 width=%2220%22 height=%2216%22 rx=%222%22 /%3E %3C/svg%3E"); }
+.tr-cf7 .tr-pills--method .wpcf7-list-item:nth-child(2) { --tr-pill-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384%22 /%3E %3C/svg%3E"); }
+.tr-cf7 .tr-pills--method .wpcf7-list-item:nth-child(3) { --tr-pill-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719%22 /%3E %3C/svg%3E"); }
+.tr-cf7 .tr-pills--method .wpcf7-list-item:nth-child(4) { --tr-pill-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5%22 /%3E %3Crect x=%222%22 y=%226%22 width=%2214%22 height=%2212%22 rx=%222%22 /%3E %3C/svg%3E"); }
+.tr-cf7 .tr-pills--call .wpcf7-list-item:nth-child(1) { --tr-pill-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384%22 /%3E %3C/svg%3E"); }
+.tr-cf7 .tr-pills--call .wpcf7-list-item:nth-child(2) { --tr-pill-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5%22 /%3E %3Crect x=%222%22 y=%226%22 width=%2214%22 height=%2212%22 rx=%222%22 /%3E %3C/svg%3E"); }
+
+/* Destination pills: dark with a check mark when chosen. */
+.tr-cf7 .tr-pills--check .wpcf7-list-item-label {
+	min-height: 42px;
+	padding: 0 14px;
+}
+
+.tr-cf7 .tr-pills--check input:checked + .wpcf7-list-item-label {
+	border-color: #1c1b19;
+	background: #1c1b19;
+	color: #fff;
+	font-weight: 500;
+}
+
+.tr-cf7 .tr-pills--check input:checked + .wpcf7-list-item-label::before {
+	width: 16px;
+	height: 16px;
+	background-color: currentColor;
+	content: "";
+	-webkit-mask: var(--ts-icon-check) center / contain no-repeat;
+	mask: var(--ts-icon-check) center / contain no-repeat;
+}
+
+/* Equal-width tiles (budget, time slots). */
+.tr-cf7 .tr-pills--tiles .wpcf7-form-control {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.tr-cf7 .tr-pills--tiles .wpcf7-list-item-label {
+	display: flex;
+	width: 100%;
+	min-height: 52px;
+	border-radius: 12px;
+}
+
+.tr-cf7 .tr-pills--slots .wpcf7-list-item-label {
+	min-height: 48px;
+	border-radius: 999px;
+}
+
+.tr-cf7 .tr-pills--tiles input:checked + .wpcf7-list-item-label {
+	box-shadow: inset 0 0 0 0.5px var(--wp--preset--color--primary);
+}
+
+/* Header row of the consultation form. */
+.tr-cf7 .tr-cf7-head {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 16px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tr-cf7 .tr-cf7-head__title {
+	color: var(--wp--preset--color--heading);
+	font-size: 1.125rem;
+	font-weight: 600;
+}
+
+.tr-cf7 .tr-cf7-head__note,
+.tr-cf7 .tr-cf7-note {
+	color: #625d55;
+	font-size: 0.875rem;
+}
+
+/* Footer: consent or note on the left, button on the right. */
+.tr-cf7 .tr-cf7-footer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px 24px;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 24px;
+	border-top: 1px solid #e6e1d8;
+}
+
+.tr-cf7 .tr-cf7-consent {
+	flex: 1 1 320px;
+	max-width: 520px;
+	color: #625d55;
+	font-size: 0.875rem;
+	line-height: 1.5;
+}
+
+.tr-cf7 .tr-cf7-consent .wpcf7-list-item {
+	margin: 0;
+}
+
+.tr-cf7 .tr-cf7-consent label {
+	display: flex;
+	gap: 10px;
+	align-items: flex-start;
+	cursor: pointer;
+}
+
+.tr-cf7 .tr-cf7-consent input[type="checkbox"] {
+	flex: none;
+	width: 20px;
+	height: 20px;
+	margin: 1px 0 0;
+	accent-color: var(--wp--preset--color--primary);
+}
+
+.tr-cf7 .tr-cf7-consent a {
+	color: var(--wp--preset--color--primary);
+}
+
+/* Submit button. */
+.tr-cf7 input.tr-cf7-submit {
+	height: 56px;
+	margin: 0;
+	padding: 0 56px 0 28px;
+	border: 0;
+	border-radius: 999px;
+	background-color: var(--wp--preset--color--primary);
+	background-position: right 26px center;
+	background-repeat: no-repeat;
+	background-size: 18px;
+	color: #fff;
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1;
+	cursor: pointer;
+	transition: filter 0.15s;
+}
+
+.tr-cf7 input.tr-cf7-submit--send {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23ffffff%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z%22 /%3E %3Cpath d=%22m21.854 2.147-10.94 10.939%22 /%3E %3C/svg%3E");
+}
+
+.tr-cf7 input.tr-cf7-submit--arrow {
+	height: 52px;
+	padding-inline-start: 24px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23ffffff%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M5 12h14%22 /%3E %3Cpath d=%22m12 5 7 7-7 7%22 /%3E %3C/svg%3E");
+}
+
+.tr-cf7 input.tr-cf7-submit:hover {
+	filter: brightness(0.92);
+}
+
+.tr-cf7 input.tr-cf7-submit:focus-visible {
+	outline: 2px solid var(--wp--preset--color--primary);
+	outline-offset: 3px;
+}
+
+.tr-cf7 .wpcf7-spinner {
+	margin: 0 0 0 8px;
+}
+
+.tr-cf7 .wpcf7 form .wpcf7-response-output {
+	margin: 0;
+	padding: 14px 16px;
+	border-radius: 12px;
+	font-size: 0.9375rem;
+}
+
+@media (max-width: 781px) {
+	.tr-cf7 .tr-cf7-grid--4 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (max-width: 600px) {
+	.tr-cf7 .tr-cf7-grid--2 {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.tr-cf7 .tr-pills--tiles .wpcf7-form-control {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.tr-cf7 .tr-cf7-footer {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.tr-cf7 input.tr-cf7-submit {
+		width: 100%;
+	}
+
+	.tr-icon-side--xl {
+		padding-inline-start: 0;
+		padding-top: 80px;
+	}
+
+	.tr-icon-side--xl::before,
+	.tr-icon-side--xl::after {
+		top: 0;
+		transform: none;
+	}
+
+	.tr-icon-side--xl::after {
+		top: 17px;
+	}
+}
+
+.ts-icon--lock {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Crect width=%2218%22 height=%2211%22 x=%223%22 y=%2211%22 rx=%222%22 ry=%222%22 /%3E %3Cpath d=%22M7 11V7a5 5 0 0 1 10 0v4%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--video {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5%22 /%3E %3Crect x=%222%22 y=%226%22 width=%2214%22 height=%2212%22 rx=%222%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--user-check {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22m16 11 2 2 4-4%22 /%3E %3Cpath d=%22M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2%22 /%3E %3Ccircle cx=%229%22 cy=%227%22 r=%224%22 /%3E %3C/svg%3E");
+}
+
+.ts-icon--file-text {
+	--ts-icon: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 %3E %3Cpath d=%22M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z%22 /%3E %3Cpath d=%22M14 2v5a1 1 0 0 0 1 1h5%22 /%3E %3Cpath d=%22M10 9H8%22 /%3E %3Cpath d=%22M16 13H8%22 /%3E %3Cpath d=%22M16 17H8%22 /%3E %3C/svg%3E");
+}
+
+/* -------------------------------------------------------------------------
+   Header: responsive layout and logo on the transparent header
+   ------------------------------------------------------------------------- */
+
+.tr-header .wp-block-button__link,
+.tr-header-phone {
+	white-space: nowrap;
+}
+
+/* Below 1200px the full menu does not fit: show the hamburger and hide the phone.
+   Order: logo on the left, then the button, then the hamburger at the far right. */
+@media (max-width: 1199px) {
+	.tr-header .tr-header-nav .wp-block-navigation__responsive-container-open:not(.always-shown) {
+		display: flex;
+	}
+
+	.tr-header .tr-header-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+		display: none;
+	}
+
+	.tr-header .tr-header-phone {
+		display: none;
+	}
+
+	.tr-header > .alignwide > :first-child {
+		margin-inline-end: auto;
+	}
+
+	.tr-header .tr-header-nav {
+		order: 3;
+	}
+}
+
+/* Transparent header: dark parts of the logo turn white, bright colors stay.
+   The #tr-logo-light SVG filter is printed by travel_royale_logo_filter(). */
+body.travel-royale-overlay-header .tr-header .wp-block-site-logo img {
+	filter: url(#tr-logo-light);
+}
