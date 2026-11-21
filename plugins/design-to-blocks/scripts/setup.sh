@@ -10,7 +10,7 @@ HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 command -v node >/dev/null || { echo "Node.js 20 or newer is required." >&2; exit 1; }
 command -v npm  >/dev/null || { echo "npm is required." >&2; exit 1; }
 
-for SET in wp-7.0 latest; do
+for SET in wp-7.0 latest tools; do
   SRC="$HERE/deps/$SET"
   DEST="$DATA_DIR/deps/$SET"
   mkdir -p "$DEST"

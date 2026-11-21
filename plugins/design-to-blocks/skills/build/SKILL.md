@@ -18,6 +18,7 @@ Read these before the stage that needs them (they are short and they matter):
 - `${CLAUDE_PLUGIN_ROOT}/skills/build/references/components.md` when a design element is not a plain core block
 - `${CLAUDE_PLUGIN_ROOT}/skills/build/references/child-theme.md` before stage 3
 - `${CLAUDE_PLUGIN_ROOT}/skills/build/references/site-loading.md` when loading pages onto the site
+- `${CLAUDE_PLUGIN_ROOT}/skills/build/references/visual-check.md` before the first screenshot check
 - `${CLAUDE_PLUGIN_ROOT}/skills/build/references/patterns.md` before stage 5
 - `${CLAUDE_PLUGIN_ROOT}/skills/build/references/starter-template.md` if the user picks "starter template"
 - Worked example of four finished pages: `${CLAUDE_PLUGIN_ROOT}/examples/travel-royale/` (about, services, faq, contact + tokens). Read one before writing your first page script.
@@ -74,7 +75,10 @@ For each page, in the order the user gave (home first unless told otherwise):
 5. Load it onto the site (`references/site-loading.md`):
    `node "${CLAUDE_PLUGIN_ROOT}/scripts/load-page.mjs" --file .d2b/out/<slug>.txt --slug <slug> --title "<Title>"`
    If the site is not reachable, give the user the .txt to paste into the Code editor of a page that uses the "Block Canvas" template.
-6. Review gate (only with the project's theme active): ask the user to check the page at desktop, iPad (768 and 1024) and phone widths, and to say what differs from the design. Fix, re-validate, reload. Mark the page `"approved"` in project.json only when they say so. Then the next page.
+6. **Visual check** (`references/visual-check.md`): save the page link in project.json (`pages[].link`), then
+   `node "${CLAUDE_PLUGIN_ROOT}/scripts/screenshot.mjs" --page <slug>`
+   Read `.d2b/shots/<slug>/report.md`, look at the pair images, fix what differs, rebuild, check, reload, screenshot again. At most 3 rounds.
+7. Review gate (only with the project's theme active): open `.d2b/shots/<slug>/compare.html` for the user, give them the page link, and list what still differs on purpose. Ask them to check the editor view too. Fix what they point out (then screenshot again). Mark the page `"approved"` in project.json only when they say so. Then the next page.
 
 Keep the user's attention cheap: report each page in a few lines (link, what to look at first, what you could not match and why).
 

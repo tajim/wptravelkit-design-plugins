@@ -6,7 +6,7 @@ A Claude Code plugin that turns a Claude Design project export into a Travelscap
 /design-to-blocks:build ~/Downloads/my-design.zip
 ```
 
-Claude then interviews you (mode, theme name, pages, local site), extracts the design, scaffolds the child theme, builds each page with WordPress's own block packages, validates it against WordPress 7.0 and the latest Gutenberg, loads it onto your local site, and waits for your review. When every page is approved it writes the page patterns.
+Claude then interviews you (mode, theme name, pages, local site), extracts the design, scaffolds the child theme, builds each page with WordPress's own block packages, validates it against WordPress 7.0 and the latest Gutenberg, loads it onto your local site, screenshots it next to the design at 1440 / 1024 / 768 / 390, fixes what differs, and then hands you a side-by-side review sheet. When every page is approved it writes the page patterns.
 
 ## Install
 
@@ -17,7 +17,7 @@ Claude then interviews you (mode, theme name, pages, local site), extracts the d
    ```
 2. Restart Claude Code (or run `/reload-plugins`). Update later with `/plugin marketplace update wptravelkit`.
 
-Requirements: Node 20+ and npm (the first run installs the WordPress block packages into the plugin's data folder, about a minute). Python 3 for the pattern step. Optional: WP-CLI (start Claude Code from Local's "Open site shell") or an application password, so pages load onto the site automatically.
+Requirements: Node 20+ and npm (the first run installs the WordPress block packages and the screenshot tools into the plugin's data folder, about a minute). Google Chrome (or Chromium, Edge, Brave) for screenshots. Python 3 for the pattern step. Optional: WP-CLI (start Claude Code from Local's "Open site shell") or an application password, so pages load onto the site automatically.
 
 ## Use
 
@@ -40,13 +40,14 @@ Requirements: Node 20+ and npm (the first run installs the WordPress block packa
 | `scripts/scaffold-child.mjs` | new child theme from the template |
 | `scripts/make-pattern.py` | translatable PHP pattern from validated markup |
 | `scripts/load-page.mjs` | create or update a page via WP-CLI or REST |
+| `scripts/screenshot.mjs` | design vs WordPress screenshots per section at 4 widths, automatic layout findings, review sheet |
 | `templates/child-theme/` | Travel Royale 1.0.0, the template for new child themes |
 | `examples/travel-royale/` | four approved page scripts, their output, and the Contact Form 7 forms |
 
 ## Status
 
-Phase 1: child-theme mode, end to end except automated screenshots.
-Phase 2 (next): Playwright screenshots of the design artboards and the WordPress page at 1440 / 1024 / 768 / 390, side-by-side sheets, fix-and-recheck loop.
-Phase 3: starter-template mode (parent only, Customizer settings, Demo Importer Plus package), after the child components move into Travelscape as `ts-*` utilities.
+Phase 1 (0.1): child-theme mode end to end.
+Phase 2 (0.2): screenshots of the design artboards and the WordPress page at 1440 / 1024 / 768 / 390, side-by-side sheets, automatic findings (overflow, orphan cards, broken images, height drift), fix-and-recheck loop.
+Phase 3 (next): starter-template mode (parent only, Customizer settings, Demo Importer Plus package), after the child components move into Travelscape as `ts-*` utilities.
 
 Requires Travelscape 1.0.23 or newer on the site.
