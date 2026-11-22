@@ -2,15 +2,22 @@
  * WPTE Trips — Travel Royale (is-style-royale), layout 1 card.
  */
 
+/*
+ * Equal card heights in a row: WPTE's grid is a wrapping flex row, so its cards stretch to the
+ * tallest one in the row as long as they have no height of their own (a percentage height here
+ * would turn the stretch off). The inner wrap fills the card, the details fill the rest of it,
+ * and the "View journey" button (margin-top: auto) sits on the same line in every card.
+ */
 .wp-block-wptravelengine-trips.is-style-royale .category-trips-single {
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 0;
-	height: 100%;
 }
 
 .wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trips-single-inner-wrap {
 	display: flex;
+	flex: 1 1 auto;
 	flex-direction: column;
-	height: 100%;
 	overflow: hidden;
 	padding: 0;
 	border: 1px solid var(--primary-border-color, var(--wp--preset--color--subtle-two));
@@ -65,6 +72,12 @@
 	flex-direction: column;
 	gap: 0.4rem;
 	padding: var(--wp--preset--spacing--small, 1rem);
+}
+
+.wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-detail-wrap {
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
 }
 
 .wp-block-wptravelengine-trips.is-style-royale .category-trips-single .category-trip-title {
