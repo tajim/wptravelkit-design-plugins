@@ -60,9 +60,15 @@ body.travel-royale-overlay-header .tr-header {
 body.travel-royale-overlay-header .tr-header .wp-block-site-title a,
 body.travel-royale-overlay-header .tr-header-phone,
 body.travel-royale-overlay-header .tr-header-phone a,
-body.travel-royale-overlay-header .tr-header .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item__content,
+body.travel-royale-overlay-header .tr-header .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item > .wp-block-navigation-item__content,
+body.travel-royale-overlay-header .tr-header .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item > .wp-block-navigation__submenu-icon,
 body.travel-royale-overlay-header .tr-header .wp-block-navigation__responsive-container-open {
 	color: #ffffff;
+}
+
+/* Dropdowns keep their white panel, so their links stay dark (only top-level items turn white). */
+body.travel-royale-overlay-header .tr-header .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+	color: var(--wp--preset--color--heading);
 }
 
 body.travel-royale-overlay-header .tr-header-cta .wp-block-button__link {

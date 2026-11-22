@@ -1,7 +1,7 @@
 {
   "name": "design-to-blocks",
   "displayName": "Design to Blocks (WP Travel Kit)",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Turn a Claude Design project zip into tested WordPress block pages, page patterns and a Travelscape child theme or starter template. Interview, extract, build, validate, load with WP-CLI, package.",
   "author": {
     "name": "WP Travel Kit",
